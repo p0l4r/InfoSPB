@@ -61,10 +61,10 @@ def save_json(data: Dict[Any, Any], json_path: Path):
 
 
 def read_text_file(text_file_path: Path, ann_dict: Dict[str, Any]) -> Dict[int, Dict[str, Any]]:
-    with text_file_path.open('r', encoding='utf-8') as f:
-        text = f.read()
+    with open(text_file_path, 'rb') as f:
+        text = f.read().decode('utf-8')  # preserve \r\n as-is
 
-    sentences = text.split('\n')
+    sentences = text.splitlines(keepends=True)  # keep line endings to count them properly
 
     annotated_spans = sorted(
         (info['annotated_span'] for info in ann_dict.values()),
@@ -95,10 +95,9 @@ def read_text_file(text_file_path: Path, ann_dict: Dict[str, Any]) -> Dict[int, 
             }
             token_index += 1
 
-        offset += len(sentence) + 1
+        offset += len(sentence)  # include \r\n
 
     return token_dict
-
 
 def create_labeled_sentences(ann_dict: Dict[str, Any], token_dict: Dict[int, Dict[str, Any]]) -> Dict[str, Any]:
     annotations = [
@@ -142,6 +141,37 @@ def create_labeled_sentences(ann_dict: Dict[str, Any], token_dict: Dict[int, Dic
     return final_result
 
 
+from pathlib import Path
+from typing import Dict, List, Any
+
+
+def save_selected_labeled_sentences(
+    final_labeled: Dict[str, Dict[str, List[str]]],
+    selected_sentence_ids: List[int],
+    output_path: Path
+) -> None:
+    """
+    Save selected labeled sentences to a text file in readable format.
+
+    Parameters:
+    - final_labeled: Dictionary of labeled sentences, structured as {sentence_id: {"sentence": [...], "label": [...]}}
+    - selected_sentence_ids: List of sentence numbers (as integers) to save
+    - output_path: Path to the output .txt file
+    """
+    with output_path.open('w', encoding='utf-8') as f:
+        for key in sorted(final_labeled.keys(), key=int):
+            if int(key) in selected_sentence_ids:
+                sentence = final_labeled[key]["sentence"]
+                labels = final_labeled[key]["label"]
+
+                output = (
+                    f"Sentence: {key}\n"
+                    f"token: {sentence}\n"
+                    f"label: {labels}\n\n"
+                )
+                f.write(output)
+
+
 if __name__ == "__main__":
     ann_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\AAiW_Bengali_001.ann")
     text_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\AAiW_Bengali_001.txt")
@@ -154,8 +184,13 @@ if __name__ == "__main__":
     save_json(result_dict_ann, json_path_ann)
 
     token_dict = read_text_file(text_path, result_dict_ann)
-    print(token_dict)
     save_json(token_dict, json_path_text_tokens)
 
     final_labeled = create_labeled_sentences(result_dict_ann, token_dict)
     save_json(final_labeled, json_path_final)
+    
+    output_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\code\sample_labeled_sentences.txt")
+    selected_ids = [3, 13, 16, 22]
+
+    save_selected_labeled_sentences(final_labeled, selected_ids, output_path)
+

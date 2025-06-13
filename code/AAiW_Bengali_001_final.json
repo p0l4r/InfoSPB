@@ -32,11 +32,11 @@
             "ছিল।"
         ],
         "label": [
+            "new",
             "none",
+            "new",
             "none",
-            "none",
-            "none",
-            "none",
+            "new",
             "none",
             "none"
         ]
@@ -62,7 +62,7 @@
             "none",
             "none",
             "none",
-            "none",
+            "given",
             "none",
             "none",
             "none",
@@ -86,7 +86,7 @@
             "none",
             "none",
             "none",
-            "none",
+            "new",
             "none",
             "none"
         ]
@@ -106,7 +106,7 @@
             "new",
             "none",
             "none",
-            "none",
+            "new",
             "none",
             "none"
         ]
@@ -126,16 +126,16 @@
             "।"
         ],
         "label": [
-            "none",
             "given",
             "none",
             "none",
             "new",
             "none",
+            "given",
             "none",
             "none",
             "none",
-            "none",
+            "new",
             "none"
         ]
     },
@@ -159,7 +159,6 @@
         ],
         "label": [
             "none",
-            "none",
             "new",
             "none",
             "none",
@@ -168,6 +167,7 @@
             "none",
             "none",
             "none",
+            "new",
             "none",
             "none",
             "none",
@@ -189,9 +189,9 @@
             "কি?"
         ],
         "label": [
-            "none",
-            "none",
             "given",
+            "none",
+            "none",
             "none",
             "none",
             "none",
@@ -218,10 +218,10 @@
         ],
         "label": [
             "none",
-            "none",
             "given",
             "none",
             "given",
+            "none",
             "none",
             "none",
             "none",
@@ -251,9 +251,9 @@
         ],
         "label": [
             "none",
-            "none",
-            "none",
             "given",
+            "none",
+            "none",
             "none",
             "none",
             "none"
@@ -287,8 +287,6 @@
         ],
         "label": [
             "none",
-            "none",
-            "none",
             "given",
             "none",
             "none",
@@ -300,8 +298,10 @@
             "none",
             "none",
             "none",
+            "new",
             "none",
             "none",
+            "new",
             "none",
             "none",
             "none",
@@ -324,10 +324,10 @@
             "তো!"
         ],
         "label": [
-            "none",
-            "none",
-            "none",
+            "given",
             "new",
+            "none",
+            "given",
             "none",
             "none",
             "none",
@@ -358,9 +358,9 @@
             "none",
             "none",
             "none",
-            "none",
-            "none",
             "given",
+            "none",
+            "none",
             "none",
             "none"
         ]
@@ -387,20 +387,20 @@
         "label": [
             "none",
             "none",
+            "given",
+            "none",
+            "none",
+            "none",
+            "new",
+            "none",
+            "none",
             "none",
             "none",
             "none",
             "given",
             "none",
             "none",
-            "none",
-            "none",
-            "none",
-            "none",
-            "none",
-            "none",
-            "none",
-            "given"
+            "none"
         ]
     },
     "17": {
@@ -452,7 +452,7 @@
             "গা?"
         ],
         "label": [
-            "none",
+            "given",
             "none",
             "none",
             "none",
@@ -473,12 +473,12 @@
         ],
         "label": [
             "none",
-            "none",
-            "none",
-            "none",
-            "none",
-            "none",
             "given",
+            "none",
+            "none",
+            "none",
+            "new",
+            "none",
             "none",
             "none"
         ]
@@ -502,9 +502,6 @@
         ],
         "label": [
             "none",
-            "new",
-            "none",
-            "none",
             "none",
             "none",
             "none",
@@ -512,8 +509,11 @@
             "none",
             "new",
             "none",
-            "none",
             "new",
+            "none",
+            "none",
+            "none",
+            "none",
             "none"
         ]
     }
