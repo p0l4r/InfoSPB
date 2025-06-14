@@ -1,0 +1,93 @@
+{
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 5,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলার",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 37,
+        "end_pos": 39,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 40,
+        "end_pos": 43,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মুখ",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 57,
+        "end_pos": 62,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাথার",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 112,
+        "end_pos": 115,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার",
+        "label": "given"
+    },
+    "T6": {
+        "start_pos": 131,
+        "end_pos": 144,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা লম্বা পথ",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 147,
+        "end_pos": 153,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই পথ",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 159,
+        "end_pos": 166,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোসটা",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 199,
+        "end_pos": 203,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তাকে",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 223,
+        "end_pos": 228,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলাও",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 229,
+        "end_pos": 232,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 262,
+        "end_pos": 264,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 270,
+        "end_pos": 279,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোসটাকে",
+        "label": "given"
+    }
+}

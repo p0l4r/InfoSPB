@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['এবারে', 'অমলা', 'তার', 'সঙ্গে', 'কথা', 'না', 'কয়ে', 'আর', 'থাকতে', 'পারলে', 'না']
+label: ['none', 'given', 'given', 'none', 'given', 'none', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 2
+token: ['বললে', 'মশাই', 'শুনছেন']
+label: ['none', 'none', 'none']
+
+Sentence: 3
+token: ['খরগোস', 'ভয়ানক', 'চমকে', 'উঠল']
+label: ['given', 'none', 'none', 'none']
+
+Sentence: 4
+token: ['তার', 'পর', 'চোখ', 'ছানাবড়া', 'করে', 'অমলাকে', 'একবার', 'দেখেই', 'হাতের চুড়ি', 'আর', 'পাখা', 'সে', 'ইখানে', 'ফেলে', 'দে', 'ছুট দে', 'ছুট দে', 'ছুট']
+label: ['none', 'none', 'new', 'none', 'none', 'given', 'none', 'none', 'given', 'none', 'given', 'none', 'none', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 5
+token: ['অমলা', 'সেই চুড়িজোড়া', 'আর', 'পাখাখানা', 'মাটি', 'থেকে', 'তুলে', 'নিলে']
+label: ['given', 'given', 'none', 'given', 'given', 'none', 'none', 'none']
+

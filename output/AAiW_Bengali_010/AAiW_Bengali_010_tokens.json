@@ -1,0 +1,410 @@
+{
+    "0": {
+        "token": "এই উল্টো রাজার দেশে",
+        "start_pos": 0,
+        "end_pos": 19,
+        "sent_id": "S0"
+    },
+    "1": {
+        "token": "ইঁদুরও",
+        "start_pos": 20,
+        "end_pos": 26,
+        "sent_id": "S0"
+    },
+    "2": {
+        "token": "হয়ত",
+        "start_pos": 27,
+        "end_pos": 30,
+        "sent_id": "S0"
+    },
+    "3": {
+        "token": "মানুষের",
+        "start_pos": 31,
+        "end_pos": 38,
+        "sent_id": "S0"
+    },
+    "4": {
+        "token": "মত",
+        "start_pos": 39,
+        "end_pos": 41,
+        "sent_id": "S0"
+    },
+    "5": {
+        "token": "কথা",
+        "start_pos": 42,
+        "end_pos": 45,
+        "sent_id": "S0"
+    },
+    "6": {
+        "token": "কইতে",
+        "start_pos": 46,
+        "end_pos": 50,
+        "sent_id": "S0"
+    },
+    "7": {
+        "token": "পারে",
+        "start_pos": 51,
+        "end_pos": 56,
+        "sent_id": "S0"
+    },
+    "8": {
+        "token": "হয়ত",
+        "start_pos": 58,
+        "end_pos": 61,
+        "sent_id": "S1"
+    },
+    "9": {
+        "token": "এ",
+        "start_pos": 62,
+        "end_pos": 63,
+        "sent_id": "S1"
+    },
+    "10": {
+        "token": "হচ্ছে",
+        "start_pos": 64,
+        "end_pos": 69,
+        "sent_id": "S1"
+    },
+    "11": {
+        "token": "গণেশদাদার",
+        "start_pos": 70,
+        "end_pos": 79,
+        "sent_id": "S1"
+    },
+    "12": {
+        "token": "খাসমহলের",
+        "start_pos": 80,
+        "end_pos": 88,
+        "sent_id": "S1"
+    },
+    "13": {
+        "token": "পোষা",
+        "start_pos": 89,
+        "end_pos": 93,
+        "sent_id": "S1"
+    },
+    "14": {
+        "token": "ইঁদুর",
+        "start_pos": 94,
+        "end_pos": 99,
+        "sent_id": "S1"
+    },
+    "15": {
+        "token": "অমলা",
+        "start_pos": 102,
+        "end_pos": 106,
+        "sent_id": "S2"
+    },
+    "16": {
+        "token": "সুধোলে",
+        "start_pos": 107,
+        "end_pos": 113,
+        "sent_id": "S2"
+    },
+    "17": {
+        "token": "খবর",
+        "start_pos": 115,
+        "end_pos": 119,
+        "sent_id": "S2"
+    },
+    "18": {
+        "token": "কী",
+        "start_pos": 120,
+        "end_pos": 122,
+        "sent_id": "S2"
+    },
+    "19": {
+        "token": "ভায়া",
+        "start_pos": 123,
+        "end_pos": 129,
+        "sent_id": "S2"
+    },
+    "20": {
+        "token": "ইদুরটা",
+        "start_pos": 131,
+        "end_pos": 137,
+        "sent_id": "S3"
+    },
+    "21": {
+        "token": "মহা",
+        "start_pos": 138,
+        "end_pos": 141,
+        "sent_id": "S3"
+    },
+    "22": {
+        "token": "ভয়ে",
+        "start_pos": 142,
+        "end_pos": 145,
+        "sent_id": "S3"
+    },
+    "23": {
+        "token": "জলের",
+        "start_pos": 146,
+        "end_pos": 150,
+        "sent_id": "S3"
+    },
+    "24": {
+        "token": "ভিতর",
+        "start_pos": 151,
+        "end_pos": 155,
+        "sent_id": "S3"
+    },
+    "25": {
+        "token": "থেকে",
+        "start_pos": 156,
+        "end_pos": 160,
+        "sent_id": "S3"
+    },
+    "26": {
+        "token": "তিড়িং",
+        "start_pos": 161,
+        "end_pos": 166,
+        "sent_id": "S3"
+    },
+    "27": {
+        "token": "করে",
+        "start_pos": 167,
+        "end_pos": 170,
+        "sent_id": "S3"
+    },
+    "28": {
+        "token": "এক",
+        "start_pos": 171,
+        "end_pos": 173,
+        "sent_id": "S3"
+    },
+    "29": {
+        "token": "লাফ",
+        "start_pos": 174,
+        "end_pos": 177,
+        "sent_id": "S3"
+    },
+    "30": {
+        "token": "মারলে",
+        "start_pos": 178,
+        "end_pos": 184,
+        "sent_id": "S3"
+    },
+    "31": {
+        "token": "তাকে",
+        "start_pos": 186,
+        "end_pos": 190,
+        "sent_id": "S4"
+    },
+    "32": {
+        "token": "শান্ত",
+        "start_pos": 191,
+        "end_pos": 196,
+        "sent_id": "S4"
+    },
+    "33": {
+        "token": "করবার",
+        "start_pos": 197,
+        "end_pos": 202,
+        "sent_id": "S4"
+    },
+    "34": {
+        "token": "জন্যে",
+        "start_pos": 203,
+        "end_pos": 208,
+        "sent_id": "S4"
+    },
+    "35": {
+        "token": "অমলা",
+        "start_pos": 209,
+        "end_pos": 213,
+        "sent_id": "S4"
+    },
+    "36": {
+        "token": "তাড়াতাড়ি",
+        "start_pos": 214,
+        "end_pos": 222,
+        "sent_id": "S4"
+    },
+    "37": {
+        "token": "বললে  ভয়",
+        "start_pos": 223,
+        "end_pos": 231,
+        "sent_id": "S4"
+    },
+    "38": {
+        "token": "পেয়ো",
+        "start_pos": 232,
+        "end_pos": 236,
+        "sent_id": "S4"
+    },
+    "39": {
+        "token": "না",
+        "start_pos": 237,
+        "end_pos": 239,
+        "sent_id": "S4"
+    },
+    "40": {
+        "token": "ভায়া",
+        "start_pos": 240,
+        "end_pos": 245,
+        "sent_id": "S4"
+    },
+    "41": {
+        "token": "আমি",
+        "start_pos": 246,
+        "end_pos": 249,
+        "sent_id": "S4"
+    },
+    "42": {
+        "token": "বিড়াল",
+        "start_pos": 250,
+        "end_pos": 255,
+        "sent_id": "S4"
+    },
+    "43": {
+        "token": "নই",
+        "start_pos": 256,
+        "end_pos": 260,
+        "sent_id": "S4"
+    },
+    "44": {
+        "token": "ইঁদুর",
+        "start_pos": 262,
+        "end_pos": 267,
+        "sent_id": "S5"
+    },
+    "45": {
+        "token": "রেগে",
+        "start_pos": 268,
+        "end_pos": 272,
+        "sent_id": "S5"
+    },
+    "46": {
+        "token": "গিয়ে",
+        "start_pos": 273,
+        "end_pos": 277,
+        "sent_id": "S5"
+    },
+    "47": {
+        "token": "বললে",
+        "start_pos": 278,
+        "end_pos": 282,
+        "sent_id": "S5"
+    },
+    "48": {
+        "token": "'আমার",
+        "start_pos": 284,
+        "end_pos": 289,
+        "sent_id": "S5"
+    },
+    "49": {
+        "token": "সামনে",
+        "start_pos": 290,
+        "end_pos": 295,
+        "sent_id": "S5"
+    },
+    "50": {
+        "token": "তুমি",
+        "start_pos": 296,
+        "end_pos": 300,
+        "sent_id": "S5"
+    },
+    "51": {
+        "token": "বিড়ালের",
+        "start_pos": 301,
+        "end_pos": 308,
+        "sent_id": "S5"
+    },
+    "52": {
+        "token": "নাম",
+        "start_pos": 309,
+        "end_pos": 312,
+        "sent_id": "S5"
+    },
+    "53": {
+        "token": "কোরো",
+        "start_pos": 313,
+        "end_pos": 317,
+        "sent_id": "S5"
+    },
+    "54": {
+        "token": "না",
+        "start_pos": 318,
+        "end_pos": 321,
+        "sent_id": "S5"
+    },
+    "55": {
+        "token": "আমরা",
+        "start_pos": 324,
+        "end_pos": 328,
+        "sent_id": "S6"
+    },
+    "56": {
+        "token": "বিড়ালকে",
+        "start_pos": 329,
+        "end_pos": 336,
+        "sent_id": "S6"
+    },
+    "57": {
+        "token": "ঘেন্না",
+        "start_pos": 337,
+        "end_pos": 343,
+        "sent_id": "S6"
+    },
+    "58": {
+        "token": "করি-পাজি",
+        "start_pos": 344,
+        "end_pos": 352,
+        "sent_id": "S6"
+    },
+    "59": {
+        "token": "হতভাগা",
+        "start_pos": 353,
+        "end_pos": 359,
+        "sent_id": "S6"
+    },
+    "60": {
+        "token": "জানোয়ার",
+        "start_pos": 360,
+        "end_pos": 367,
+        "sent_id": "S6"
+    },
+    "61": {
+        "token": "ও নাম",
+        "start_pos": 371,
+        "end_pos": 376,
+        "sent_id": "S7"
+    },
+    "62": {
+        "token": "শুনলেই",
+        "start_pos": 377,
+        "end_pos": 383,
+        "sent_id": "S7"
+    },
+    "63": {
+        "token": "রাগে",
+        "start_pos": 384,
+        "end_pos": 388,
+        "sent_id": "S7"
+    },
+    "64": {
+        "token": "আমাদের",
+        "start_pos": 389,
+        "end_pos": 395,
+        "sent_id": "S7"
+    },
+    "65": {
+        "token": "গা",
+        "start_pos": 396,
+        "end_pos": 398,
+        "sent_id": "S7"
+    },
+    "66": {
+        "token": "জ্বলে",
+        "start_pos": 399,
+        "end_pos": 404,
+        "sent_id": "S7"
+    },
+    "67": {
+        "token": "যায়",
+        "start_pos": 405,
+        "end_pos": 410,
+        "sent_id": "S7"
+    }
+}

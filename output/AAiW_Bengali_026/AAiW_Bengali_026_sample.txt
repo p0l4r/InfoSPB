@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['চেঁচিয়ে', 'দিতাম', 'ফাটিয়ে', 'পাড়া']
+label: ['none', 'none', 'none', 'new']
+
+Sentence: 2
+token: ['অষ্টপ্রহর', 'নেড়ে', 'নেড়ে', 'চোয়ালে', 'মোর', 'হয়েছে', 'আজ', 'ভীষণ', 'জোর']
+label: ['none', 'none', 'none', 'new', 'given', 'none', 'none', 'none', 'none']
+
+Sentence: 3
+token: ['মহা', 'বুড়ো', 'তুমি খুড়ো']
+label: ['none', 'given', 'given']
+
+Sentence: 4
+token: ['নজর', 'তোমার', 'কম জোরি', 'যে', 'হয়ত', 'তুমি', 'হয়েছ', 'আজ', 'প্রায়-কানা!']
+label: ['none', 'given', 'none', 'none', 'none', 'given', 'none', 'none', 'none']
+
+Sentence: 5
+token: ['কেমন', 'করে', 'নাকের ডগায়', 'দাঁড়', 'করাও', 'যে', 'সিঙি-মাছে']
+label: ['none', 'none', 'new', 'none', 'none', 'none', 'new']
+

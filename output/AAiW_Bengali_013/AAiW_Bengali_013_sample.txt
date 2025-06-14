@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['অমলার', 'সঙ্গে', 'সঙ্গে', 'ঈগল', 'কাক', 'চিল', 'বক', 'হাঁস', 'আর', 'টিয়াপাখি', 'প্রভৃতিও', 'বলে', 'উঠল', 'হ্যাঁ', 'ইঁদুর মশাই', 'এইবারে', 'আপনার', 'গল্পটা', 'হোক']
+label: ['given', 'none', 'none', 'given', 'given', 'given', 'given', 'given', 'none', 'new', 'none', 'none', 'none', 'none', 'given', 'none', 'given', 'given', 'none']
+
+Sentence: 2
+token: ['ইঁদুর', 'সবাইকে', 'ধমক', 'দিয়ে', 'বললে', 'থাম', 'তোমরা', 'গল্প', 'বলব', 'না', 'ছাই', 'বলব', 'চললুম', 'আমি']
+label: ['given', 'none', 'none', 'none', 'none', 'none', 'given', 'given', 'none', 'none', 'new', 'none', 'none', 'given']
+
+Sentence: 3
+token: ['অমলা', 'নিজের', 'মনে মনেই', 'যে', 'ন', 'বললে', 'আহা', 'আমার', 'পুষি', 'যদি', 'এখানে', 'থাকত', 'তাহলে', 'ইঁদুর-ভায়াকে', 'ঠিক', 'আবার', 'মুখে', 'করে', 'ধরে', 'নিয়ে', 'আসত']
+label: ['given', 'given', 'given', 'none', 'none', 'none', 'none', 'given', 'new', 'none', 'none', 'none', 'none', 'given', 'none', 'none', 'new', 'none', 'none', 'none', 'none']
+
+Sentence: 4
+token: ['টিয়াপাখি', 'তার', 'বাঁকানো', 'ঠোঁট', 'নেড়ে', 'জিজ্ঞাসা', 'করলে', "'পুষি'"]
+label: ['given', 'given', 'none', 'new', 'none', 'none', 'none', 'none']
+
+Sentence: 5
+token: ['কে']
+label: ['given']
+

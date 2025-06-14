@@ -1,0 +1,93 @@
+{
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 8,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরোয়ানের",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 39,
+        "end_pos": 41,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 58,
+        "end_pos": 66,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "রানীজীকে",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 106,
+        "end_pos": 118,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাছ-দরোয়ানের",
+        "label": "given"
+    },
+    "T5": {
+        "start_pos": 140,
+        "end_pos": 145,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলার",
+        "label": "given"
+    },
+    "T6": {
+        "start_pos": 167,
+        "end_pos": 182,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার হাসির আওয়াজ",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 207,
+        "end_pos": 211,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 212,
+        "end_pos": 216,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বনের",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 243,
+        "end_pos": 247,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বনের",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 276,
+        "end_pos": 278,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 279,
+        "end_pos": 282,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মুখ",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 291,
+        "end_pos": 301,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাছ-দরোয়ান",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 48,
+        "end_pos": 57,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মহারানীজী",
+        "label": "new"
+    }
+}

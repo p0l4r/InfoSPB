@@ -1,0 +1,170 @@
+{
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 4,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গেবো",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 11,
+        "end_pos": 18,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোসের",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 19,
+        "end_pos": 31,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টিকটিকি-মালি",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 34,
+        "end_pos": 39,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কোদাল",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 40,
+        "end_pos": 44,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাতে",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 49,
+        "end_pos": 51,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 82,
+        "end_pos": 85,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমি",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 89,
+        "end_pos": 92,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গাছ",
+        "label": "new"
+    },
+    "T10": {
+        "start_pos": 106,
+        "end_pos": 111,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 112,
+        "end_pos": 115,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মুখ",
+        "label": "new"
+    },
+    "T12": {
+        "start_pos": 128,
+        "end_pos": 131,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গাছ",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 144,
+        "end_pos": 148,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 149,
+        "end_pos": 155,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পিণ্ডি",
+        "label": "new"
+    },
+    "T15": {
+        "start_pos": 170,
+        "end_pos": 175,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজার",
+        "label": "given"
+    },
+    "T16": {
+        "start_pos": 198,
+        "end_pos": 201,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওটা",
+        "label": "given"
+    },
+    "T18": {
+        "start_pos": 225,
+        "end_pos": 228,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওটা",
+        "label": "given"
+    },
+    "T19": {
+        "start_pos": 232,
+        "end_pos": 242,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একখানা হাত",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 253,
+        "end_pos": 258,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T20": {
+        "start_pos": 271,
+        "end_pos": 277,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাঁসের",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 298,
+        "end_pos": 301,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাত",
+        "label": "given"
+    },
+    "T22": {
+        "start_pos": 302,
+        "end_pos": 304,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কে",
+        "label": "given"
+    },
+    "T23": {
+        "start_pos": 319,
+        "end_pos": 322,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাত",
+        "label": "given"
+    },
+    "T17": {
+        "start_pos": 205,
+        "end_pos": 209,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গেবো",
+        "label": "given"
+    },
+    "T24": {
+        "start_pos": 210,
+        "end_pos": 217,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টিকটিকি",
+        "label": "given"
+    }
+}

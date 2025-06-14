@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['হচ্ছে', 'ভারি', 'দুঃখের', 'গল্প', 'এই', 'বলে', 'ইঁদুর', 'ফুস্', 'করে', 'একটা', 'নিশ্বাস', 'ফেললে']
+label: ['none', 'none', 'none', 'new', 'none', 'none', 'given', 'none', 'none', 'none', 'new', 'none']
+
+Sentence: 2
+token: ['অমলা', 'বললে']
+label: ['given', 'none']
+
+Sentence: 3
+token: ['দুঃখের', 'গল্প']
+label: ['none', 'given']
+
+Sentence: 4
+token: ['দুঃখুটা', 'কিসের', 'শুনি']
+label: ['none', 'none', 'none']
+
+Sentence: 5
+token: ['ইদুর', 'খাপ্পা', 'হয়ে', 'বললে']
+label: ['given', 'none', 'none', 'none']
+

@@ -1,0 +1,380 @@
+{
+    "T1": {
+        "start_pos": 33,
+        "end_pos": 35,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 91,
+        "end_pos": 95,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 124,
+        "end_pos": 126,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 127,
+        "end_pos": 134,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জায়গাটা",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 141,
+        "end_pos": 154,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা বড় হল-ঘর",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 158,
+        "end_pos": 163,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ছাদের",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 192,
+        "end_pos": 203,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঝাড়-লণ্ঠনের",
+        "label": "new"
+    },
+    "T8": {
+        "start_pos": 218,
+        "end_pos": 222,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হলের",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 232,
+        "end_pos": 237,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজার",
+        "label": "new"
+    },
+    "T10": {
+        "start_pos": 241,
+        "end_pos": 245,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজা",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 257,
+        "end_pos": 262,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজাই",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 263,
+        "end_pos": 272,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তালা-চাবি",
+        "label": "new"
+    },
+    "T13": {
+        "start_pos": 289,
+        "end_pos": 300,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলার হাতের",
+        "label": "new"
+    },
+    "T14": {
+        "start_pos": 315,
+        "end_pos": 320,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজাই",
+        "label": "given"
+    },
+    "T15": {
+        "start_pos": 350,
+        "end_pos": 353,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মুখ",
+        "label": "given"
+    },
+    "T16": {
+        "start_pos": 362,
+        "end_pos": 364,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T17": {
+        "start_pos": 381,
+        "end_pos": 395,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এই বিষম গর্তের",
+        "label": "given"
+    },
+    "T18": {
+        "start_pos": 440,
+        "end_pos": 442,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T19": {
+        "start_pos": 443,
+        "end_pos": 474,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা তিন-পা-ওয়ালা আশ্চর্য টেবিল",
+        "label": "new"
+    },
+    "T20": {
+        "start_pos": 489,
+        "end_pos": 497,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টেবিলটার",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 506,
+        "end_pos": 517,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চকচকে কাঁচে",
+        "label": "new"
+    },
+    "T22": {
+        "start_pos": 526,
+        "end_pos": 533,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টেবিলের",
+        "label": "given"
+    },
+    "T23": {
+        "start_pos": 557,
+        "end_pos": 577,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি সোনার চাবি-কাঠি",
+        "label": "new"
+    },
+    "T24": {
+        "start_pos": 585,
+        "end_pos": 589,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T25": {
+        "start_pos": 600,
+        "end_pos": 606,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চাবিটি",
+        "label": "given"
+    },
+    "T26": {
+        "start_pos": 621,
+        "end_pos": 629,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজাগুলো",
+        "label": "given"
+    },
+    "T27": {
+        "start_pos": 665,
+        "end_pos": 667,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T28": {
+        "start_pos": 691,
+        "end_pos": 695,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চাবি",
+        "label": "given"
+    },
+    "T29": {
+        "start_pos": 711,
+        "end_pos": 715,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তালা",
+        "label": "given"
+    },
+    "T30": {
+        "start_pos": 751,
+        "end_pos": 763,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আর-এক জায়গায়",
+        "label": "new"
+    },
+    "T31": {
+        "start_pos": 768,
+        "end_pos": 772,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T32": {
+        "start_pos": 791,
+        "end_pos": 807,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ছোট্ট একটা পর্দা",
+        "label": "new"
+    },
+    "T33": {
+        "start_pos": 850,
+        "end_pos": 854,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T34": {
+        "start_pos": 859,
+        "end_pos": 868,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পর্দাখানা",
+        "label": "given"
+    },
+    "T35": {
+        "start_pos": 880,
+        "end_pos": 901,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি এক হাত উঁচু দরজা",
+        "label": "new"
+    },
+    "T36": {
+        "start_pos": 935,
+        "end_pos": 955,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই সোনার ছোট চাবিটি",
+        "label": "given"
+    },
+    "T37": {
+        "start_pos": 956,
+        "end_pos": 970,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এই দরজার তালায়",
+        "label": "new"
+    },
+    "T38": {
+        "start_pos": 987,
+        "end_pos": 992,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজার",
+        "label": "given"
+    },
+    "T39": {
+        "start_pos": 1003,
+        "end_pos": 1017,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ইঁদুরের গর্তের",
+        "label": "new"
+    },
+    "T40": {
+        "start_pos": 1029,
+        "end_pos": 1036,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি পথ",
+        "label": "new"
+    },
+    "T41": {
+        "start_pos": 1040,
+        "end_pos": 1044,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T42": {
+        "start_pos": 1045,
+        "end_pos": 1052,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই পথে",
+        "label": "given"
+    },
+    "T43": {
+        "start_pos": 1074,
+        "end_pos": 1085,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঐ পথের শেষে",
+        "label": "given"
+    },
+    "T44": {
+        "start_pos": 1096,
+        "end_pos": 1106,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি বাগান",
+        "label": "new"
+    },
+    "T45": {
+        "start_pos": 1110,
+        "end_pos": 1120,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তেমন বাগান",
+        "label": "given"
+    },
+    "T46": {
+        "start_pos": 1121,
+        "end_pos": 1125,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T47": {
+        "start_pos": 1134,
+        "end_pos": 1139,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চোখেও",
+        "label": "new"
+    },
+    "T48": {
+        "start_pos": 1176,
+        "end_pos": 1178,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ফল",
+        "label": "new"
+    },
+    "T49": {
+        "start_pos": 1183,
+        "end_pos": 1195,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "রামধনুকের রঙ",
+        "label": "new"
+    },
+    "T50": {
+        "start_pos": 1212,
+        "end_pos": 1227,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ছোট ছোট সব ঝরনা",
+        "label": "new"
+    },
+    "T51": {
+        "start_pos": 1228,
+        "end_pos": 1238,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নীল আকাশের",
+        "label": "new"
+    },
+    "T52": {
+        "start_pos": 1256,
+        "end_pos": 1258,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জল",
+        "label": "new"
+    },
+    "T53": {
+        "start_pos": 1275,
+        "end_pos": 1290,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এই অন্ধকার ঘরের",
+        "label": "new"
+    },
+    "T54": {
+        "start_pos": 1320,
+        "end_pos": 1325,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলার",
+        "label": "given"
+    }
+}

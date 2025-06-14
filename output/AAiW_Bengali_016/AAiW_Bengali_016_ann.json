@@ -1,0 +1,72 @@
+{
+    "T5": {
+        "start_pos": 50,
+        "end_pos": 59,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি বোতল",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 62,
+        "end_pos": 71,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে বোতলের",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 78,
+        "end_pos": 83,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমাকে",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 143,
+        "end_pos": 147,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 151,
+        "end_pos": 154,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "লোভ",
+        "label": "new"
+    },
+    "T11": {
+        "start_pos": 189,
+        "end_pos": 194,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বোতলে",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 216,
+        "end_pos": 236,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা নতুন কিছু কাণ্ড",
+        "label": "new"
+    },
+    "T1": {
+        "start_pos": 10,
+        "end_pos": 17,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার নজর",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 24,
+        "end_pos": 40,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা টেবিল-আয়নার",
+        "label": "new"
+    },
+    "T2": {
+        "start_pos": 263,
+        "end_pos": 270,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ব্যাপার",
+        "label": "new"
+    }
+}
