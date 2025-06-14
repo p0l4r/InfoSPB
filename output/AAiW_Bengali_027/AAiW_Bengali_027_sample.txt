@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['শোঁয়াপোকা', 'বললে', "'অভ্যেস", 'হলে', 'সব', 'সয়ে', 'যায়']
+label: ['given', 'none', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 2
+token: ['তারপরে', 'আবার', 'গড়গড়ার', 'নল', 'নিয়ে', 'তামাক', 'টানতে', 'শুরু', 'করলে']
+label: ['none', 'none', 'none', 'given', 'none', 'given', 'none', 'none', 'none']
+
+Sentence: 3
+token: ['অমলা', 'চুপ', 'করে', 'দাঁড়িয়ে', 'রইল']
+label: ['given', 'none', 'none', 'none', 'none']
+
+Sentence: 4
+token: ['মিনিট-দুয়েক', 'পরেই', 'মুখ', 'থেকে', 'নল', 'ফেলে', 'শোঁয়াপোকা', 'দু তিন', 'বার', 'হাই', 'তুললে']
+label: ['given', 'none', 'given', 'none', 'given', 'none', 'given', 'none', 'none', 'none', 'none']
+
+Sentence: 5
+token: ['তারপর', 'ব্যাঙের ছাতার', 'উপর', 'থেকে', 'নেমে', 'এসে', 'এই', 'কথা', 'বলতে', 'বলতে', 'ঘাস-জমির', 'ভিতরে', 'গিয়ে', 'ঢুকল  এক', 'দিক', 'তোমাকে', 'ঢ্যাঙা', 'করবে', 'আর এক', 'দিক', 'করবে', 'বেঁটে']
+label: ['none', 'given', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'new', 'none', 'none', 'none', 'none', 'given', 'none', 'none', 'none', 'none', 'none', 'none']
+

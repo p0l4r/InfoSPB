@@ -1,0 +1,107 @@
+{
+    "T2": {
+        "start_pos": 31,
+        "end_pos": 36,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ইঁদুর",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 51,
+        "end_pos": 58,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নিশ্বাস",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 67,
+        "end_pos": 71,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T5": {
+        "start_pos": 88,
+        "end_pos": 92,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গল্প",
+        "label": "given"
+    },
+    "T1": {
+        "start_pos": 18,
+        "end_pos": 22,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গল্প",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 117,
+        "end_pos": 121,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ইদুর",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 147,
+        "end_pos": 150,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কথা",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 160,
+        "end_pos": 164,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 165,
+        "end_pos": 171,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গোলমাল",
+        "label": "new"
+    },
+    "T10": {
+        "start_pos": 179,
+        "end_pos": 183,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 194,
+        "end_pos": 198,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মুখে",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 211,
+        "end_pos": 214,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভাই",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 219,
+        "end_pos": 225,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গোলমাল",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 241,
+        "end_pos": 246,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তোমার",
+        "label": "given"
+    },
+    "T15": {
+        "start_pos": 247,
+        "end_pos": 251,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গল্প",
+        "label": "given"
+    }
+}

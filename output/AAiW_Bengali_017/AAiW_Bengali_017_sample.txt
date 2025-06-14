@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['এতটুকু', 'দেহ', 'আমার', 'আর', 'ভাল', 'লাগছে', 'না', 'হয়ত', 'এবারে', 'আবার', 'আমি', 'মস্ত', 'বড়', 'হয়ে', 'উঠব']
+label: ['none', 'given', 'given', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'given', 'none', 'none', 'none', 'none']
+
+Sentence: 2
+token: ['সত্যিই', 'তাই']
+label: ['none', 'none']
+
+Sentence: 3
+token: ['যেমনি', 'বোতলে', 'চুমুক', 'দেওয়া', 'অমনি', 'ধাঁ', 'করে', 'সে', 'এত', 'উঁচু', 'হয়ে', 'উঠল', 'যে', 'মাথাটা', 'ছাদে', 'লেগে', 'ভেঙে', 'যায়', 'আর', 'কি']
+label: ['none', 'given', 'none', 'none', 'none', 'none', 'none', 'given', 'none', 'none', 'none', 'none', 'none', 'given', 'given', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 4
+token: ['তাড়াতাড়ি', 'হুমড়ি', 'খেয়ে', 'পড়ে', 'সে', 'বললে']
+label: ['none', 'none', 'none', 'none', 'given', 'none']
+
+Sentence: 5
+token: ['ওমা', 'কী', 'হবে']
+label: ['none', 'none', 'none']
+

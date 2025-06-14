@@ -1,0 +1,317 @@
+{
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 4,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গেবো",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 5,
+        "end_pos": 9,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাথা",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 49,
+        "end_pos": 56,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাতছাড়া",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 43,
+        "end_pos": 48,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওখানা",
+        "label": "given"
+    },
+    "T5": {
+        "start_pos": 72,
+        "end_pos": 77,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 115,
+        "end_pos": 118,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাত",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 142,
+        "end_pos": 149,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাতখানা",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 150,
+        "end_pos": 153,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুই",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 182,
+        "end_pos": 186,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 192,
+        "end_pos": 203,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার হাতখানা",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 226,
+        "end_pos": 231,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 235,
+        "end_pos": 247,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গেবো-টিকটিকি",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 275,
+        "end_pos": 279,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T15": {
+        "start_pos": 288,
+        "end_pos": 291,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওরা",
+        "label": "given"
+    },
+    "T16": {
+        "start_pos": 296,
+        "end_pos": 301,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমাকে",
+        "label": "given"
+    },
+    "T17": {
+        "start_pos": 327,
+        "end_pos": 332,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "প্রাণ",
+        "label": "new"
+    },
+    "T18": {
+        "start_pos": 381,
+        "end_pos": 386,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T19": {
+        "start_pos": 394,
+        "end_pos": 402,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাড়িখানা",
+        "label": "new"
+    },
+    "T20": {
+        "start_pos": 429,
+        "end_pos": 433,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 488,
+        "end_pos": 491,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমি",
+        "label": "given"
+    },
+    "T22": {
+        "start_pos": 492,
+        "end_pos": 498,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পুষিকে",
+        "label": "given"
+    },
+    "T23": {
+        "start_pos": 507,
+        "end_pos": 512,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলার",
+        "label": "given"
+    },
+    "T24": {
+        "start_pos": 521,
+        "end_pos": 526,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T25": {
+        "start_pos": 530,
+        "end_pos": 543,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গেবো-টিকটিকির",
+        "label": "given"
+    },
+    "T26": {
+        "start_pos": 544,
+        "end_pos": 554,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পেটের পিলে",
+        "label": "new"
+    },
+    "T27": {
+        "start_pos": 588,
+        "end_pos": 592,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T28": {
+        "start_pos": 615,
+        "end_pos": 623,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বোকাগুলো",
+        "label": "new"
+    },
+    "T29": {
+        "start_pos": 650,
+        "end_pos": 654,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাথা",
+        "label": "given"
+    },
+    "T30": {
+        "start_pos": 662,
+        "end_pos": 667,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ছাদটা",
+        "label": "given"
+    },
+    "T31": {
+        "start_pos": 672,
+        "end_pos": 675,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওরা",
+        "label": "given"
+    },
+    "T32": {
+        "start_pos": 709,
+        "end_pos": 712,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমি",
+        "label": "given"
+    },
+    "T33": {
+        "start_pos": 738,
+        "end_pos": 745,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোসের",
+        "label": "given"
+    },
+    "T34": {
+        "start_pos": 782,
+        "end_pos": 786,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T35": {
+        "start_pos": 795,
+        "end_pos": 798,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ওরা",
+        "label": "given"
+    },
+    "T36": {
+        "start_pos": 845,
+        "end_pos": 849,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তাকে",
+        "label": "given"
+    },
+    "T37": {
+        "start_pos": 897,
+        "end_pos": 899,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ইট",
+        "label": "new"
+    },
+    "T38": {
+        "start_pos": 903,
+        "end_pos": 907,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নুড়ি",
+        "label": "new"
+    },
+    "T39": {
+        "start_pos": 908,
+        "end_pos": 917,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার হাতের",
+        "label": "given"
+    },
+    "T40": {
+        "start_pos": 920,
+        "end_pos": 925,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পায়ের",
+        "label": "given"
+    },
+    "T41": {
+        "start_pos": 940,
+        "end_pos": 944,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T42": {
+        "start_pos": 968,
+        "end_pos": 973,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমাকে",
+        "label": "given"
+    },
+    "T43": {
+        "start_pos": 1082,
+        "end_pos": 1087,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঢিলটা",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 85,
+        "end_pos": 89,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার",
+        "label": "given"
+    },
+    "T44": {
+        "start_pos": 90,
+        "end_pos": 101,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঘরের জানলায়",
+        "label": "given"
+    },
+    "T45": {
+        "start_pos": 760,
+        "end_pos": 768,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এক চুপড়ি",
+        "label": "new"
+    }
+}

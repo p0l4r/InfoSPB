@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['অমলার', 'কিছু', 'লাগেনি']
+label: ['given', 'none', 'none']
+
+Sentence: 2
+token: ['তাড়াতাড়ি', 'উঠে', 'পড়ে', 'সে', 'মুখ', 'তুলে', 'চাইলে']
+label: ['none', 'none', 'none', 'given', 'new', 'none', 'none']
+
+Sentence: 3
+token: ['মাথার', 'উপরে', 'ঘুটঘুট', 'করছে', 'অন্ধকার কিচ্ছু', 'দেখা', 'যায়', 'না']
+label: ['new', 'none', 'none', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 4
+token: ['আর', 'তার', 'সামনে', 'রয়েছে', 'আর', 'একটা লম্বা পথ']
+label: ['none', 'given', 'none', 'none', 'none', 'new']
+
+Sentence: 5
+token: ['সেই পথ', 'দিয়ে', 'খরগোসটা', 'তখনো', 'ঊর্ধ্বশ্বাসে', 'ছুটেছে']
+label: ['given', 'none', 'given', 'none', 'none', 'none']
+

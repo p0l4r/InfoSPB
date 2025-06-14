@@ -1,0 +1,366 @@
+{
+    "T2": {
+        "start_pos": 10,
+        "end_pos": 19,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি খুড়ো",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 30,
+        "end_pos": 41,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খাঁদু হাঁদু",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 42,
+        "end_pos": 47,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুড়োয়",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 51,
+        "end_pos": 58,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চুলগুলো",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 62,
+        "end_pos": 67,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুলোর",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 83,
+        "end_pos": 87,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বয়সে",
+        "label": "new"
+    },
+    "T8": {
+        "start_pos": 99,
+        "end_pos": 104,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাথার",
+        "label": "new"
+    },
+    "T9": {
+        "start_pos": 158,
+        "end_pos": 168,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাঁদু খুড়ো",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 181,
+        "end_pos": 186,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভাইপো",
+        "label": "new"
+    },
+    "T11": {
+        "start_pos": 198,
+        "end_pos": 203,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জোয়ান",
+        "label": "new"
+    },
+    "T12": {
+        "start_pos": 204,
+        "end_pos": 206,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভয়",
+        "label": "new"
+    },
+    "T13": {
+        "start_pos": 210,
+        "end_pos": 213,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মোর",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 214,
+        "end_pos": 220,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বুদ্ধি",
+        "label": "new"
+    },
+    "T16": {
+        "start_pos": 238,
+        "end_pos": 243,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "-বুড়ো",
+        "label": "new"
+    },
+    "T18": {
+        "start_pos": 276,
+        "end_pos": 280,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মগজে",
+        "label": "new"
+    },
+    "T19": {
+        "start_pos": 281,
+        "end_pos": 283,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পা",
+        "label": "new"
+    },
+    "T20": {
+        "start_pos": 308,
+        "end_pos": 313,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাথায়",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 322,
+        "end_pos": 326,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বুড়ো",
+        "label": "given"
+    },
+    "T1": {
+        "start_pos": 5,
+        "end_pos": 9,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বুড়ো",
+        "label": "given"
+    },
+    "T23": {
+        "start_pos": 353,
+        "end_pos": 357,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মোটা",
+        "label": "new"
+    },
+    "T24": {
+        "start_pos": 377,
+        "end_pos": 384,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কারসাজি",
+        "label": "new"
+    },
+    "T25": {
+        "start_pos": 399,
+        "end_pos": 404,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভুঁড়ি",
+        "label": "new"
+    },
+    "T26": {
+        "start_pos": 453,
+        "end_pos": 460,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ডিগবাজি",
+        "label": "new"
+    },
+    "T27": {
+        "start_pos": 470,
+        "end_pos": 474,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুড়ো",
+        "label": "given"
+    },
+    "T28": {
+        "start_pos": 487,
+        "end_pos": 492,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভাইপো",
+        "label": "given"
+    },
+    "T29": {
+        "start_pos": 504,
+        "end_pos": 509,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জোয়ান",
+        "label": "given"
+    },
+    "T30": {
+        "start_pos": 510,
+        "end_pos": 513,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মলম",
+        "label": "new"
+    },
+    "T31": {
+        "start_pos": 519,
+        "end_pos": 522,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গতর",
+        "label": "new"
+    },
+    "T32": {
+        "start_pos": 550,
+        "end_pos": 555,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মলমের",
+        "label": "given"
+    },
+    "T33": {
+        "start_pos": 577,
+        "end_pos": 582,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জিনিস",
+        "label": "new"
+    },
+    "T34": {
+        "start_pos": 585,
+        "end_pos": 592,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টোটকাতে",
+        "label": "new"
+    },
+    "T35": {
+        "start_pos": 607,
+        "end_pos": 611,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "রক্ত",
+        "label": "new"
+    },
+    "T36": {
+        "start_pos": 623,
+        "end_pos": 627,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বুড়ো",
+        "label": "given"
+    },
+    "T38": {
+        "start_pos": 641,
+        "end_pos": 652,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চোয়াল-টোয়াল",
+        "label": "new"
+    },
+    "T39": {
+        "start_pos": 674,
+        "end_pos": 678,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গলায়",
+        "label": "new"
+    },
+    "T41": {
+        "start_pos": 703,
+        "end_pos": 707,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি",
+        "label": "given"
+    },
+    "T42": {
+        "start_pos": 728,
+        "end_pos": 739,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাঁঠার মুড়ি",
+        "label": "new"
+    },
+    "T43": {
+        "start_pos": 740,
+        "end_pos": 745,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কাণ্ড",
+        "label": "new"
+    },
+    "T44": {
+        "start_pos": 773,
+        "end_pos": 783,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাঁদু খুড়ো",
+        "label": "given"
+    },
+    "T45": {
+        "start_pos": 796,
+        "end_pos": 801,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভাইপো",
+        "label": "given"
+    },
+    "T46": {
+        "start_pos": 813,
+        "end_pos": 818,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জোয়ান",
+        "label": "given"
+    },
+    "T48": {
+        "start_pos": 840,
+        "end_pos": 844,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তর্ক",
+        "label": "new"
+    },
+    "T15": {
+        "start_pos": 260,
+        "end_pos": 266,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বুদ্ধি",
+        "label": "given"
+    },
+    "T17": {
+        "start_pos": 267,
+        "end_pos": 271,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার",
+        "label": "given"
+    },
+    "T22": {
+        "start_pos": 327,
+        "end_pos": 331,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি",
+        "label": "given"
+    },
+    "T49": {
+        "start_pos": 332,
+        "end_pos": 336,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুড়ো",
+        "label": "given"
+    },
+    "T37": {
+        "start_pos": 628,
+        "end_pos": 632,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি",
+        "label": "given"
+    },
+    "T50": {
+        "start_pos": 633,
+        "end_pos": 637,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুড়ো",
+        "label": "given"
+    },
+    "T40": {
+        "start_pos": 684,
+        "end_pos": 689,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দুগ্ধ",
+        "label": "new"
+    },
+    "T51": {
+        "start_pos": 691,
+        "end_pos": 693,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জল",
+        "label": "new"
+    },
+    "T47": {
+        "start_pos": 823,
+        "end_pos": 828,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তোমার",
+        "label": "given"
+    },
+    "T52": {
+        "start_pos": 829,
+        "end_pos": 834,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুড়ির",
+        "label": "new"
+    }
+}

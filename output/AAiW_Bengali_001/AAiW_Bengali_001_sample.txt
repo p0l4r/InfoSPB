@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['খরগোস', 'ের', 'গর্তে']
+label: ['none', 'none', 'none']
+
+Sentence: 2
+token: ['কী', 'গরম']
+label: ['none', 'none']
+
+Sentence: 3
+token: ['অমলা', 'তার', 'দিদির', 'সঙ্গে', 'নদীর ধারে', 'বসে', 'ছিল']
+label: ['new', 'none', 'new', 'none', 'new', 'none', 'none']
+
+Sentence: 4
+token: ['কিন্তু', 'এই', 'গরমে', 'এমন', 'করে', 'দিদির', 'সঙ্গে', 'কতক্ষণ', 'আর', 'বসে', 'থাকা', 'চলে']
+label: ['none', 'none', 'none', 'none', 'none', 'given', 'none', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 5
+token: ['কাজেই', 'আস্তে', 'আস্তে', 'উঠে', 'মাঠের', 'দিকে', 'গেল']
+label: ['none', 'none', 'none', 'none', 'new', 'none', 'none']
+

@@ -208,28 +208,48 @@ class TextAnnotationProcessor:
                     )
 
 
-# ------------------------ USAGE ------------------------
+# ------------------------ MAIN ------------------------
 
 if __name__ == "__main__":
-    processor = TextAnnotationProcessor(
-        ann_path=Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\AAiW_Bengali_001.ann"),
-        text_path=Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\AAiW_Bengali_001.txt")
-    )
+    root_dir = Path(__file__).resolve().parent.parent
+    data_dir = root_dir / "data"
+    ann_dir = data_dir / "ann"
+    txt_dir = data_dir / "txt"
+    output_base = root_dir / "output"
 
-    json_ann_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\code\AAiW_Bengali_001_ann.json")
-    json_tokens_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\code\AAiW_Bengali_001_text_tokens.json")
-    json_final_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\code\AAiW_Bengali_001_final.json")
-    output_path = Path(r"D:\0. A_MSc_Thesis\Alice in wonderland\AAiW\InfoSPB\code\sample_labeled_sentences.txt")
+    ann_files = list(ann_dir.glob("*.ann"))
 
-    df = processor.read_ann_with_pandas()
-    processor.ann_to_dict(df)
-    processor.save_json(processor.ann_dict, json_ann_path)
+    for ann_file in ann_files:
+        base_name = ann_file.stem  # filename without extension
+        txt_file = txt_dir / f"{base_name}.txt"
 
-    processor.read_text_file()
-    processor.save_json(processor.token_dict, json_tokens_path)
+        if not txt_file.exists():
+            print(f"⚠️ Skipping {base_name}: corresponding .txt file not found.")
+            continue
 
-    processor.create_labeled_sentences()
-    processor.save_json(processor.labeled_sentences, json_final_path)
+        print(f"🔄 Processing: {base_name}")
 
-    selected_ids = [3, 4, 5, 12, 13, 16, 21]
-    processor.save_selected_labeled_sentences(selected_ids, output_path)
+        output_dir = output_base / base_name
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        processor = TextAnnotationProcessor(ann_path=ann_file, text_path=txt_file)
+
+        df = processor.read_ann_with_pandas()
+        processor.ann_to_dict(df)
+        processor.save_json(processor.ann_dict, output_dir / f"{base_name}_ann.json")
+
+        processor.read_text_file()
+        processor.save_json(processor.token_dict, output_dir / f"{base_name}_tokens.json")
+
+        processor.create_labeled_sentences()
+        processor.save_json(processor.labeled_sentences, output_dir / f"{base_name}_final.json")
+
+        # Sample: save a few selected sentences (selection logic can be customized)
+        selected_ids = [1, 2, 3, 4, 5]
+        processor.save_selected_labeled_sentences(
+            selected_ids,
+            output_dir / f"{base_name}_sample.txt"
+        )
+
+    print("✅ All files processed.")
+

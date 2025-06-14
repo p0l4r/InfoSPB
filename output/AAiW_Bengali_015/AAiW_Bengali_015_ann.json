@@ -1,0 +1,163 @@
+{
+    "T1": {
+        "start_pos": 18,
+        "end_pos": 23,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাড়ির",
+        "label": "new"
+    },
+    "T2": {
+        "start_pos": 43,
+        "end_pos": 48,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাড়ির",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 49,
+        "end_pos": 54,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজায়",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 68,
+        "end_pos": 86,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস মশাইয়ের বাড়ি",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 90,
+        "end_pos": 99,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরজার কড়া",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 118,
+        "end_pos": 120,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 138,
+        "end_pos": 142,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "উপরে",
+        "label": "new"
+    },
+    "T8": {
+        "start_pos": 154,
+        "end_pos": 157,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 158,
+        "end_pos": 161,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মনে",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 184,
+        "end_pos": 189,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভুতীর",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 220,
+        "end_pos": 222,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given_inact"
+    },
+    "T12": {
+        "start_pos": 223,
+        "end_pos": 227,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তাকে",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 252,
+        "end_pos": 257,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাইরে",
+        "label": "new"
+    },
+    "T14": {
+        "start_pos": 280,
+        "end_pos": 289,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা ঘরের",
+        "label": "new"
+    },
+    "T15": {
+        "start_pos": 301,
+        "end_pos": 307,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জানলার",
+        "label": "new"
+    },
+    "T16": {
+        "start_pos": 313,
+        "end_pos": 323,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এক টেবিলের",
+        "label": "new"
+    },
+    "T17": {
+        "start_pos": 340,
+        "end_pos": 343,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার",
+        "label": "given"
+    },
+    "T18": {
+        "start_pos": 349,
+        "end_pos": 367,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একখানি জাপানি পাখা",
+        "label": "given"
+    },
+    "T19": {
+        "start_pos": 371,
+        "end_pos": 394,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তিন-চার জোড়া সোনার চুড়ি",
+        "label": "given"
+    },
+    "T20": {
+        "start_pos": 403,
+        "end_pos": 411,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাখাখানা",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 415,
+        "end_pos": 426,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একজোড়া চুড়ি",
+        "label": "given"
+    },
+    "T22": {
+        "start_pos": 432,
+        "end_pos": 434,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    },
+    "T23": {
+        "start_pos": 453,
+        "end_pos": 455,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঘর",
+        "label": "given"
+    }
+}

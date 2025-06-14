@@ -1,0 +1,302 @@
+{
+    "0": {
+        "token": "আর",
+        "start_pos": 0,
+        "end_pos": 2,
+        "sent_id": "S0"
+    },
+    "1": {
+        "token": "একদিকে",
+        "start_pos": 3,
+        "end_pos": 9,
+        "sent_id": "S0"
+    },
+    "2": {
+        "token": "তার নজর",
+        "start_pos": 10,
+        "end_pos": 17,
+        "sent_id": "S0"
+    },
+    "3": {
+        "token": "গেল",
+        "start_pos": 18,
+        "end_pos": 22,
+        "sent_id": "S0"
+    },
+    "4": {
+        "token": "একটা টেবিল-আয়নার",
+        "start_pos": 24,
+        "end_pos": 40,
+        "sent_id": "S1"
+    },
+    "5": {
+        "token": "উপরে",
+        "start_pos": 41,
+        "end_pos": 45,
+        "sent_id": "S1"
+    },
+    "6": {
+        "token": "ছোট",
+        "start_pos": 46,
+        "end_pos": 49,
+        "sent_id": "S1"
+    },
+    "7": {
+        "token": "একটি বোতল",
+        "start_pos": 50,
+        "end_pos": 59,
+        "sent_id": "S1"
+    },
+    "8": {
+        "token": "সে বোতলের",
+        "start_pos": 62,
+        "end_pos": 71,
+        "sent_id": "S2"
+    },
+    "9": {
+        "token": "উপরে",
+        "start_pos": 72,
+        "end_pos": 76,
+        "sent_id": "S2"
+    },
+    "10": {
+        "token": "'আমাকে",
+        "start_pos": 77,
+        "end_pos": 83,
+        "sent_id": "S2"
+    },
+    "11": {
+        "token": "গিলে",
+        "start_pos": 84,
+        "end_pos": 88,
+        "sent_id": "S2"
+    },
+    "12": {
+        "token": "ফেল",
+        "start_pos": 89,
+        "end_pos": 93,
+        "sent_id": "S2"
+    },
+    "13": {
+        "token": "বা",
+        "start_pos": 95,
+        "end_pos": 97,
+        "sent_id": "S3"
+    },
+    "14": {
+        "token": "খেয়ে",
+        "start_pos": 98,
+        "end_pos": 103,
+        "sent_id": "S3"
+    },
+    "15": {
+        "token": "ফেল",
+        "start_pos": 104,
+        "end_pos": 108,
+        "sent_id": "S3"
+    },
+    "16": {
+        "token": "বলে",
+        "start_pos": 110,
+        "end_pos": 113,
+        "sent_id": "S4"
+    },
+    "17": {
+        "token": "কোন",
+        "start_pos": 114,
+        "end_pos": 117,
+        "sent_id": "S4"
+    },
+    "18": {
+        "token": "কথা",
+        "start_pos": 118,
+        "end_pos": 121,
+        "sent_id": "S4"
+    },
+    "19": {
+        "token": "লেখা",
+        "start_pos": 122,
+        "end_pos": 126,
+        "sent_id": "S4"
+    },
+    "20": {
+        "token": "নেই",
+        "start_pos": 127,
+        "end_pos": 130,
+        "sent_id": "S4"
+    },
+    "21": {
+        "token": "বটে",
+        "start_pos": 131,
+        "end_pos": 134,
+        "sent_id": "S4"
+    },
+    "22": {
+        "token": "কিন্তু",
+        "start_pos": 136,
+        "end_pos": 142,
+        "sent_id": "S4"
+    },
+    "23": {
+        "token": "অমলা",
+        "start_pos": 143,
+        "end_pos": 147,
+        "sent_id": "S4"
+    },
+    "24": {
+        "token": "আর",
+        "start_pos": 148,
+        "end_pos": 150,
+        "sent_id": "S4"
+    },
+    "25": {
+        "token": "লোভ",
+        "start_pos": 151,
+        "end_pos": 154,
+        "sent_id": "S4"
+    },
+    "26": {
+        "token": "সামলাতে",
+        "start_pos": 155,
+        "end_pos": 162,
+        "sent_id": "S4"
+    },
+    "27": {
+        "token": "পারলে",
+        "start_pos": 163,
+        "end_pos": 168,
+        "sent_id": "S4"
+    },
+    "28": {
+        "token": "না",
+        "start_pos": 169,
+        "end_pos": 172,
+        "sent_id": "S4"
+    },
+    "29": {
+        "token": "মনে",
+        "start_pos": 174,
+        "end_pos": 177,
+        "sent_id": "S5"
+    },
+    "30": {
+        "token": "মনে",
+        "start_pos": 178,
+        "end_pos": 181,
+        "sent_id": "S5"
+    },
+    "31": {
+        "token": "বললে",
+        "start_pos": 182,
+        "end_pos": 186,
+        "sent_id": "S5"
+    },
+    "32": {
+        "token": "'বোতলে",
+        "start_pos": 188,
+        "end_pos": 194,
+        "sent_id": "S5"
+    },
+    "33": {
+        "token": "যা",
+        "start_pos": 195,
+        "end_pos": 197,
+        "sent_id": "S5"
+    },
+    "34": {
+        "token": "আছে",
+        "start_pos": 198,
+        "end_pos": 201,
+        "sent_id": "S5"
+    },
+    "35": {
+        "token": "খেয়ে",
+        "start_pos": 202,
+        "end_pos": 206,
+        "sent_id": "S5"
+    },
+    "36": {
+        "token": "তো",
+        "start_pos": 207,
+        "end_pos": 209,
+        "sent_id": "S5"
+    },
+    "37": {
+        "token": "ফেলি",
+        "start_pos": 210,
+        "end_pos": 214,
+        "sent_id": "S5"
+    },
+    "38": {
+        "token": "একটা নতুন কিছু কাণ্ড",
+        "start_pos": 216,
+        "end_pos": 236,
+        "sent_id": "S5"
+    },
+    "39": {
+        "token": "ঘটবেই",
+        "start_pos": 237,
+        "end_pos": 243,
+        "sent_id": "S5"
+    },
+    "40": {
+        "token": "দু দু বার",
+        "start_pos": 246,
+        "end_pos": 255,
+        "sent_id": "S6"
+    },
+    "41": {
+        "token": "দু রকম",
+        "start_pos": 256,
+        "end_pos": 262,
+        "sent_id": "S6"
+    },
+    "42": {
+        "token": "ব্যাপার",
+        "start_pos": 263,
+        "end_pos": 270,
+        "sent_id": "S6"
+    },
+    "43": {
+        "token": "দেখলুম",
+        "start_pos": 271,
+        "end_pos": 278,
+        "sent_id": "S6"
+    },
+    "44": {
+        "token": "দেখা",
+        "start_pos": 281,
+        "end_pos": 285,
+        "sent_id": "S7"
+    },
+    "45": {
+        "token": "যাক",
+        "start_pos": 286,
+        "end_pos": 289,
+        "sent_id": "S7"
+    },
+    "46": {
+        "token": "এবারে",
+        "start_pos": 290,
+        "end_pos": 295,
+        "sent_id": "S7"
+    },
+    "47": {
+        "token": "আবার",
+        "start_pos": 296,
+        "end_pos": 300,
+        "sent_id": "S7"
+    },
+    "48": {
+        "token": "কী",
+        "start_pos": 301,
+        "end_pos": 303,
+        "sent_id": "S7"
+    },
+    "49": {
+        "token": "হয়",
+        "start_pos": 304,
+        "end_pos": 307,
+        "sent_id": "S7"
+    }
+}

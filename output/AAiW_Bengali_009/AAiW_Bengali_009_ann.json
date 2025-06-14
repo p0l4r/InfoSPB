@@ -1,0 +1,65 @@
+{
+    "T2": {
+        "start_pos": 32,
+        "end_pos": 37,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নিজেই",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 86,
+        "end_pos": 96,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অশ্রু-নদীর",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 134,
+        "end_pos": 138,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T5": {
+        "start_pos": 167,
+        "end_pos": 178,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কুমির-টুমির",
+        "label": "new"
+    },
+    "T6": {
+        "start_pos": 182,
+        "end_pos": 198,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা নেংটি ইঁদুর",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 201,
+        "end_pos": 205,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 213,
+        "end_pos": 221,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ইঁদুরটার",
+        "label": "given"
+    },
+    "T1": {
+        "start_pos": 7,
+        "end_pos": 12,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নিজের",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 13,
+        "end_pos": 22,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চোখের জলে",
+        "label": "given"
+    }
+}

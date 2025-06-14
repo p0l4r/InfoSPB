@@ -1,0 +1,114 @@
+{
+    "T1": {
+        "start_pos": 6,
+        "end_pos": 10,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T2": {
+        "start_pos": 11,
+        "end_pos": 14,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার",
+        "label": "given"
+    },
+    "T3": {
+        "start_pos": 21,
+        "end_pos": 24,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কথা",
+        "label": "given"
+    },
+    "T5": {
+        "start_pos": 74,
+        "end_pos": 79,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খরগোস",
+        "label": "given"
+    },
+    "T6": {
+        "start_pos": 103,
+        "end_pos": 106,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চোখ",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 119,
+        "end_pos": 125,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলাকে",
+        "label": "given"
+    },
+    "T8": {
+        "start_pos": 139,
+        "end_pos": 149,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাতের চুড়ি",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 153,
+        "end_pos": 157,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাখা",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 194,
+        "end_pos": 198,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 199,
+        "end_pos": 211,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই চুড়িজোড়া",
+        "label": "given"
+    },
+    "T12": {
+        "start_pos": 215,
+        "end_pos": 223,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাখাখানা",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 224,
+        "end_pos": 228,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাটি",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 246,
+        "end_pos": 250,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঘরের",
+        "label": "given"
+    },
+    "T15": {
+        "start_pos": 271,
+        "end_pos": 275,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাখা",
+        "label": "given"
+    },
+    "T16": {
+        "start_pos": 281,
+        "end_pos": 286,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাওয়া",
+        "label": "new"
+    },
+    "T17": {
+        "start_pos": 297,
+        "end_pos": 299,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সে",
+        "label": "given"
+    }
+}

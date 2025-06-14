@@ -1,0 +1,20 @@
+Sentence: 1
+token: ['পারছি', 'না']
+label: ['none', 'none']
+
+Sentence: 2
+token: ['দুনিয়াটা', 'আজ', 'যেন', 'ওলট পালট', 'হয়ে', 'গেছে']
+label: ['given', 'none', 'none', 'none', 'none', 'none']
+
+Sentence: 3
+token: ['কী', 'আর', 'করা', 'যায়', 'বসে বসে', 'একটা ছড়া', 'বলা', 'যাক']
+label: ['none', 'none', 'none', 'none', 'none', 'new', 'none', 'none']
+
+Sentence: 4
+token: ['এ', 'ই', 'বলে', 'সে', 'একটা ছড়া', 'আওড়াতে', 'লাগল']
+label: ['none', 'none', 'none', 'given', 'given', 'none', 'none']
+
+Sentence: 5
+token: ['কেমন', 'করে', 'ছোট্ট কুমির', 'চক্চকে', 'ল্যাজ', 'নেড়ে চেড়ে', 'গঙ্গানদীর', 'জল', 'নিয়ে', 'ওই গায়ের ময়লা', 'ফেলছে', 'ঝেড়ে']
+label: ['none', 'none', 'new', 'none', 'new', 'none', 'new', 'new', 'none', 'new', 'none', 'none']
+
