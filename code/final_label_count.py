@@ -2,24 +2,28 @@ import json
 from pathlib import Path
 from collections import Counter
 
-# Define the directory containing all *_final.json files
-base_dir = Path("../output")  # Change this to your actual output directory path
-label_counter = Counter()
+# Set the base directory where all *_final.json files are located
+base_dir = Path("../output")  # Change this if needed
 
-# Search for all *_final.json files recursively
+label_counter = Counter()
+total_sentences = 0
+
+# Recursively find all *_final.json files
 json_files = list(base_dir.rglob("*_final.json"))
 
 for json_file in json_files:
-    # print(f"Processing file: {json_file}")
     with json_file.open("r", encoding="utf-8") as f:
         labeled_data = json.load(f)
+
+    total_sentences += len(labeled_data)
 
     for sentence_data in labeled_data.values():
         labels = sentence_data.get("label", [])
         label_counter.update(labels)
 
-# Print overall results
-print("Total Label Counts Across All Files:")
+# Final output
+print("📊 Total Label Counts Across All Files:")
 print(f"New   : {label_counter.get('new', 0)}")
 print(f"Given : {label_counter.get('given', 0)}")
 print(f"None  : {label_counter.get('none', 0)}")
+print(f"\n🧾 Total number of sentences: {total_sentences}")
