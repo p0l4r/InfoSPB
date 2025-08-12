@@ -1,0 +1,512 @@
+{
+    "AAiW_Bengali_001": {
+        "mention_detection": {
+            "precision": 0.8928571428571429,
+            "recall": 0.8928571428571429,
+            "f1": 0.8928571428571429,
+            "true_positives": 25,
+            "false_positives": 3,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 25
+        }
+    },
+    "AAiW_Bengali_002": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 11,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 11
+        }
+    },
+    "AAiW_Bengali_003": {
+        "mention_detection": {
+            "precision": 0.8604651162790697,
+            "recall": 0.8604651162790697,
+            "f1": 0.8604651162790697,
+            "true_positives": 37,
+            "false_positives": 6,
+            "false_negatives": 6
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 37
+        }
+    },
+    "AAiW_Bengali_004": {
+        "mention_detection": {
+            "precision": 0.92,
+            "recall": 0.92,
+            "f1": 0.92,
+            "true_positives": 23,
+            "false_positives": 2,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 23
+        }
+    },
+    "AAiW_Bengali_005": {
+        "mention_detection": {
+            "precision": 0.9642857142857143,
+            "recall": 0.9642857142857143,
+            "f1": 0.9642857142857143,
+            "true_positives": 27,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 27
+        }
+    },
+    "AAiW_Bengali_006": {
+        "mention_detection": {
+            "precision": 0.8717948717948718,
+            "recall": 0.8717948717948718,
+            "f1": 0.8717948717948718,
+            "true_positives": 34,
+            "false_positives": 5,
+            "false_negatives": 5
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 34
+        }
+    },
+    "AAiW_Bengali_007": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 14,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 14
+        }
+    },
+    "AAiW_Bengali_008": {
+        "mention_detection": {
+            "precision": 0.9318181818181818,
+            "recall": 0.9318181818181818,
+            "f1": 0.9318181818181818,
+            "true_positives": 41,
+            "false_positives": 3,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 41
+        }
+    },
+    "AAiW_Bengali_009": {
+        "mention_detection": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1": 0.75,
+            "true_positives": 6,
+            "false_positives": 2,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 6
+        }
+    },
+    "AAiW_Bengali_010": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 24,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 24
+        }
+    },
+    "AAiW_Bengali_011": {
+        "mention_detection": {
+            "precision": 0.9555555555555556,
+            "recall": 0.9347826086956522,
+            "f1": 0.945054945054945,
+            "true_positives": 43,
+            "false_positives": 2,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 43
+        }
+    },
+    "AAiW_Bengali_012": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 11,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 11
+        }
+    },
+    "AAiW_Bengali_013": {
+        "mention_detection": {
+            "precision": 0.9777777777777777,
+            "recall": 0.9777777777777777,
+            "f1": 0.9777777777777777,
+            "true_positives": 44,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 44
+        }
+    },
+    "AAiW_Bengali_014": {
+        "mention_detection": {
+            "precision": 0.9117647058823529,
+            "recall": 0.8857142857142857,
+            "f1": 0.8985507246376812,
+            "true_positives": 31,
+            "false_positives": 3,
+            "false_negatives": 4
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 31
+        }
+    },
+    "AAiW_Bengali_015": {
+        "mention_detection": {
+            "precision": 0.9473684210526315,
+            "recall": 0.9473684210526315,
+            "f1": 0.9473684210526315,
+            "true_positives": 18,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 18
+        }
+    },
+    "AAiW_Bengali_016": {
+        "mention_detection": {
+            "precision": 0.9,
+            "recall": 0.9,
+            "f1": 0.9,
+            "true_positives": 9,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 9
+        }
+    },
+    "AAiW_Bengali_017": {
+        "mention_detection": {
+            "precision": 0.9705882352941176,
+            "recall": 0.9705882352941176,
+            "f1": 0.9705882352941176,
+            "true_positives": 33,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 33
+        }
+    },
+    "AAiW_Bengali_018": {
+        "mention_detection": {
+            "precision": 0.9473684210526315,
+            "recall": 0.9473684210526315,
+            "f1": 0.9473684210526315,
+            "true_positives": 18,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 18
+        }
+    },
+    "AAiW_Bengali_019": {
+        "mention_detection": {
+            "precision": 0.9375,
+            "recall": 0.9375,
+            "f1": 0.9375,
+            "true_positives": 30,
+            "false_positives": 2,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 30
+        }
+    },
+    "AAiW_Bengali_020": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 7,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 7
+        }
+    },
+    "AAiW_Bengali_021": {
+        "mention_detection": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1": 0.9500000000000001,
+            "true_positives": 19,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 19
+        }
+    },
+    "AAiW_Bengali_022": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 20,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 20
+        }
+    },
+    "AAiW_Bengali_023": {
+        "mention_detection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positives": 18,
+            "false_positives": 0,
+            "false_negatives": 0
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 18
+        }
+    },
+    "AAiW_Bengali_024": {
+        "mention_detection": {
+            "precision": 0.9117647058823529,
+            "recall": 0.9117647058823529,
+            "f1": 0.9117647058823528,
+            "true_positives": 31,
+            "false_positives": 3,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 31
+        }
+    },
+    "AAiW_Bengali_025": {
+        "mention_detection": {
+            "precision": 0.9743589743589743,
+            "recall": 0.95,
+            "f1": 0.9620253164556962,
+            "true_positives": 38,
+            "false_positives": 1,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 38
+        }
+    },
+    "AAiW_Bengali_026": {
+        "mention_detection": {
+            "precision": 0.9655172413793104,
+            "recall": 0.9655172413793104,
+            "f1": 0.9655172413793104,
+            "true_positives": 28,
+            "false_positives": 1,
+            "false_negatives": 1
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 28
+        }
+    },
+    "AAiW_Bengali_027": {
+        "mention_detection": {
+            "precision": 0.896551724137931,
+            "recall": 0.896551724137931,
+            "f1": 0.896551724137931,
+            "true_positives": 26,
+            "false_positives": 3,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 26
+        }
+    },
+    "AAiW_Bengali_028": {
+        "mention_detection": {
+            "precision": 0.9230769230769231,
+            "recall": 0.9230769230769231,
+            "f1": 0.9230769230769231,
+            "true_positives": 36,
+            "false_positives": 3,
+            "false_negatives": 3
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 36
+        }
+    },
+    "AAiW_Bengali_029": {
+        "mention_detection": {
+            "precision": 0.8181818181818182,
+            "recall": 0.8181818181818182,
+            "f1": 0.8181818181818182,
+            "true_positives": 9,
+            "false_positives": 2,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 9
+        }
+    },
+    "AAiW_Bengali_030": {
+        "mention_detection": {
+            "precision": 0.9629629629629629,
+            "recall": 0.9285714285714286,
+            "f1": 0.9454545454545454,
+            "true_positives": 26,
+            "false_positives": 1,
+            "false_negatives": 2
+        },
+        "classification": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0,
+            "evaluated_mentions": 26
+        }
+    }
+}

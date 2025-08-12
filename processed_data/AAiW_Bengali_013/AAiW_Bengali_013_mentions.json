@@ -1,0 +1,610 @@
+{
+    "1": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M1"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ঈগল"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M2"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কাক"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M3"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "চিল"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M4"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "বক"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M5"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "হাঁস"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M6"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "টিয়াপাখি"
+            ],
+            "start_index": 9,
+            "end_index": 9,
+            "global_mention_id": "M7"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ইঁদুর",
+                "মশাই"
+            ],
+            "start_index": 14,
+            "end_index": 15,
+            "global_mention_id": "M8"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আপনার"
+            ],
+            "start_index": 17,
+            "end_index": 17,
+            "global_mention_id": "M9"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গল্পটা"
+            ],
+            "start_index": 18,
+            "end_index": 18,
+            "global_mention_id": "M10"
+        }
+    ],
+    "2": [
+        {
+            "type": "given",
+            "tokens": [
+                "ইঁদুর"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M11"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তোমরা"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M12"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গল্প"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M13"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "ছাই"
+            ],
+            "start_index": 10,
+            "end_index": 10,
+            "global_mention_id": "M14"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমি"
+            ],
+            "start_index": 13,
+            "end_index": 13,
+            "global_mention_id": "M15"
+        }
+    ],
+    "3": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M16"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "নিজের"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M17"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "মনে",
+                "মনেই"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M18"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমার"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M19"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "পুষি"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M20"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ইঁদুর",
+                "ভায়াকে"
+            ],
+            "start_index": 13,
+            "end_index": 14,
+            "global_mention_id": "M21"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "মুখে"
+            ],
+            "start_index": 17,
+            "end_index": 17,
+            "global_mention_id": "M22"
+        }
+    ],
+    "4": [
+        {
+            "type": "given",
+            "tokens": [
+                "টিয়াপাখি"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M23"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তার"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M24"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "ঠোঁট"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M25"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পুষি"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M26"
+        }
+    ],
+    "5": [
+        {
+            "type": "given",
+            "tokens": [
+                "কে"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M27"
+        }
+    ],
+    "6": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M28"
+        }
+    ],
+    "7": [
+        {
+            "type": "given",
+            "tokens": [
+                "আমার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M29"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পুষি"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M30"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কে"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M31"
+        }
+    ],
+    "8": [
+        {
+            "type": "given",
+            "tokens": [
+                "সে"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M32"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমার"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M33"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পোষা"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M34"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "বিড়াল"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M35"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "ইঁদুর"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M36"
+        }
+    ],
+    "9": [
+        {
+            "type": "given",
+            "tokens": [
+                "ইদুর"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M37"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "পাখি"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M38"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "সে"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M39"
+        }
+    ],
+    "10": [
+        {
+            "type": "given",
+            "tokens": [
+                "পাখিদের"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M40"
+        }
+    ],
+    "11": [
+        {
+            "type": "given",
+            "tokens": [
+                "তারা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M41"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "ডানা"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M42"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "যে"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M43"
+        }
+    ],
+    "12": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M44"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "নিজের",
+                "মনেই"
+            ],
+            "start_index": 1,
+            "end_index": 2,
+            "global_mention_id": "M45"
+        }
+    ],
+    "13": [
+        {
+            "type": "given",
+            "tokens": [
+                "পুষির"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M46"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "নাম"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M47"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ওরা"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M48"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কেউ"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M49"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তাকে"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M50"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "পছন্দ"
+            ],
+            "start_index": 9,
+            "end_index": 9,
+            "global_mention_id": "M51"
+        }
+    ],
+    "14": [
+        {
+            "type": "given",
+            "tokens": [
+                "আমার"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M52"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পুষির"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M53"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "বিড়াল"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M54"
+        }
+    ],
+    "15": [
+        {
+            "type": "given",
+            "tokens": [
+                "পুষি"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M55"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তোকে"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M56"
+        }
+    ],
+    "16": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M57"
+        }
+    ],
+    "17": [
+        {
+            "type": "given",
+            "tokens": [
+                "কার"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M58"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "পায়ের",
+                "শব্দ"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M59"
+        }
+    ],
+    "18": [
+        {
+            "type": "given",
+            "tokens": [
+                "গল্প"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M60"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ইদুর"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M61"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 9,
+            "end_index": 9,
+            "global_mention_id": "M62"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "মুখ"
+            ],
+            "start_index": 10,
+            "end_index": 10,
+            "global_mention_id": "M63"
+        }
+    ]
+}

@@ -3,7 +3,7 @@ from pathlib import Path
 from collections import Counter
 
 # Set the base directory where all *_final.json files are located
-base_dir = Path("../output")  # Change this if needed
+base_dir = Path("../processed_data")  # Change this if needed
 
 label_counter = Counter()
 total_sentences = 0
