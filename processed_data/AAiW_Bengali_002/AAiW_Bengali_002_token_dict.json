@@ -1,0 +1,344 @@
+{
+    "0": {
+        "token": "অমলার",
+        "start_pos": 0,
+        "end_pos": 5,
+        "sent_id": "S0"
+    },
+    "1": {
+        "token": "কিছু",
+        "start_pos": 6,
+        "end_pos": 10,
+        "sent_id": "S0"
+    },
+    "2": {
+        "token": "লাগেনি",
+        "start_pos": 11,
+        "end_pos": 18,
+        "sent_id": "S0"
+    },
+    "3": {
+        "token": "তাড়াতাড়ি",
+        "start_pos": 20,
+        "end_pos": 28,
+        "sent_id": "S1"
+    },
+    "4": {
+        "token": "উঠে",
+        "start_pos": 29,
+        "end_pos": 32,
+        "sent_id": "S1"
+    },
+    "5": {
+        "token": "পড়ে",
+        "start_pos": 33,
+        "end_pos": 36,
+        "sent_id": "S1"
+    },
+    "6": {
+        "token": "সে",
+        "start_pos": 37,
+        "end_pos": 39,
+        "sent_id": "S1"
+    },
+    "7": {
+        "token": "মুখ",
+        "start_pos": 40,
+        "end_pos": 43,
+        "sent_id": "S1"
+    },
+    "8": {
+        "token": "তুলে",
+        "start_pos": 44,
+        "end_pos": 48,
+        "sent_id": "S1"
+    },
+    "9": {
+        "token": "চাইলে",
+        "start_pos": 49,
+        "end_pos": 55,
+        "sent_id": "S1"
+    },
+    "10": {
+        "token": "মাথার",
+        "start_pos": 57,
+        "end_pos": 62,
+        "sent_id": "S2"
+    },
+    "11": {
+        "token": "উপরে",
+        "start_pos": 63,
+        "end_pos": 67,
+        "sent_id": "S2"
+    },
+    "12": {
+        "token": "ঘুটঘুট",
+        "start_pos": 68,
+        "end_pos": 74,
+        "sent_id": "S2"
+    },
+    "13": {
+        "token": "করছে",
+        "start_pos": 75,
+        "end_pos": 79,
+        "sent_id": "S2"
+    },
+    "14": {
+        "token": "অন্ধকার",
+        "start_pos": 80,
+        "end_pos": 87,
+        "sent_id": "S2"
+    },
+    "15": {
+        "token": "কিচ্ছু",
+        "start_pos": 88,
+        "end_pos": 94,
+        "sent_id": "S2"
+    },
+    "16": {
+        "token": "দেখা",
+        "start_pos": 95,
+        "end_pos": 99,
+        "sent_id": "S2"
+    },
+    "17": {
+        "token": "যায়",
+        "start_pos": 100,
+        "end_pos": 103,
+        "sent_id": "S2"
+    },
+    "18": {
+        "token": "না",
+        "start_pos": 104,
+        "end_pos": 107,
+        "sent_id": "S2"
+    },
+    "19": {
+        "token": "আর",
+        "start_pos": 109,
+        "end_pos": 111,
+        "sent_id": "S3"
+    },
+    "20": {
+        "token": "তার",
+        "start_pos": 112,
+        "end_pos": 115,
+        "sent_id": "S3"
+    },
+    "21": {
+        "token": "সামনে",
+        "start_pos": 116,
+        "end_pos": 121,
+        "sent_id": "S3"
+    },
+    "22": {
+        "token": "রয়েছে",
+        "start_pos": 122,
+        "end_pos": 127,
+        "sent_id": "S3"
+    },
+    "23": {
+        "token": "আর",
+        "start_pos": 128,
+        "end_pos": 130,
+        "sent_id": "S3"
+    },
+    "24": {
+        "token": "একটা",
+        "start_pos": 131,
+        "end_pos": 135,
+        "sent_id": "S3"
+    },
+    "25": {
+        "token": "লম্বা",
+        "start_pos": 136,
+        "end_pos": 141,
+        "sent_id": "S3"
+    },
+    "26": {
+        "token": "পথ",
+        "start_pos": 142,
+        "end_pos": 145,
+        "sent_id": "S3"
+    },
+    "27": {
+        "token": "সেই",
+        "start_pos": 147,
+        "end_pos": 150,
+        "sent_id": "S4"
+    },
+    "28": {
+        "token": "পথ",
+        "start_pos": 151,
+        "end_pos": 153,
+        "sent_id": "S4"
+    },
+    "29": {
+        "token": "দিয়ে",
+        "start_pos": 154,
+        "end_pos": 158,
+        "sent_id": "S4"
+    },
+    "30": {
+        "token": "খরগোসটা",
+        "start_pos": 159,
+        "end_pos": 166,
+        "sent_id": "S4"
+    },
+    "31": {
+        "token": "তখনো",
+        "start_pos": 167,
+        "end_pos": 171,
+        "sent_id": "S4"
+    },
+    "32": {
+        "token": "ঊর্ধ্বশ্বাসে",
+        "start_pos": 172,
+        "end_pos": 184,
+        "sent_id": "S4"
+    },
+    "33": {
+        "token": "ছুটেছে",
+        "start_pos": 185,
+        "end_pos": 192,
+        "sent_id": "S4"
+    },
+    "34": {
+        "token": "পাছে",
+        "start_pos": 194,
+        "end_pos": 198,
+        "sent_id": "S5"
+    },
+    "35": {
+        "token": "তাকে",
+        "start_pos": 199,
+        "end_pos": 203,
+        "sent_id": "S5"
+    },
+    "36": {
+        "token": "হারিয়ে",
+        "start_pos": 204,
+        "end_pos": 210,
+        "sent_id": "S5"
+    },
+    "37": {
+        "token": "ফেলে",
+        "start_pos": 211,
+        "end_pos": 215,
+        "sent_id": "S5"
+    },
+    "38": {
+        "token": "এই",
+        "start_pos": 216,
+        "end_pos": 218,
+        "sent_id": "S5"
+    },
+    "39": {
+        "token": "ভয়ে",
+        "start_pos": 219,
+        "end_pos": 222,
+        "sent_id": "S5"
+    },
+    "40": {
+        "token": "অমলাও",
+        "start_pos": 223,
+        "end_pos": 228,
+        "sent_id": "S5"
+    },
+    "41": {
+        "token": "তার",
+        "start_pos": 229,
+        "end_pos": 232,
+        "sent_id": "S5"
+    },
+    "42": {
+        "token": "সঙ্গে",
+        "start_pos": 233,
+        "end_pos": 238,
+        "sent_id": "S5"
+    },
+    "43": {
+        "token": "সঙ্গে",
+        "start_pos": 239,
+        "end_pos": 244,
+        "sent_id": "S5"
+    },
+    "44": {
+        "token": "সমানে",
+        "start_pos": 245,
+        "end_pos": 250,
+        "sent_id": "S5"
+    },
+    "45": {
+        "token": "ছুটে",
+        "start_pos": 251,
+        "end_pos": 255,
+        "sent_id": "S5"
+    },
+    "46": {
+        "token": "চলল",
+        "start_pos": 256,
+        "end_pos": 260,
+        "sent_id": "S5"
+    },
+    "47": {
+        "token": "সে",
+        "start_pos": 262,
+        "end_pos": 264,
+        "sent_id": "S6"
+    },
+    "48": {
+        "token": "আবার",
+        "start_pos": 265,
+        "end_pos": 269,
+        "sent_id": "S6"
+    },
+    "49": {
+        "token": "খরগোসটাকে",
+        "start_pos": 270,
+        "end_pos": 279,
+        "sent_id": "S6"
+    },
+    "50": {
+        "token": "বলতে",
+        "start_pos": 280,
+        "end_pos": 284,
+        "sent_id": "S6"
+    },
+    "51": {
+        "token": "শুনলে",
+        "start_pos": 285,
+        "end_pos": 290,
+        "sent_id": "S6"
+    },
+    "52": {
+        "token": "নাঃ",
+        "start_pos": 292,
+        "end_pos": 296,
+        "sent_id": "S6"
+    },
+    "53": {
+        "token": "আজ",
+        "start_pos": 298,
+        "end_pos": 300,
+        "sent_id": "S6"
+    },
+    "54": {
+        "token": "আর",
+        "start_pos": 301,
+        "end_pos": 303,
+        "sent_id": "S6"
+    },
+    "55": {
+        "token": "ঠিক",
+        "start_pos": 304,
+        "end_pos": 307,
+        "sent_id": "S6"
+    },
+    "56": {
+        "token": "সময়ে",
+        "start_pos": 308,
+        "end_pos": 312,
+        "sent_id": "S6"
+    }
+}

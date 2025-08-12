@@ -1,0 +1,449 @@
+{
+    "1": [
+        {
+            "type": "given",
+            "tokens": [
+                "গেবো"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M1"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "মাথা"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M2"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ওখানা"
+            ],
+            "start_index": 9,
+            "end_index": 9,
+            "global_mention_id": "M3"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "হাতছাড়া"
+            ],
+            "start_index": 10,
+            "end_index": 10,
+            "global_mention_id": "M4"
+        }
+    ],
+    "2": [
+        {
+            "type": "given",
+            "tokens": [
+                "খরগোস"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M5"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমার"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M6"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ঘরের",
+                "জানলায়"
+            ],
+            "start_index": 3,
+            "end_index": 4,
+            "global_mention_id": "M7"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "হাত"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M8"
+        }
+    ],
+    "3": [
+        {
+            "type": "given",
+            "tokens": [
+                "হাতখানা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M9"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তুই"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M10"
+        }
+    ],
+    "4": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M11"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তার",
+                "হাতখানা"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M12"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "খরগোস"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M13"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গেবো",
+                "টিকটিকি"
+            ],
+            "start_index": 10,
+            "end_index": 11,
+            "global_mention_id": "M14"
+        }
+    ],
+    "5": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M15"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ওরা"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M16"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমাকে"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M17"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "প্রাণ"
+            ],
+            "start_index": 10,
+            "end_index": 10,
+            "global_mention_id": "M18"
+        }
+    ],
+    "6": [],
+    "7": [
+        {
+            "type": "given",
+            "tokens": [
+                "খরগোস"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M19"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "বাড়িখানা"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M20"
+        }
+    ],
+    "8": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M21"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমি"
+            ],
+            "start_index": 11,
+            "end_index": 11,
+            "global_mention_id": "M22"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পুষিকে"
+            ],
+            "start_index": 12,
+            "end_index": 12,
+            "global_mention_id": "M23"
+        }
+    ],
+    "9": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M24"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "খরগোস"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M25"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গেবো",
+                "টিকটিকির"
+            ],
+            "start_index": 4,
+            "end_index": 5,
+            "global_mention_id": "M26"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "পেটের",
+                "পিলে"
+            ],
+            "start_index": 6,
+            "end_index": 7,
+            "global_mention_id": "M27"
+        }
+    ],
+    "10": [],
+    "11": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M28"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "বোকাগুলো"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M29"
+        }
+    ],
+    "12": [
+        {
+            "type": "given",
+            "tokens": [
+                "মাথা"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M30"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ছাদটা"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M31"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ওরা"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M32"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমি"
+            ],
+            "start_index": 12,
+            "end_index": 12,
+            "global_mention_id": "M33"
+        }
+    ],
+    "13": [
+        {
+            "type": "given",
+            "tokens": [
+                "খরগোসের"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M34"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "এক",
+                "চুপড়ি"
+            ],
+            "start_index": 6,
+            "end_index": 7,
+            "global_mention_id": "M35"
+        }
+    ],
+    "14": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M36"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "ওরা"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M37"
+        }
+    ],
+    "15": [
+        {
+            "type": "given",
+            "tokens": [
+                "তাকে"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M38"
+        }
+    ],
+    "16": [
+        {
+            "type": "new",
+            "tokens": [
+                "ইট"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M39"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "নুড়ি"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M40"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "তার",
+                "হাতের"
+            ],
+            "start_index": 7,
+            "end_index": 8,
+            "global_mention_id": "M41"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "পায়ের"
+            ],
+            "start_index": 10,
+            "end_index": 10,
+            "global_mention_id": "M42"
+        }
+    ],
+    "17": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M43"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমাকে"
+            ],
+            "start_index": 6,
+            "end_index": 6,
+            "global_mention_id": "M44"
+        }
+    ],
+    "18": [],
+    "19": [
+        {
+            "type": "new",
+            "tokens": [
+                "ঢিলটা"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M45"
+        }
+    ]
+}

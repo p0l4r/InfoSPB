@@ -1,0 +1,215 @@
+{
+    "1": [
+        {
+            "type": "new",
+            "tokens": [
+                "ভাবটা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M1"
+        }
+    ],
+    "2": [
+        {
+            "type": "given",
+            "tokens": [
+                "চেহারা"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M2"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমি"
+            ],
+            "start_index": 4,
+            "end_index": 4,
+            "global_mention_id": "M3"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "নিজে"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M4"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "হাড়ে",
+                "হাড়ে"
+            ],
+            "start_index": 6,
+            "end_index": 7,
+            "global_mention_id": "M5"
+        }
+    ],
+    "3": [
+        {
+            "type": "given",
+            "tokens": [
+                "শোঁয়াপোকা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M6"
+        }
+    ],
+    "4": [
+        {
+            "type": "given",
+            "tokens": [
+                "তুমি"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M7"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কে"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M8"
+        }
+    ],
+    "5": [
+        {
+            "type": "given",
+            "tokens": [
+                "শোঁয়াপোকার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M9"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "অমলার"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M10"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "রাগ"
+            ],
+            "start_index": 8,
+            "end_index": 8,
+            "global_mention_id": "M11"
+        }
+    ],
+    "6": [
+        {
+            "type": "given",
+            "tokens": [
+                "সেও"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M12"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গলার",
+                "আওয়াজ"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M13"
+        }
+    ],
+    "7": [
+        {
+            "type": "given",
+            "tokens": [
+                "আপনিই"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M14"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কে",
+                "আপনি"
+            ],
+            "start_index": 4,
+            "end_index": 5,
+            "global_mention_id": "M15"
+        }
+    ],
+    "8": [
+        {
+            "type": "given",
+            "tokens": [
+                "শোঁয়াপোকা"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M16"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "গলায়"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M17"
+        }
+    ],
+    "9": [],
+    "10": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M18"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "ধাঁধা"
+            ],
+            "start_index": 2,
+            "end_index": 2,
+            "global_mention_id": "M19"
+        }
+    ],
+    "11": [
+        {
+            "type": "given",
+            "tokens": [
+                "শোঁয়াপোকার"
+            ],
+            "start_index": 0,
+            "end_index": 0,
+            "global_mention_id": "M20"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "মেজাজটা"
+            ],
+            "start_index": 1,
+            "end_index": 1,
+            "global_mention_id": "M21"
+        }
+    ]
+}

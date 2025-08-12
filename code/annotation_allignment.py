@@ -8,8 +8,8 @@ import pandas as pd
 
 class TextAnnotationProcessor:
     """
-    A class for reading, processing, and labeling annotated text data.
-    Suitable for working with both Bengali and English annotation formats.
+    Reads, processes, and labels annotated text data using IOB tagging,
+    supporting multi-token mentions and grouping them into spans.
     """
 
     def __init__(self, ann_path: Path, text_path: Path):
@@ -19,10 +19,12 @@ class TextAnnotationProcessor:
         self.token_dict: Dict[int, Dict[str, Any]] = {}
         self.labeled_sentences: Dict[str, Dict[str, List[str]]] = {}
 
+    # ---------------------------
+    # Reading and preparing annotations
+    # ---------------------------
+
     def read_ann_with_pandas(self) -> pd.DataFrame:
-        """
-        Reads an .ann annotation file using pandas and returns a DataFrame.
-        """
+        """Reads .ann annotation file into DataFrame."""
         with self.ann_path.open('r', encoding='utf-8') as f:
             lines = [line.strip() for line in f if line.strip()]
 
@@ -57,9 +59,7 @@ class TextAnnotationProcessor:
         return pd.DataFrame(data)
 
     def ann_to_dict(self, df: pd.DataFrame) -> None:
-        """
-        Converts the annotation DataFrame into a dictionary format.
-        """
+        """Stores annotation info in dictionary form."""
         self.ann_dict = {
             row['entity_id']: {
                 'start_pos': row['start_pos'],
@@ -71,156 +71,190 @@ class TextAnnotationProcessor:
             for _, row in df.iterrows()
         }
 
-    def save_json(self, data: Dict[Any, Any], path: Path) -> None:
-        """
-        Saves dictionary data to a JSON file at the specified path.
-        """
-        if any(isinstance(k, int) for k in data.keys()):
-            data = {str(k): v for k, v in data.items()}
-        with path.open('w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+    # ---------------------------
+    # Tokenization and labeling
+    # ---------------------------
 
     def strip_punctuation(self, text: str) -> str:
-        """
-        Removes Bengali and English punctuation from the given text.
-        """
-        punctuation = "।,،:;!?“”‘’\"'()\\[\\]{}—…-।।<>।৷"
+        """Removes Bengali and English punctuation except hyphen (split separately)."""
+        punctuation = "।,،:;!?“”‘’\"'()\\[\\]{}—…।।<>।৷"
         return re.sub(f"[{re.escape(punctuation)}]", " ", text)
 
     def replace_commas_with_space(self, text: str) -> str:
-        """
-        Replaces Bengali and English commas with a space.
-        """
+        """Replace commas with space."""
         return text.replace(',', ' ').replace('،', ' ')
 
     def read_text_file(self) -> None:
         """
-        Reads the annotated text file and tokenizes it, handling punctuation.
+        Tokenizes text word-by-word, splitting on spaces and hyphens.
+        Keeps start/end char offsets for alignment with annotations.
         """
         with self.text_path.open('rb') as f:
             text = f.read().decode('utf-8')
             text = self.replace_commas_with_space(text)
 
-        span_char_map = set()
-        for ann in self.ann_dict.values():
-            span_char_map.update(range(ann["start_pos"], ann["end_pos"]))
-
         sentences = text.splitlines(keepends=True)
 
-        annotated_spans = sorted(
-            (info['annotated_span'] for info in self.ann_dict.values()),
-            key=len,
-            reverse=True
-        )
-        escaped_spans = [re.escape(span) for span in annotated_spans if span.strip()]
-        pattern = re.compile('|'.join(escaped_spans) + r'|\S+') if escaped_spans else re.compile(r'\S+')
+        # Match sequences of non-space, then split hyphen if present
+        token_pattern = re.compile(r'\S+')
 
         self.token_dict = {}
         offset = 0
         token_index = 0
 
-        for i, sentence in enumerate(sentences, start=0):
+        for i, sentence in enumerate(sentences):
             sent_id = f"S{i}"
             sentence_start = offset
 
-            for match in pattern.finditer(sentence):
-                token_text = match.group()
-                token_start = sentence_start + match.start()
-                token_end = sentence_start + match.end()
+            for match in token_pattern.finditer(sentence):
+                raw_token = match.group()
+                tok_start = sentence_start + match.start()
+                tok_end = sentence_start + match.end()
 
-                if not any(pos in span_char_map for pos in range(token_start, token_end)):
-                    token_text = self.strip_punctuation(token_text).strip()
+                # Split on hyphen but keep position mapping
+                subtokens = raw_token.split('-')
+                running_pos = tok_start
+                for j, sub in enumerate(subtokens):
+                    clean_token = self.strip_punctuation(sub).strip()
+                    if not clean_token:
+                        running_pos += len(sub) + (1 if j < len(subtokens) - 1 else 0)
+                        continue
 
-                if not token_text:
-                    continue
-
-                self.token_dict[token_index] = {
-                    'token': token_text,
-                    'start_pos': token_start,
-                    'end_pos': token_end,
-                    'sent_id': sent_id
-                }
-                token_index += 1
+                    self.token_dict[token_index] = {
+                        'token': clean_token,
+                        'start_pos': running_pos,
+                        'end_pos': running_pos + len(sub),
+                        'sent_id': sent_id
+                    }
+                    token_index += 1
+                    running_pos += len(sub) + (1 if j < len(subtokens) - 1 else 0)
 
             offset += len(sentence)
 
     def create_labeled_sentences(self) -> None:
-        """
-        Labels each token in the tokenized text using annotation information.
-        """
+        """Applies IOB tagging scheme with 'new'/'given' labels."""
         annotations = [
             {
                 "start_pos": ann["start_pos"],
                 "end_pos": ann["end_pos"],
                 "label": ann["label"].lower(),
-                "matched": False
             }
             for ann in self.ann_dict.values()
         ]
         annotations.sort(key=lambda x: (x["start_pos"], x["end_pos"]))
 
+        token_labels = ['O'] * len(self.token_dict)
+
+        for ann in annotations:
+            ann_start = ann["start_pos"]
+            ann_end = ann["end_pos"]
+            label = ann["label"]
+
+            tokens_in_span = []
+            for idx, token_info in self.token_dict.items():
+                tok_start = token_info["start_pos"]
+                tok_end = token_info["end_pos"]
+
+                if not (tok_end <= ann_start or tok_start >= ann_end):
+                    tokens_in_span.append(idx)
+
+            if tokens_in_span:
+                token_labels[tokens_in_span[0]] = f'B-{label}'
+                for idx in tokens_in_span[1:]:
+                    token_labels[idx] = f'I-{label}'
+
+        # Group by sentence
         sentence_data: Dict[str, Dict[str, List[str]]] = {}
-
-        for idx in sorted(self.token_dict.keys()):
-            token_info = self.token_dict[idx]
-            token = token_info["token"]
-            tok_start = token_info["start_pos"]
-            tok_end = token_info["end_pos"]
+        for idx, token_info in self.token_dict.items():
             sent_id = token_info["sent_id"]
-
-            label = 'none'
-            for ann in annotations:
-                if ann["matched"]:
-                    continue
-                if tok_start >= ann["start_pos"] and tok_end <= ann["end_pos"]:
-                    label = ann["label"]
-                    ann["matched"] = True
-                    break
-
             if sent_id not in sentence_data:
                 sentence_data[sent_id] = {"sentence": [], "label": []}
-
-            sentence_data[sent_id]["sentence"].append(token)
-            sentence_data[sent_id]["label"].append(label)
+            sentence_data[sent_id]["sentence"].append(token_info["token"])
+            sentence_data[sent_id]["label"].append(token_labels[idx])
 
         self.labeled_sentences = {
             str(i): sentence_data[sent_key]
             for i, sent_key in enumerate(sorted(sentence_data.keys(), key=lambda x: int(x[1:])), 1)
         }
 
-    def save_selected_labeled_sentences(
-        self,
-        selected_ids: List[int],
-        output_path: Path
-    ) -> None:
+    # ---------------------------
+    # Mention grouping
+    # ---------------------------
+
+    def group_mentions(self) -> Dict[str, List[Dict[str, Any]]]:
+        """Groups contiguous B-/I- sequences into mention spans for each sentence."""
+        mention_dict: Dict[str, List[Dict[str, Any]]] = {}
+
+        for sent_id, data in self.labeled_sentences.items():
+            tokens = data["sentence"]
+            labels = data["label"]
+            mentions = []
+
+            i = 0
+            while i < len(tokens):
+                label = labels[i]
+                if label.startswith("B-"):
+                    mention_tokens = [tokens[i]]
+                    mention_type = label[2:]
+                    start_index = i
+                    i += 1
+                    while i < len(tokens) and labels[i] == f"I-{mention_type}":
+                        mention_tokens.append(tokens[i])
+                        i += 1
+                    mentions.append({
+                        "type": mention_type,
+                        "tokens": mention_tokens,
+                        "start_index": start_index,
+                        "end_index": i - 1
+                    })
+                else:
+                    i += 1
+
+            mention_dict[sent_id] = mentions
+
+        return mention_dict
+
+    # ---------------------------
+    # Mention linking (no linking, only global IDs)
+    # ---------------------------
+
+    def link_given_mentions(self, mention_dict: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
         """
-        Saves a subset of labeled sentences to a readable text file.
+        Assigns global mention IDs without any entity linking or entity_id assignment.
         """
-        with output_path.open('w', encoding='utf-8') as f:
-            for key in sorted(self.labeled_sentences.keys(), key=int):
-                if int(key) in selected_ids:
-                    sentence = self.labeled_sentences[key]["sentence"]
-                    labels = self.labeled_sentences[key]["label"]
-                    f.write(
-                        f"Sentence: {key}\n"
-                        f"token: {sentence}\n"
-                        f"label: {labels}\n\n"
-                    )
+        global_counter = 1
+
+        for sent_id in sorted(mention_dict.keys(), key=lambda x: int(x[1:]) if x[1:].isdigit() else 0):
+            for mention in mention_dict[sent_id]:
+                mention['global_mention_id'] = f"M{global_counter}"
+                global_counter += 1
+
+        return mention_dict
+
+    # ---------------------------
+    # Utility
+    # ---------------------------
+
+    def save_json(self, data: Dict[Any, Any], path: Path) -> None:
+        if any(isinstance(k, int) for k in data.keys()):
+            data = {str(k): v for k, v in data.items()}
+        with path.open('w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 
 
 # ------------------------ MAIN ------------------------
 
 if __name__ == "__main__":
     root_dir = Path(__file__).resolve().parent.parent
-    data_dir = root_dir / "data"
+    data_dir = root_dir / "raw_data"
     ann_dir = data_dir / "ann"
     txt_dir = data_dir / "txt"
-    output_base = root_dir / "output"
+    output_base = root_dir / "processed_data"
 
     ann_files = list(ann_dir.glob("*.ann"))
 
     for ann_file in ann_files:
-        base_name = ann_file.stem  # filename without extension
+        base_name = ann_file.stem
         txt_file = txt_dir / f"{base_name}.txt"
 
         if not txt_file.exists():
@@ -232,24 +266,20 @@ if __name__ == "__main__":
         output_dir = output_base / base_name
         output_dir.mkdir(parents=True, exist_ok=True)
 
-        processor = TextAnnotationProcessor(ann_path=ann_file, text_path=txt_file)
+        processor = TextAnnotationProcessor(ann_file, txt_file)
 
         df = processor.read_ann_with_pandas()
         processor.ann_to_dict(df)
-        processor.save_json(processor.ann_dict, output_dir / f"{base_name}_ann.json")
 
         processor.read_text_file()
-        processor.save_json(processor.token_dict, output_dir / f"{base_name}_tokens.json")
-
         processor.create_labeled_sentences()
-        processor.save_json(processor.labeled_sentences, output_dir / f"{base_name}_final.json")
 
-        # Sample: save a few selected sentences (selection logic can be customized)
-        selected_ids = [1, 2, 3, 4, 5]
-        processor.save_selected_labeled_sentences(
-            selected_ids,
-            output_dir / f"{base_name}_sample.txt"
-        )
+        mention_spans = processor.group_mentions()
+        linked_mentions = processor.link_given_mentions(mention_spans)
 
-    print("✅ All files processed.")
+        processor.save_json(processor.ann_dict, output_dir / f"{base_name}_ann_dict.json")
+        processor.save_json(processor.token_dict, output_dir / f"{base_name}_token_dict.json")
+        processor.save_json(processor.labeled_sentences, output_dir / f"{base_name}_labeled_sentences.json")
+        processor.save_json(linked_mentions, output_dir / f"{base_name}_mentions.json")
 
+        print(f"✅ Finished processing: {base_name}\n")

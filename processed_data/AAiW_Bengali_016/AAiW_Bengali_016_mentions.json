@@ -1,0 +1,114 @@
+{
+    "1": [
+        {
+            "type": "given",
+            "tokens": [
+                "তার",
+                "নজর"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M1"
+        }
+    ],
+    "2": [
+        {
+            "type": "new",
+            "tokens": [
+                "একটা",
+                "টেবিল",
+                "আয়নার"
+            ],
+            "start_index": 0,
+            "end_index": 2,
+            "global_mention_id": "M2"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "একটি",
+                "বোতল"
+            ],
+            "start_index": 5,
+            "end_index": 6,
+            "global_mention_id": "M3"
+        }
+    ],
+    "3": [
+        {
+            "type": "given",
+            "tokens": [
+                "সে",
+                "বোতলের"
+            ],
+            "start_index": 0,
+            "end_index": 1,
+            "global_mention_id": "M4"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আমাকে"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M5"
+        }
+    ],
+    "4": [],
+    "5": [
+        {
+            "type": "given",
+            "tokens": [
+                "অমলা"
+            ],
+            "start_index": 7,
+            "end_index": 7,
+            "global_mention_id": "M6"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "লোভ"
+            ],
+            "start_index": 9,
+            "end_index": 9,
+            "global_mention_id": "M7"
+        }
+    ],
+    "6": [
+        {
+            "type": "given",
+            "tokens": [
+                "বোতলে"
+            ],
+            "start_index": 3,
+            "end_index": 3,
+            "global_mention_id": "M8"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "একটা",
+                "নতুন",
+                "কিছু",
+                "কাণ্ড"
+            ],
+            "start_index": 9,
+            "end_index": 12,
+            "global_mention_id": "M9"
+        }
+    ],
+    "7": [
+        {
+            "type": "new",
+            "tokens": [
+                "ব্যাপার"
+            ],
+            "start_index": 5,
+            "end_index": 5,
+            "global_mention_id": "M10"
+        }
+    ],
+    "8": []
+}
