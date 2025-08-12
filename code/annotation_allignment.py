@@ -261,7 +261,7 @@ if __name__ == "__main__":
             print(f"⚠️ Skipping {base_name}: corresponding .txt file not found.")
             continue
 
-        print(f"🔄 Processing: {base_name}")
+        print(f"Processing: {base_name}")
 
         output_dir = output_base / base_name
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -282,4 +282,4 @@ if __name__ == "__main__":
         processor.save_json(processor.labeled_sentences, output_dir / f"{base_name}_labeled_sentences.json")
         processor.save_json(linked_mentions, output_dir / f"{base_name}_mentions.json")
 
-        print(f"✅ Finished processing: {base_name}\n")
+        print(f"Finished processing: {base_name}\n")
