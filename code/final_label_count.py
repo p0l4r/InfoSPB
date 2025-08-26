@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from collections import Counter
+import matplotlib.pyplot as plt
 
 # Set the base directory where all *_final.json files are located
 base_dir = Path("../processed_data")  # Change this if needed
@@ -50,3 +51,55 @@ print("\nTotal Mention Counts Across All Files:")
 print(f"Total Mentions : {mention_counter.get('total_mentions', 0)}")
 print(f"Mentions (Given) : {mention_counter.get('given_mentions', 0)}")
 print(f"Mentions(New)   : {mention_counter.get('new_mentions', 0)}")
+
+
+
+# create bar-chart for displaying the label and mention counts
+# labels
+labels_info = ['B-new', 'I-new', 'B-given', 'I-given', 'O']
+mentions_info = ['total_mentions', 'given_mentions', 'new_mentions']
+
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)
+label_counts = [label_counter.get(label, 0) for label in labels_info]
+bars1 = plt.bar(labels_info, label_counts)
+plt.title("Label Counts")
+plt.xticks(rotation=45)
+plt.grid(axis='y')
+
+total_labels = sum(label_counts)
+label_percentages = [(count / total_labels) * 100 if total_labels != 0 else 0 for count in label_counts]
+
+y_coords_labels = []
+for bar, percent in zip(bars1, label_percentages):
+    height = bar.get_height()
+    y_coords_labels.append(height)
+    plt.text(bar.get_x() + bar.get_width()/2, height, f"{percent:.1f}%", 
+             ha='center', va='bottom', color='red', fontweight='bold')
+
+plt.plot(labels_info, y_coords_labels, color='red', marker='o', linestyle='-', label='Skewness Line')
+plt.legend()
+
+plt.subplot(1, 2, 2)
+mention_counts = [mention_counter.get(mention, 0) for mention in mentions_info]
+bars2 = plt.bar(mentions_info, mention_counts)
+plt.title("Mention Counts")
+plt.xticks(rotation=45)
+plt.grid(axis='y')
+
+#mentions
+total_mentions = sum(mention_counts)
+mention_percentages = [(count / total_mentions) * 100 if total_mentions != 0 else 0 for count in mention_counts]
+
+y_coords_mentions = []
+for bar, percent in zip(bars2, mention_percentages):
+    height = bar.get_height()
+    y_coords_mentions.append(height)
+    plt.text(bar.get_x() + bar.get_width()/2, height, f"{percent:.1f}%", 
+             ha='center', va='bottom', color='red', fontweight='bold')
+
+plt.plot(mentions_info, y_coords_mentions, color='red', marker='o', linestyle='-', label='Skewness Line')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
