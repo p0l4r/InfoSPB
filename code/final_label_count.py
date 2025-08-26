@@ -77,7 +77,7 @@ for bar, percent in zip(bars1, label_percentages):
     plt.text(bar.get_x() + bar.get_width()/2, height, f"{percent:.1f}%", 
              ha='center', va='bottom', color='red', fontweight='bold')
 
-plt.plot(labels_info, y_coords_labels, color='red', marker='o', linestyle='-', label='Skewness Line')
+plt.plot(labels_info, y_coords_labels, color='red', marker='o', linestyle='-', label='Skewness')
 plt.legend()
 
 plt.subplot(1, 2, 2)
@@ -98,7 +98,7 @@ for bar, percent in zip(bars2, mention_percentages):
     plt.text(bar.get_x() + bar.get_width()/2, height, f"{percent:.1f}%", 
              ha='center', va='bottom', color='red', fontweight='bold')
 
-plt.plot(mentions_info, y_coords_mentions, color='red', marker='o', linestyle='-', label='Skewness Line')
+plt.plot(mentions_info, y_coords_mentions, color='red', marker='o', linestyle='-', label='Skewness')
 plt.legend()
 
 plt.tight_layout()
