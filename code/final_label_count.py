@@ -57,7 +57,7 @@ print(f"Mentions(New)   : {mention_counter.get('new_mentions', 0)}")
 # create bar-chart for displaying the label and mention counts
 # labels
 labels_info = ['B-new', 'I-new', 'B-given', 'I-given', 'O']
-mentions_info = ['total_mentions', 'given_mentions', 'new_mentions']
+mentions_info = ['given_mentions', 'new_mentions']
 
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
