@@ -6,13 +6,6 @@
         "annotated_span": "অমলা",
         "label": "new"
     },
-    "T4": {
-        "start_pos": 33,
-        "end_pos": 38,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "দিদির",
-        "label": "new"
-    },
     "T6": {
         "start_pos": 88,
         "end_pos": 93,
@@ -34,13 +27,6 @@
         "annotated_span": "বকুল গাছে",
         "label": "new"
     },
-    "T9": {
-        "start_pos": 188,
-        "end_pos": 191,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ফুল",
-        "label": "new"
-    },
     "T10": {
         "start_pos": 203,
         "end_pos": 208,
@@ -55,25 +41,11 @@
         "annotated_span": "বকুল-ফুল",
         "label": "given"
     },
-    "T13": {
-        "start_pos": 262,
-        "end_pos": 266,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মালা",
-        "label": "new"
-    },
     "T14": {
         "start_pos": 275,
         "end_pos": 284,
         "nominal_type": "_Unsorted_",
         "annotated_span": "ঘাস-ঝোপের",
-        "label": "new"
-    },
-    "T15": {
-        "start_pos": 326,
-        "end_pos": 331,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "খরগোস",
         "label": "new"
     },
     "T16": {
@@ -88,13 +60,6 @@
         "end_pos": 417,
         "nominal_type": "_Unsorted_",
         "annotated_span": "এ খরগোসটা",
-        "label": "given"
-    },
-    "T18": {
-        "start_pos": 422,
-        "end_pos": 431,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আপনা-আপনি",
         "label": "given"
     },
     "T19": {
@@ -123,7 +88,7 @@
         "end_pos": 610,
         "nominal_type": "_Unsorted_",
         "annotated_span": "অমলা",
-        "label": "new"
+        "label": "given"
     },
     "T24": {
         "start_pos": 653,
@@ -160,13 +125,6 @@
         "annotated_span": "খরগোসটা",
         "label": "given"
     },
-    "T30": {
-        "start_pos": 804,
-        "end_pos": 810,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গর্তের",
-        "label": "new"
-    },
     "T31": {
         "start_pos": 831,
         "end_pos": 835,
@@ -202,25 +160,11 @@
         "annotated_span": "পাতাল",
         "label": "new"
     },
-    "T36": {
-        "start_pos": 1014,
-        "end_pos": 1024,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "শুকনো পাতা",
-        "label": "new"
-    },
     "T37": {
         "start_pos": 1028,
         "end_pos": 1036,
         "nominal_type": "_Unsorted_",
         "annotated_span": "ডালপালার",
-        "label": "new"
-    },
-    "T21": {
-        "start_pos": 560,
-        "end_pos": 569,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "সোনার ঘড়ি",
         "label": "new"
     },
     "T1": {
@@ -230,18 +174,74 @@
         "annotated_span": "জামার পকেট",
         "label": "new"
     },
-    "T2": {
-        "start_pos": 217,
-        "end_pos": 226,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গাছের তলা",
-        "label": "new"
-    },
     "T5": {
         "start_pos": 45,
         "end_pos": 54,
         "nominal_type": "_Unsorted_",
         "annotated_span": "নদীর ধারে",
         "label": "new"
+    },
+    "T2": {
+        "start_pos": 255,
+        "end_pos": 266,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একগাছি মালা",
+        "label": "new"
+    },
+    "T13": {
+        "start_pos": 300,
+        "end_pos": 331,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটি মোটা-সোটা ধবধবে সাদা খরগোস",
+        "label": "new"
+    },
+    "T15": {
+        "start_pos": 796,
+        "end_pos": 810,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা বড় গর্তের",
+        "label": "new"
+    },
+    "T18": {
+        "start_pos": 1008,
+        "end_pos": 1024,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একরাশ শুকনো পাতা",
+        "label": "new"
+    },
+    "T25": {
+        "start_pos": 217,
+        "end_pos": 226,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গাছের তলা",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 29,
+        "end_pos": 38,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার দিদির",
+        "label": "new"
+    },
+    "T9": {
+        "start_pos": 181,
+        "end_pos": 191,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চমৎকার ফুল",
+        "label": "new"
+    },
+    "T11": {
+        "start_pos": 555,
+        "end_pos": 569,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা সোনার ঘড়ি",
+        "label": "new"
+    },
+    "T21": {
+        "start_pos": 742,
+        "end_pos": 745,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেও",
+        "label": "given"
     }
 }

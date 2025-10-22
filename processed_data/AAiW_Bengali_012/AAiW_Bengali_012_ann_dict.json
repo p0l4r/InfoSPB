@@ -20,32 +20,11 @@
         "annotated_span": "অমলা",
         "label": "given"
     },
-    "T5": {
-        "start_pos": 88,
-        "end_pos": 92,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গল্প",
-        "label": "given"
-    },
-    "T1": {
-        "start_pos": 18,
-        "end_pos": 22,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গল্প",
-        "label": "new"
-    },
     "T6": {
         "start_pos": 117,
         "end_pos": 121,
         "nominal_type": "_Unsorted_",
         "annotated_span": "ইদুর",
-        "label": "given"
-    },
-    "T7": {
-        "start_pos": 147,
-        "end_pos": 150,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "কথা",
         "label": "given"
     },
     "T8": {
@@ -69,20 +48,6 @@
         "annotated_span": "অমলা",
         "label": "given"
     },
-    "T11": {
-        "start_pos": 194,
-        "end_pos": 198,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মুখে",
-        "label": "given"
-    },
-    "T12": {
-        "start_pos": 211,
-        "end_pos": 214,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ভাই",
-        "label": "given"
-    },
     "T13": {
         "start_pos": 219,
         "end_pos": 225,
@@ -90,18 +55,53 @@
         "annotated_span": "গোলমাল",
         "label": "given"
     },
-    "T14": {
-        "start_pos": 241,
-        "end_pos": 246,
+    "T1": {
+        "start_pos": 6,
+        "end_pos": 22,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "তোমার",
+        "annotated_span": "ভারি দুঃখের গল্প",
         "label": "given"
     },
-    "T15": {
-        "start_pos": 247,
+    "T5": {
+        "start_pos": 81,
+        "end_pos": 92,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দুঃখের গল্প",
+        "label": "given"
+    },
+    "T16": {
+        "start_pos": 95,
+        "end_pos": 102,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দুঃখুটা",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 142,
+        "end_pos": 150,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাজে কথা",
+        "label": "new"
+    },
+    "T11": {
+        "start_pos": 184,
+        "end_pos": 198,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কাঁচুমাচু মুখে",
+        "label": "new"
+    },
+    "T12": {
+        "start_pos": 241,
         "end_pos": 251,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "গল্প",
+        "annotated_span": "তোমার গল্প",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 208,
+        "end_pos": 214,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "না ভাই",
         "label": "given"
     }
 }

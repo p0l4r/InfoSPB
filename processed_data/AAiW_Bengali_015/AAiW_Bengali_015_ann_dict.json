@@ -1,25 +1,4 @@
 {
-    "T1": {
-        "start_pos": 18,
-        "end_pos": 23,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বাড়ির",
-        "label": "new"
-    },
-    "T2": {
-        "start_pos": 43,
-        "end_pos": 48,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বাড়ির",
-        "label": "given"
-    },
-    "T3": {
-        "start_pos": 49,
-        "end_pos": 54,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "দরজায়",
-        "label": "new"
-    },
     "T4": {
         "start_pos": 68,
         "end_pos": 86,
@@ -83,27 +62,6 @@
         "annotated_span": "তাকে",
         "label": "given"
     },
-    "T13": {
-        "start_pos": 252,
-        "end_pos": 257,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বাইরে",
-        "label": "new"
-    },
-    "T14": {
-        "start_pos": 280,
-        "end_pos": 289,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "একটা ঘরের",
-        "label": "new"
-    },
-    "T15": {
-        "start_pos": 301,
-        "end_pos": 307,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জানলার",
-        "label": "new"
-    },
     "T16": {
         "start_pos": 313,
         "end_pos": 323,
@@ -159,5 +117,33 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "ঘর",
         "label": "given"
+    },
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 23,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঝকঝকে-তকতকে ছোট্ট বাড়ির",
+        "label": "new"
+    },
+    "T2": {
+        "start_pos": 43,
+        "end_pos": 54,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাড়ির দরজায়",
+        "label": "new"
+    },
+    "T3": {
+        "start_pos": 273,
+        "end_pos": 289,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পুঁচকে একটা ঘরের",
+        "label": "new"
+    },
+    "T13": {
+        "start_pos": 301,
+        "end_pos": 312,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "জানলার ধারে",
+        "label": "new"
     }
 }

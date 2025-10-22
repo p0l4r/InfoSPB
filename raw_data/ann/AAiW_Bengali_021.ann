@@ -2,8 +2,6 @@ T1	_Unsorted_ 21 23	সে
 A1	InfStat T1 given
 T2	_Unsorted_ 32 34	ঘর
 A2	InfStat T2 given
-T3	_Unsorted_ 68 78	জীব-জন্তুর
-A3	InfStat T3 new
 T4	_Unsorted_ 94 100	অমলাকে
 A4	InfStat T4 given
 T5	_Unsorted_ 112 116	তারা
@@ -18,37 +16,44 @@ T9	_Unsorted_ 223 227	অমলা
 A9	InfStat T9 given
 T10	_Unsorted_ 267 271	আমার
 A10	InfStat T10 given
-T11	_Unsorted_ 314 321	বাগানটি
-A11	InfStat T11 given
 T12	_Unsorted_ 339 346	জঙ্গলের
 A12	InfStat T12 given
 T13	_Unsorted_ 356 358	সে
 A13	InfStat T13 given
 T14	_Unsorted_ 359 362	চোখ
 A14	InfStat T14 given
-T15	_Unsorted_ 404 409	জিনিস
-A15	InfStat T15 given
-T16	_Unsorted_ 461 473	ব্যাঙের ছাতা
-A16	InfStat T16 new
 T17	_Unsorted_ 476 480	অমলা
 A17	InfStat T17 given
-T18	_Unsorted_ 508 521	ব্যাঙের ছাতার
-A18	InfStat T18 given
-T19	_Unsorted_ 548 553	ছাতার
-A19	InfStat T19 given
 T20	_Unsorted_ 607 609	সে
 A20	InfStat T20 given
 T21	_Unsorted_ 647 651	অমলা
 A21	InfStat T21 given
 T22	_Unsorted_ 668 681	ব্যাঙের ছাতার
 A22	InfStat T22 given
-T23	_Unsorted_ 705 714	শোঁয়াপোকা
-A23	InfStat T23 new
 T24	_Unsorted_ 717 721	বুকে
 A24	InfStat T24 new
-T25	_Unsorted_ 726 729	হাত
-A25	InfStat T25 given
 T26	_Unsorted_ 735 746	শোঁয়াপোকাটা
 A26	InfStat T26 given
-T27	_Unsorted_ 797 800	নলে
+T3	_Unsorted_ 58 78	নানান রকম জীব-জন্তুর
+A3	InfStat T3 new
+T11	_Unsorted_ 310 321	সেই বাগানটি
+A11	InfStat T11 given
+T15	_Unsorted_ 390 409	এমন কোন খারাপ জিনিস
+A15	InfStat T15 new
+#1	AnnotatorNotes T15	might be wrong translation
+T16	_Unsorted_ 456 473	একটা ব্যাঙের ছাতা
+A16	InfStat T16 new
+T18	_Unsorted_ 504 521	সেই ব্যাঙের ছাতার
+A18	InfStat T18 given
+T19	_Unsorted_ 548 558	ছাতার তলার
+A19	InfStat T19 new
+T28	_Unsorted_ 628 638	আঙুলের উপর
+A28	InfStat T28 given
+T23	_Unsorted_ 700 714	একটা শোঁয়াপোকা
+A23	InfStat T23 new
+T25	_Unsorted_ 722 729	দুই হাত
+A25	InfStat T25 new
+T29	_Unsorted_ 747 768	খুব একটা মাতব্বরের মত
+A29	InfStat T29 new
+T27	_Unsorted_ 790 800	গড়গড়ার নলে
 A27	InfStat T27 new

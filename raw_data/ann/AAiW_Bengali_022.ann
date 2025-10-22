@@ -4,8 +4,6 @@ T3	_Unsorted_ 31 35	অমলা
 A3	InfStat T3 given
 T4	_Unsorted_ 89 98	শোঁয়াপোকা
 A4	InfStat T4 given
-T7	_Unsorted_ 119 123	নলটা
-A7	InfStat T7 given
 T8	_Unsorted_ 143 147	তুমি
 A8	InfStat T8 given
 T9	_Unsorted_ 148 153	কাদের
@@ -69,10 +67,14 @@ A37	InfStat T37 given
 T38	_Unsorted_ 911 915	অমলা
 A38	InfStat T38 given
 T39	_Unsorted_ 944 954	আপনার মনের
-A39	InfStat T39 given
-T1	_Unsorted_ 99 102	তার
-A1	InfStat T1 given
-T5	_Unsorted_ 103 106	মুখ
-A5	InfStat T5 new
+A39	InfStat T39 new
 T6	_Unsorted_ 394 399	তোমার
 A6	InfStat T6 given
+T1	_Unsorted_ 99 106	তার মুখ
+A1	InfStat T1 new
+T5	_Unsorted_ 112 123	গড়গড়ার নলটা
+A5	InfStat T5 given
+T7	_Unsorted_ 418 422	অমলা
+A7	InfStat T7 given
+T40	_Unsorted_ 376 386	কড়া আওয়াজে
+A40	InfStat T40 new

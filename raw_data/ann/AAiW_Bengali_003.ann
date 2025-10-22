@@ -2,24 +2,12 @@ T1	_Unsorted_ 33 35	সে
 A1	InfStat T1 given
 T2	_Unsorted_ 91 95	অমলা
 A2	InfStat T2 given
-T3	_Unsorted_ 124 126	সে
-A3	InfStat T3 given
-T4	_Unsorted_ 127 134	জায়গাটা
-A4	InfStat T4 new
 T5	_Unsorted_ 141 154	একটা বড় হল-ঘর
 A5	InfStat T5 new
 T6	_Unsorted_ 158 163	ছাদের
 A6	InfStat T6 new
-T7	_Unsorted_ 192 203	ঝাড়-লণ্ঠনের
-A7	InfStat T7 new
 T8	_Unsorted_ 218 222	হলের
 A8	InfStat T8 given
-T9	_Unsorted_ 232 237	দরজার
-A9	InfStat T9 new
-T10	_Unsorted_ 241 245	দরজা
-A10	InfStat T10 given
-T11	_Unsorted_ 257 262	দরজাই
-A11	InfStat T11 given
 T12	_Unsorted_ 263 272	তালা-চাবি
 A12	InfStat T12 new
 T13	_Unsorted_ 289 300	অমলার হাতের
@@ -46,16 +34,10 @@ T23	_Unsorted_ 557 577	একটি সোনার চাবি-কাঠি
 A23	InfStat T23 new
 T24	_Unsorted_ 585 589	অমলা
 A24	InfStat T24 given
-T25	_Unsorted_ 600 606	চাবিটি
-A25	InfStat T25 given
 T26	_Unsorted_ 621 629	দরজাগুলো
 A26	InfStat T26 given
 T27	_Unsorted_ 665 667	সে
 A27	InfStat T27 given
-T28	_Unsorted_ 691 695	চাবি
-A28	InfStat T28 given
-T29	_Unsorted_ 711 715	তালা
-A29	InfStat T29 given
 T30	_Unsorted_ 751 763	আর-এক জায়গায়
 A30	InfStat T30 new
 T31	_Unsorted_ 768 772	অমলা
@@ -76,8 +58,6 @@ T38	_Unsorted_ 987 992	দরজার
 A38	InfStat T38 given
 T39	_Unsorted_ 1003 1017	ইঁদুরের গর্তের
 A39	InfStat T39 new
-T40	_Unsorted_ 1029 1036	একটি পথ
-A40	InfStat T40 new
 T41	_Unsorted_ 1040 1044	অমলা
 A41	InfStat T41 given
 T42	_Unsorted_ 1045 1052	সেই পথে
@@ -92,8 +72,6 @@ T46	_Unsorted_ 1121 1125	অমলা
 A46	InfStat T46 given
 T47	_Unsorted_ 1134 1139	চোখেও
 A47	InfStat T47 new
-T48	_Unsorted_ 1176 1178	ফল
-A48	InfStat T48 new
 T49	_Unsorted_ 1183 1195	রামধনুকের রঙ
 A49	InfStat T49 new
 T50	_Unsorted_ 1212 1227	ছোট ছোট সব ঝরনা
@@ -106,3 +84,21 @@ T53	_Unsorted_ 1275 1290	এই অন্ধকার ঘরের
 A53	InfStat T53 new
 T54	_Unsorted_ 1320 1325	অমলার
 A54	InfStat T54 given
+T7	_Unsorted_ 173 203	সারি সারি অনেকগুলি ঝাড়-লণ্ঠনের
+A7	InfStat T7 new
+T40	_Unsorted_ 1021 1036	একরত্তি একটি পথ
+A40	InfStat T40 new
+T3	_Unsorted_ 124 134	সে জায়গাটা
+A3	InfStat T3 new
+T4	_Unsorted_ 232 245	দরজার পর দরজা
+A4	InfStat T4 new
+T9	_Unsorted_ 254 262	সব দরজাই
+A9	InfStat T9 given
+T10	_Unsorted_ 597 606	এই চাবিটি
+A10	InfStat T10 given
+T11	_Unsorted_ 681 695	এই এতটুকু চাবি
+A11	InfStat T11 given
+T25	_Unsorted_ 701 715	অমন বড়-বড় তালা
+A25	InfStat T25 given
+T28	_Unsorted_ 1155 1178	লাল নীল সবুজ হলদে সব ফল
+A28	InfStat T28 new

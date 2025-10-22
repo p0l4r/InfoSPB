@@ -48,20 +48,6 @@
         "annotated_span": "শোঁয়াপোকা",
         "label": "given"
     },
-    "T9": {
-        "start_pos": 175,
-        "end_pos": 180,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মেজাজ",
-        "label": "given"
-    },
-    "T10": {
-        "start_pos": 204,
-        "end_pos": 207,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "রাগ",
-        "label": "given"
-    },
     "T11": {
         "start_pos": 214,
         "end_pos": 218,
@@ -89,20 +75,6 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "অমলা",
         "label": "given"
-    },
-    "T15": {
-        "start_pos": 371,
-        "end_pos": 373,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "এর",
-        "label": "given"
-    },
-    "T16": {
-        "start_pos": 374,
-        "end_pos": 378,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মুখে",
-        "label": "new"
     },
     "T17": {
         "start_pos": 379,
@@ -151,13 +123,6 @@
         "end_pos": 564,
         "nominal_type": "_Unsorted_",
         "annotated_span": "মুখ",
-        "label": "given"
-    },
-    "T25": {
-        "start_pos": 577,
-        "end_pos": 579,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নল",
         "label": "given"
     },
     "T26": {
@@ -265,13 +230,6 @@
         "annotated_span": "তার",
         "label": "given"
     },
-    "T41": {
-        "start_pos": 901,
-        "end_pos": 904,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "কথা",
-        "label": "given"
-    },
     "T42": {
         "start_pos": 905,
         "end_pos": 909,
@@ -285,20 +243,6 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "শোঁয়াপোকা",
         "label": "given"
-    },
-    "T45": {
-        "start_pos": 959,
-        "end_pos": 963,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "তুমি",
-        "label": "given"
-    },
-    "T46": {
-        "start_pos": 964,
-        "end_pos": 968,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "খুড়ো",
-        "label": "new"
     },
     "T47": {
         "start_pos": 970,
@@ -314,13 +258,6 @@
         "annotated_span": "তোমার",
         "label": "given"
     },
-    "T49": {
-        "start_pos": 984,
-        "end_pos": 990,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মুখস্থ",
-        "label": "new"
-    },
     "T50": {
         "start_pos": 1039,
         "end_pos": 1056,
@@ -335,13 +272,6 @@
         "annotated_span": "অমলা",
         "label": "given"
     },
-    "T44": {
-        "start_pos": 954,
-        "end_pos": 958,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বুড়ো",
-        "label": "new"
-    },
     "T6": {
         "start_pos": 440,
         "end_pos": 444,
@@ -354,7 +284,7 @@
         "end_pos": 452,
         "nominal_type": "_Unsorted_",
         "annotated_span": "দুই হাত",
-        "label": "new"
+        "label": "given"
     },
     "T52": {
         "start_pos": 728,
@@ -362,5 +292,75 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "দশ মিনিট",
         "label": "new"
+    },
+    "T9": {
+        "start_pos": 204,
+        "end_pos": 213,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "রাগ সামলে",
+        "label": "given"
+    },
+    "T10": {
+        "start_pos": 175,
+        "end_pos": 184,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মেজাজ গরম",
+        "label": "new"
+    },
+    "T53": {
+        "start_pos": 232,
+        "end_pos": 239,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আর কিছু",
+        "label": "new"
+    },
+    "T15": {
+        "start_pos": 371,
+        "end_pos": 378,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এর মুখে",
+        "label": "new"
+    },
+    "T16": {
+        "start_pos": 382,
+        "end_pos": 391,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নতুন কিছু",
+        "label": "new"
+    },
+    "T25": {
+        "start_pos": 570,
+        "end_pos": 579,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গড়গড়ার নল",
+        "label": "given"
+    },
+    "T41": {
+        "start_pos": 898,
+        "end_pos": 904,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সব কথা",
+        "label": "given"
+    },
+    "T44": {
+        "start_pos": 950,
+        "end_pos": 958,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মহা বুড়ো",
+        "label": "new"
+    },
+    "T45": {
+        "start_pos": 959,
+        "end_pos": 968,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তুমি খুড়ো",
+        "label": "new"
+    },
+    "T46": {
+        "start_pos": 1007,
+        "end_pos": 1012,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেইটে",
+        "label": "given"
     }
 }

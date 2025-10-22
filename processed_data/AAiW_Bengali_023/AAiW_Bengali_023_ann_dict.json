@@ -119,31 +119,17 @@
         "label": "given"
     },
     "T18": {
-        "start_pos": 297,
+        "start_pos": 291,
         "end_pos": 301,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "গলায়",
-        "label": "given"
-    },
-    "T19": {
-        "start_pos": 329,
-        "end_pos": 334,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ধাঁধা",
+        "annotated_span": "হেঁড়ে গলায়",
         "label": "new"
     },
-    "T20": {
+    "T19": {
         "start_pos": 347,
-        "end_pos": 357,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "শোঁয়াপোকার",
-        "label": "given"
-    },
-    "T21": {
-        "start_pos": 358,
         "end_pos": 365,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "মেজাজটা",
+        "annotated_span": "শোঁয়াপোকার মেজাজটা",
         "label": "new"
     }
 }

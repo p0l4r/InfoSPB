@@ -8,8 +8,6 @@ T4	_Unsorted_ 43 48	ওখানা
 A4	InfStat T4 given
 T5	_Unsorted_ 72 77	খরগোস
 A5	InfStat T5 given
-T7	_Unsorted_ 115 118	হাত
-A7	InfStat T7 given
 T8	_Unsorted_ 142 149	হাতখানা
 A8	InfStat T8 given
 T9	_Unsorted_ 150 153	তুই
@@ -81,10 +79,18 @@ A41	InfStat T41 given
 T42	_Unsorted_ 968 973	আমাকে
 A42	InfStat T42 given
 T43	_Unsorted_ 1082 1087	ঢিলটা
-A43	InfStat T43 new
+A43	InfStat T43 given
 T6	_Unsorted_ 85 89	আমার
 A6	InfStat T6 given
 T44	_Unsorted_ 90 101	ঘরের জানলায়
 A44	InfStat T44 given
 T45	_Unsorted_ 760 768	এক চুপড়ি
 A45	InfStat T45 new
+T46	_Unsorted_ 32 37	হুজুর
+A46	InfStat T46 given
+T7	_Unsorted_ 102 118	অত বড় একখানা হাত
+A7	InfStat T7 given
+T47	_Unsorted_ 799 807	এক চুপড়ি
+A47	InfStat T47 given
+T48	_Unsorted_ 974 977	ঢিল
+A48	InfStat T48 new

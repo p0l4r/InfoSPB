@@ -30,12 +30,6 @@ T15	_Unsorted_ 382 395	কাগজের লেবেলে
 A15	InfStat T15 new
 T16	_Unsorted_ 411 416	আমাকে
 A16	InfStat T16 given
-T17	_Unsorted_ 437 442	যা-তা
-A17	InfStat T17 given
-T18	_Unsorted_ 503 509	আমাদের
-A18	InfStat T18 given
-T19	_Unsorted_ 510 514	অমলা
-A19	InfStat T19 given
 T20	_Unsorted_ 520 531	কাঁচা মেয়েই
 A20	InfStat T20 given
 T21	_Unsorted_ 537 539	সে
@@ -79,8 +73,6 @@ T39	_Unsorted_ 822 837	ইলিশমাছের অম্বল
 A38	InfStat T39 new
 T40	_Unsorted_ 839 850	ছানার পুডিং
 A39	InfStat T40 new
-T41	_Unsorted_ 864 869	চকোলে
-A40	InfStat T41 new
 T42	_Unsorted_ 886 895	এই বোতলের
 A41	InfStat T42 given
 T43	_Unsorted_ 925 931	বোতলটা
@@ -101,3 +93,9 @@ T50	_Unsorted_ 1170 1176	গর্তের
 A49	InfStat T50 given
 T51	_Unsorted_ 1191 1199	ঐ বাগানে
 A50	InfStat T51 given
+T17	_Unsorted_ 437 442	যা-তা
+A17	InfStat T17 given
+T18	_Unsorted_ 503 514	আমাদের অমলা
+A18	InfStat T18 given
+T19	_Unsorted_ 854 870	নানান রকম চকোলেট
+A19	InfStat T19 new

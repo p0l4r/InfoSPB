@@ -83,13 +83,6 @@
         "annotated_span": "আমার",
         "label": "given"
     },
-    "T14": {
-        "start_pos": 149,
-        "end_pos": 155,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পিণ্ডি",
-        "label": "new"
-    },
     "T15": {
         "start_pos": 170,
         "end_pos": 175,
@@ -132,13 +125,6 @@
         "annotated_span": "হাঁসের",
         "label": "given"
     },
-    "T21": {
-        "start_pos": 298,
-        "end_pos": 301,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "হাত",
-        "label": "given"
-    },
     "T22": {
         "start_pos": 302,
         "end_pos": 304,
@@ -165,6 +151,27 @@
         "end_pos": 217,
         "nominal_type": "_Unsorted_",
         "annotated_span": "টিকটিকি",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 73,
+        "end_pos": 78,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হুজুর",
+        "label": "new"
+    },
+    "T25": {
+        "start_pos": 244,
+        "end_pos": 249,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হুজুর",
+        "label": "given"
+    },
+    "T21": {
+        "start_pos": 292,
+        "end_pos": 301,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অত বড় হাত",
         "label": "given"
     }
 }

@@ -61,5 +61,19 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "চোখের জলে",
         "label": "given"
+    },
+    "T9": {
+        "start_pos": 228,
+        "end_pos": 231,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কথা",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 236,
+        "end_pos": 244,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কোন উপায়",
+        "label": "new"
     }
 }

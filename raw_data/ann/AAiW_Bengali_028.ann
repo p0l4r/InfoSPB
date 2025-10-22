@@ -2,14 +2,8 @@ T1	_Unsorted_ 20 24	অমলা
 A1	InfStat T1 given
 T2	_Unsorted_ 54 57	তার
 A2	InfStat T2 given
-T3	_Unsorted_ 69 72	হাত
-A3	InfStat T3 given
 T4	_Unsorted_ 78 87	একটা বাড়ি
 A4	InfStat T4 new
-T5	_Unsorted_ 103 109	বাড়িতে
-A5	InfStat T5 given
-T6	_Unsorted_ 116 119	দেহ
-A6	InfStat T6 given
 T7	_Unsorted_ 138 142	যারা
 A7	InfStat T7 given
 T8	_Unsorted_ 147 151	তারা
@@ -24,16 +18,8 @@ T12	_Unsorted_ 268 275	তার দেহ
 A12	InfStat T12 given
 T13	_Unsorted_ 299 303	অমলা
 A13	InfStat T13 given
-T14	_Unsorted_ 320 327	বাড়িটার
-A14	InfStat T14 given
-T15	_Unsorted_ 365 368	দেহ
-A15	InfStat T15 given
 T16	_Unsorted_ 411 415	বনের
 A16	InfStat T16 given
-T17	_Unsorted_ 433 438	পোশাক
-A17	InfStat T17 new
-T18	_Unsorted_ 448 454	দরোয়ান
-A18	InfStat T18 new
 T19	_Unsorted_ 472 481	তার মাথায়
 A19	InfStat T19 given
 T20	_Unsorted_ 482 487	পক্কড়
@@ -46,10 +32,6 @@ T23	_Unsorted_ 516 520	অমলা
 A23	InfStat T23 given
 T25	_Unsorted_ 558 568	তার চেহারা
 A25	InfStat T25 given
-T26	_Unsorted_ 575 580	মাছের
-A26	InfStat T26 new
-T27	_Unsorted_ 581 587	চেহারা
-A27	InfStat T27 given
 T28	_Unsorted_ 590 598	দরোয়ানটা
 A28	InfStat T28 given
 T29	_Unsorted_ 610 619	দরজার কড়া
@@ -78,21 +60,43 @@ T41	_Unsorted_ 832 836	তারা
 A41	InfStat T41 given
 T42	_Unsorted_ 864 868	অমলা
 A42	InfStat T42 given
-T43	_Unsorted_ 873 876	কান
-A43	InfStat T43 new
 T44	_Unsorted_ 888 898	মাছ-দরোয়ান
 A44	InfStat T44 new
-T45	_Unsorted_ 914 918	চিঠি
-A45	InfStat T45 new
 T46	_Unsorted_ 939 947	চিঠিখানা
 A46	InfStat T46 given
 T47	_Unsorted_ 948 963	তার নিজের দেহের
 A47	InfStat T47 given
 T48	_Unsorted_ 987 992	ব্যাঙ
-A48	InfStat T48 new
+A48	InfStat T48 given
 T24	_Unsorted_ 521 525	তাকে
 A24	InfStat T24 given
 T49	_Unsorted_ 526 532	দরোয়ান
 A49	InfStat T49 given
 T31	_Unsorted_ 657 669	জমকালো-পোশাক
-A31	InfStat T31 new
+A31	InfStat T31 given
+T3	_Unsorted_ 65 77	তিন হাত উঁচু
+A3	InfStat T3 new
+T5	_Unsorted_ 96 109	এতটুকু বাড়িতে
+A5	InfStat T5 given
+T6	_Unsorted_ 110 119	এত বড় দেহ
+A6	InfStat T6 given
+T50	_Unsorted_ 131 137	বাড়িতে
+A50	InfStat T50 given
+T51	_Unsorted_ 281 288	এক বিঘত
+A51	InfStat T51 new
+T52	_Unsorted_ 304 315	মিনিট-দুয়েক
+A52	InfStat T52 new
+T14	_Unsorted_ 316 327	সেই বাড়িটার
+A14	InfStat T14 given
+T15	_Unsorted_ 357 368	এক বিঘত দেহ
+A15	InfStat T15 given
+T18	_Unsorted_ 575 587	মাছের চেহারা
+A18	InfStat T18 new
+T17	_Unsorted_ 443 454	একজন দরোয়ান
+A17	InfStat T17 new
+T26	_Unsorted_ 426 438	জমকালো-পোশাক
+A26	InfStat T26 new
+T27	_Unsorted_ 869 876	দুই কান
+A27	InfStat T27 new
+T43	_Unsorted_ 899 918	মস্ত-বড় একখানা চিঠি
+A43	InfStat T43 new

@@ -1,11 +1,4 @@
 {
-    "T1": {
-        "start_pos": 0,
-        "end_pos": 8,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "দরোয়ানের",
-        "label": "given"
-    },
     "T2": {
         "start_pos": 39,
         "end_pos": 41,
@@ -88,6 +81,20 @@
         "end_pos": 57,
         "nominal_type": "_Unsorted_",
         "annotated_span": "মহারানীজী",
+        "label": "new"
+    },
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 8,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দরোয়ানের",
+        "label": "given"
+    },
+    "T14": {
+        "start_pos": 9,
+        "end_pos": 13,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হাতে",
         "label": "new"
     }
 }

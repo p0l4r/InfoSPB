@@ -14,10 +14,10 @@
             "পারে"
         ],
         "label": [
-            "B-given",
-            "I-given",
-            "I-given",
-            "I-given",
+            "B-new",
+            "I-new",
+            "I-new",
+            "I-new",
             "B-given",
             "O",
             "B-new",
@@ -60,7 +60,7 @@
             "O",
             "O",
             "O",
-            "O"
+            "B-new"
         ]
     },
     "4": {
@@ -119,7 +119,7 @@
             "O",
             "O",
             "O",
-            "O",
+            "B-given",
             "B-given",
             "B-new",
             "O"
@@ -169,8 +169,8 @@
             "O",
             "O",
             "B-new",
-            "B-new",
-            "B-new"
+            "I-new",
+            "I-new"
         ]
     },
     "8": {
@@ -189,8 +189,8 @@
             "I-given",
             "O",
             "O",
-            "B-given",
-            "O",
+            "B-new",
+            "I-new",
             "O",
             "O"
         ]

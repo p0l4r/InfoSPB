@@ -34,27 +34,6 @@
         "annotated_span": "ছোট্ট কুমির",
         "label": "new"
     },
-    "T6": {
-        "start_pos": 155,
-        "end_pos": 160,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ল্যাজ",
-        "label": "new"
-    },
-    "T7": {
-        "start_pos": 172,
-        "end_pos": 181,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গঙ্গানদীর",
-        "label": "new"
-    },
-    "T8": {
-        "start_pos": 182,
-        "end_pos": 184,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জল",
-        "label": "new"
-    },
     "T9": {
         "start_pos": 190,
         "end_pos": 203,
@@ -76,39 +55,11 @@
         "annotated_span": "সে",
         "label": "given"
     },
-    "T12": {
-        "start_pos": 246,
-        "end_pos": 254,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ইলিস মাছ",
-        "label": "new"
-    },
-    "T13": {
-        "start_pos": 256,
-        "end_pos": 262,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ঠোঁটের",
-        "label": "new"
-    },
-    "T14": {
-        "start_pos": 275,
-        "end_pos": 279,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "হাসি",
-        "label": "new"
-    },
     "T15": {
         "start_pos": 281,
         "end_pos": 289,
         "nominal_type": "_Unsorted_",
         "annotated_span": "দুই চোখে",
-        "label": "new"
-    },
-    "T16": {
-        "start_pos": 300,
-        "end_pos": 303,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নাচ",
         "label": "new"
     },
     "T17": {
@@ -258,13 +209,6 @@
         "annotated_span": "তার দেহ",
         "label": "given"
     },
-    "T39": {
-        "start_pos": 856,
-        "end_pos": 863,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "টেবিলের",
-        "label": "given"
-    },
     "T40": {
         "start_pos": 869,
         "end_pos": 872,
@@ -291,13 +235,6 @@
         "end_pos": 934,
         "nominal_type": "_Unsorted_",
         "annotated_span": "সে",
-        "label": "given"
-    },
-    "T44": {
-        "start_pos": 958,
-        "end_pos": 962,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জলের",
         "label": "given"
     },
     "T45": {
@@ -342,20 +279,6 @@
         "annotated_span": "অশ্রু-নদী",
         "label": "new"
     },
-    "T51": {
-        "start_pos": 1115,
-        "end_pos": 1118,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "দেহ",
-        "label": "given"
-    },
-    "T52": {
-        "start_pos": 1131,
-        "end_pos": 1134,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "চোখ",
-        "label": "given"
-    },
     "T53": {
         "start_pos": 1149,
         "end_pos": 1151,
@@ -397,5 +320,82 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "চোখের জল",
         "label": "given"
+    },
+    "T6": {
+        "start_pos": 148,
+        "end_pos": 160,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "চক্চকে ল্যাজ",
+        "label": "new"
+    },
+    "T7": {
+        "start_pos": 172,
+        "end_pos": 184,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গঙ্গানদীর জল",
+        "label": "new"
+    },
+    "T8": {
+        "start_pos": 243,
+        "end_pos": 254,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কত ইলিস মাছ",
+        "label": "new"
+    },
+    "T12": {
+        "start_pos": 268,
+        "end_pos": 279,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মিষ্টি হাসি",
+        "label": "new"
+    },
+    "T14": {
+        "start_pos": 294,
+        "end_pos": 303,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "খুশির নাচ",
+        "label": "new"
+    },
+    "T16": {
+        "start_pos": 801,
+        "end_pos": 812,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই মুস্কিল",
+        "label": "given"
+    },
+    "T36": {
+        "start_pos": 856,
+        "end_pos": 868,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টেবিলের উপরে",
+        "label": "given"
+    },
+    "T39": {
+        "start_pos": 953,
+        "end_pos": 962,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "লোনা জলের",
+        "label": "new"
+    },
+    "T44": {
+        "start_pos": 1107,
+        "end_pos": 1118,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মস্ত-বড় দেহ",
+        "label": "given"
+    },
+    "T51": {
+        "start_pos": 1123,
+        "end_pos": 1134,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মস্ত-বড় চোখ",
+        "label": "given"
+    },
+    "T13": {
+        "start_pos": 256,
+        "end_pos": 267,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঠোঁটের কোণে",
+        "label": "new"
     }
 }

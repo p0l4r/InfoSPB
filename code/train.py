@@ -1,137 +1,112 @@
 import os
 import json
 import numpy as np
+from sklearn.model_selection import KFold, train_test_split
 from datasets import Dataset
-from transformers import AutoTokenizer, AutoModelForTokenClassification
-from transformers.data.data_collator import DataCollatorForTokenClassification 
-from transformers.trainer import Trainer
-from transformers.training_args import TrainingArguments
+from transformers import AutoTokenizer
+from infospb import load_data, tokenize_and_align_labels, compute_metrics, count_parameters, train_and_evaluate
 
-from seqeval.metrics import f1_score, precision_score, recall_score
+# ==================== Load Parameters ====================
+with open("./parameter_tuning.json", "r", encoding="utf-8") as f:
+    config = json.load(f)  # this can be overridden by config.get(...) below if needed for faster experimentation
 
-# ==================== CONFIG ====================
-DATA_DIR = "../processed_data"  # <-- UPDATE THIS PATH
-OUTPUT_DIR = "../output"
-MODEL_NAME = "xlm-roberta-base"
-SEED = 42
-NUM_EPOCHS = 5
-TRAIN_RATIO, VAL_RATIO = 0.8, 0.1
-# ==================== END CONFIG ====================
+DATA_DIR = config.get("data_dir", "../processed_data")
+OUTPUT_DIR = config.get("output_dir", "../output")
+MODEL_NAME = config.get("model_name", "csebuetnlp/banglabert")
+SEED = config.get("seed", 42) # don't change this
+NUM_EPOCHS = config.get("num_epochs", 50)
+BATCH_SIZE = config.get("batch_size", 8)
+LEARNING_RATE = config.get("learning_rate", 0.01)
+WEIGHT_DECAY = config.get("weight_decay", 0.01)
+LR_SCHEDULER_TYPE = config.get("lr_scheduler_type", "linear")
+WARMUP_RATIO = config.get("warmup_ratio", 0.1)
+SPLITS = config.get("splits", {"train": 0.8, "val": 0.1, "test": 0.1})
+K_FOLDS = config.get("k_folds", 10)  # 0 = no CV
+FREEZE_BASE_MODEL = config.get("training", {}).get("freeze_base_model", True)
+
+DATA_INTAKE = 30  # This is used to limit data loading for experimentation. This value is equivalent to the number of data files to load.
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# -------------------- Load data --------------------
-def load_data(data_dir):
-    sentences, labels = [], []
-    # Walk through all subdirectories
-    for subfolder in os.listdir(data_dir):
-        subfolder_path = os.path.join(data_dir, subfolder)
-        if os.path.isdir(subfolder_path):
-            for fname in os.listdir(subfolder_path):
-                if fname.endswith("_final.json"):
-                    file_path = os.path.join(subfolder_path, fname)
-                    print(f"🔄 Loading {file_path}...")
-                    with open(file_path, encoding="utf-8") as f:
-                        file_data = json.load(f)
-                        for entry in file_data.values():
-                            sentences.append(entry["sentence"])  # list of tokens
-                            labels.append(entry["label"])          # list of labels
-    return sentences, labels
+# -------------------- Load Data --------------------
+sentences, labels = load_data(DATA_DIR, data_intake=DATA_INTAKE)
 
-# Usage
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "processed_data")
-sentences, labels = load_data(DATA_DIR)
-
-# -------------------- Prepare label maps --------------------
+# -------------------- Label Maps --------------------
 unique_labels = sorted({label for seq in labels for label in seq})
 label2id = {label: i for i, label in enumerate(unique_labels)}
 id2label = {i: label for label, i in label2id.items()}
 
-# -------------------- Tokenizer & Encoding --------------------
+# -------------------- Tokenizer --------------------
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, add_prefix_space=True)
 
-def tokenize_and_align_labels(examples):
-    tokenized = tokenizer(
-        examples["tokens"],
-        is_split_into_words=True,
-        truncation=True,
-        padding=True,
-    )
-    aligned_labels = []
-    for i, label_seq in enumerate(examples["labels"]):
-        word_ids = tokenized.word_ids(batch_index=i)
-        label_ids = [-100] * len(word_ids)
-        for word_idx, label in enumerate(label_seq):
-            for token_idx, w_id in enumerate(word_ids):
-                if w_id == word_idx:
-                    label_ids[token_idx] = label2id[label]
-        aligned_labels.append(label_ids)
-    tokenized["labels"] = aligned_labels
-    return tokenized
 
-# -------------------- Dataset --------------------
-dataset = Dataset.from_dict({"tokens": sentences, "labels": labels}).map(
-    tokenize_and_align_labels, batched=True
-)
+if __name__ == "__main__":
+    
+    if K_FOLDS > 1: # K-Fold Cross-Validation
+        print(f"Running {K_FOLDS}-fold cross-validation...")
+        kf = KFold(n_splits=K_FOLDS, shuffle=True, random_state=SEED)
+        results = []
+        for fold, (train_idx, test_idx) in enumerate(kf.split(sentences)):
+            train_sents = [sentences[i] for i in train_idx]
+            train_labels = [labels[i] for i in train_idx]
+            test_sents = [sentences[i] for i in test_idx]
+            test_labels = [labels[i] for i in test_idx]
 
-# Split into train/val/test
-train_size = int(TRAIN_RATIO * len(dataset))
-val_size = int(VAL_RATIO * len(dataset))
-train_data = dataset.select(range(train_size))
-val_data = dataset.select(range(train_size, train_size + val_size))
-test_data = dataset.select(range(train_size + val_size, len(dataset)))
+            train_sents, val_sents, train_labels, val_labels = train_test_split(
+                train_sents, train_labels, test_size=SPLITS["val"], random_state=SEED
+            )
 
-# -------------------- Collator & Metrics --------------------
-data_collator = DataCollatorForTokenClassification(tokenizer)
+            train_dataset = Dataset.from_dict({"tokens": train_sents, "labels": train_labels}).map(
+                lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+            )
+            val_dataset = Dataset.from_dict({"tokens": val_sents, "labels": val_labels}).map(
+                lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+            )
+            test_dataset = Dataset.from_dict({"tokens": test_sents, "labels": test_labels}).map(
+                lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+            )
 
-def compute_metrics(p):
-    preds, labels = p
-    preds = np.argmax(preds, axis=2)
-    true_labels = [[id2label[l] for l in label if l != -100] for label in labels]
-    true_preds = [
-        [id2label[p] for p, l in zip(pred, label) if l != -100] for pred, label in zip(preds, labels)
-    ]
-    return {
-        "f1": f1_score(true_labels, true_preds),
-        "precision": precision_score(true_labels, true_preds),
-        "recall": recall_score(true_labels, true_preds),
-    }
+            eval_results, model, param_stats = train_and_evaluate(
+                MODEL_NAME, id2label, label2id, FREEZE_BASE_MODEL, OUTPUT_DIR, 
+                BATCH_SIZE, NUM_EPOCHS, LEARNING_RATE, WEIGHT_DECAY, LR_SCHEDULER_TYPE, WARMUP_RATIO, tokenizer, 
+                train_dataset, val_dataset, test_dataset, fold=fold
+            )
+            results.append(eval_results)
 
-# -------------------- Trainer --------------------
-model = AutoModelForTokenClassification.from_pretrained(
-    MODEL_NAME,
-    num_labels=len(label2id),
-    id2label=id2label,
-    label2id=label2id,
-)
+        avg_results = {k: np.mean([r[k] for r in results]) for k in results[0].keys()}
+        print("Average CV Results:", avg_results)
 
-args = TrainingArguments(
-    output_dir=OUTPUT_DIR,
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    num_train_epochs=NUM_EPOCHS,
-    weight_decay=0.01,
-    eval_strategy="epoch",
-    save_strategy="epoch",
-    seed=SEED,
-    logging_steps=50,
-    report_to="none",
-)
+        with open(os.path.join(OUTPUT_DIR, "best_parameters.json"), "w", encoding="utf-8") as f:
+            json.dump({"config": config, "results": avg_results}, f, ensure_ascii=False, indent=2)
 
-trainer = Trainer(
-    model=model,
-    args=args,
-    train_dataset=train_data,
-    eval_dataset=val_data,
-    data_collator=data_collator,
-    compute_metrics=compute_metrics,
-    processing_class=tokenizer,
-)
+    else:  # Standard train/val/test split
+        train_sents, temp_sents, train_labels, temp_labels = train_test_split(
+            sentences, labels, test_size=(1 - SPLITS["train"]), random_state=SEED
+        )
+        val_size = SPLITS["val"] / (SPLITS["val"] + SPLITS["test"])
+        val_sents, test_sents, val_labels, test_labels = train_test_split(
+            temp_sents, temp_labels, test_size=(1 - val_size), random_state=SEED
+        )
 
-# -------------------- Train & Save --------------------
-trainer.train()
-trainer.evaluate(test_data)
+        train_dataset = Dataset.from_dict({"tokens": train_sents, "labels": train_labels}).map(
+            lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+        )
+        val_dataset = Dataset.from_dict({"tokens": val_sents, "labels": val_labels}).map(
+            lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+        )
+        test_dataset = Dataset.from_dict({"tokens": test_sents, "labels": test_labels}).map(
+            lambda examples: tokenize_and_align_labels(config=config, examples=examples, label2id=label2id, tokenizer=tokenizer), batched=True
+        )
 
-model.save_pretrained(os.path.join(OUTPUT_DIR, "final_model"))
-tokenizer.save_pretrained(os.path.join(OUTPUT_DIR, "final_model"))
-print("✅ Model and tokenizer saved!")
+        eval_results, model, param_stats = train_and_evaluate(
+            MODEL_NAME, id2label, label2id, FREEZE_BASE_MODEL, OUTPUT_DIR, 
+            BATCH_SIZE, NUM_EPOCHS, LEARNING_RATE, WEIGHT_DECAY, LR_SCHEDULER_TYPE, WARMUP_RATIO, tokenizer, 
+            train_dataset, val_dataset, test_dataset
+        )
+
+        with open(os.path.join(OUTPUT_DIR, "best_parameters.json"), "w", encoding="utf-8") as f:
+            json.dump({"config": config, "results": eval_results}, f, ensure_ascii=False, indent=2)
+
+        model.save_pretrained(os.path.join(OUTPUT_DIR, "final_model"))
+        tokenizer.save_pretrained(os.path.join(OUTPUT_DIR, "final_model"))
+        print("Model and tokenizer saved!")

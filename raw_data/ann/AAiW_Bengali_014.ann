@@ -1,9 +1,3 @@
-T4	_Unsorted_ 47 50	তার
-A4	InfStat T4 given
-T5	_Unsorted_ 51 55	মুখে
-A5	InfStat T5 given
-T6	_Unsorted_ 63 68	চিহ্ন
-A6	InfStat T6 new
 T7	_Unsorted_ 78 80	সে
 A7	InfStat T7 given
 T8	_Unsorted_ 123 125	সে
@@ -16,44 +10,24 @@ T11	_Unsorted_ 202 208	রানীজী
 A11	InfStat T11 given
 T12	_Unsorted_ 234 239	আমাকে
 A12	InfStat T12 given
-T13	_Unsorted_ 240 246	ফাঁসিই
-A13	InfStat T13 new
-T14	_Unsorted_ 275 279	আমার
-A14	InfStat T14 given
 T15	_Unsorted_ 281 290	জিনিসদুটো
 A15	InfStat T15 new
 T16	_Unsorted_ 317 322	অমলার
 A16	InfStat T16 given
 T17	_Unsorted_ 347 352	খরগোস
 A17	InfStat T17 given
-T18	_Unsorted_ 353 356	তার
-A18	InfStat T18 given
-T19	_Unsorted_ 364 369	জিনিস
-A19	InfStat T19 given
-T20	_Unsorted_ 385 388	তার
-A20	InfStat T20 given
-T21	_Unsorted_ 389 394	জিনিস
-A21	InfStat T21 given
 T22	_Unsorted_ 395 399	তাকে
 A22	InfStat T22 given
 T23	_Unsorted_ 419 424	অমলাও
 A23	InfStat T23 given
 T24	_Unsorted_ 473 482	অশ্রু-নদী
 A24	InfStat T24 given
-T26	_Unsorted_ 533 547	-সেই ঝাড়-লণ্ঠন
-A26	InfStat T26 given
-T27	_Unsorted_ 555 560	হল-ঘর
-A27	InfStat T27 given
-T29	_Unsorted_ 593 599	দরজাটি
-A29	InfStat T29 given
 T30	_Unsorted_ 614 618	চোখে
 A30	InfStat T30 given
 T31	_Unsorted_ 629 635	খরগোসও
 A31	InfStat T31 given
 T32	_Unsorted_ 643 649	অমলাকে
 A32	InfStat T32 given
-T33	_Unsorted_ 691 695	ভুতী
-A33	InfStat T33 new
 T34	_Unsorted_ 697 700	তুই
 A34	InfStat T34 given
 T35	_Unsorted_ 729 733	বাড়ি
@@ -64,8 +38,6 @@ T37	_Unsorted_ 750 767	একজোড়া সোনার চুড়ি
 A37	InfStat T37 given
 T38	_Unsorted_ 771 789	একখানা জাপানি পাখা
 A38	InfStat T38 given
-T39	_Unsorted_ 814 817	তার
-A39	InfStat T39 given
 T41	_Unsorted_ 823 828	অমলার
 A41	InfStat T41 given
 T42	_Unsorted_ 841 845	মুখে
@@ -96,3 +68,23 @@ T1	_Unsorted_ 21 31	সাদা খরগোস
 A1	InfStat T1 given
 T2	_Unsorted_ 562 579	কাঁচের চিকণ টেবিল
 A2	InfStat T2 given
+T3	_Unsorted_ 47 55	তার মুখে
+A3	InfStat T3 given
+T4	_Unsorted_ 56 68	ভাবনার চিহ্ন
+A4	InfStat T4 new
+T5	_Unsorted_ 266 279	পোড়াকপাল আমার
+A5	InfStat T5 given
+T6	_Unsorted_ 353 369	তার হারানো জিনিস
+A6	InfStat T6 given
+T14	_Unsorted_ 385 394	তার জিনিস
+A14	InfStat T14 given
+T18	_Unsorted_ 534 560	সেই ঝাড়-লণ্ঠন-ঝোলানো হল-ঘর
+A18	InfStat T18 given
+T19	_Unsorted_ 583 599	সেই ছোট্ট দরজাটি
+A19	InfStat T19 given
+T20	_Unsorted_ 814 822	তার কথায়
+A20	InfStat T20 given
+T13	_Unsorted_ 240 255	ফাঁসিই যেতে হবে
+A13	InfStat T13 new
+T21	_Unsorted_ 683 695	হ্যাঁরে ভুতী
+A21	InfStat T21 new

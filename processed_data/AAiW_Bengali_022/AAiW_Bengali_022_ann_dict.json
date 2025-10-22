@@ -20,13 +20,6 @@
         "annotated_span": "শোঁয়াপোকা",
         "label": "given"
     },
-    "T7": {
-        "start_pos": 119,
-        "end_pos": 123,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নলটা",
-        "label": "given"
-    },
     "T8": {
         "start_pos": 143,
         "end_pos": 147,
@@ -249,20 +242,6 @@
         "end_pos": 954,
         "nominal_type": "_Unsorted_",
         "annotated_span": "আপনার মনের",
-        "label": "given"
-    },
-    "T1": {
-        "start_pos": 99,
-        "end_pos": 102,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "তার",
-        "label": "given"
-    },
-    "T5": {
-        "start_pos": 103,
-        "end_pos": 106,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মুখ",
         "label": "new"
     },
     "T6": {
@@ -271,5 +250,33 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "তোমার",
         "label": "given"
+    },
+    "T1": {
+        "start_pos": 99,
+        "end_pos": 106,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "তার মুখ",
+        "label": "new"
+    },
+    "T5": {
+        "start_pos": 112,
+        "end_pos": 123,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গড়গড়ার নলটা",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 418,
+        "end_pos": 422,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অমলা",
+        "label": "given"
+    },
+    "T40": {
+        "start_pos": 376,
+        "end_pos": 386,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কড়া আওয়াজে",
+        "label": "new"
     }
 }

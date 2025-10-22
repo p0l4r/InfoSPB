@@ -4,7 +4,7 @@
         "end_pos": 19,
         "nominal_type": "_Unsorted_",
         "annotated_span": "এই উল্টো রাজার দেশে",
-        "label": "given"
+        "label": "new"
     },
     "T2": {
         "start_pos": 20,
@@ -139,34 +139,6 @@
         "annotated_span": "ইঁদুর",
         "label": "given"
     },
-    "T19": {
-        "start_pos": 348,
-        "end_pos": 352,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পাজি",
-        "label": "new"
-    },
-    "T24": {
-        "start_pos": 353,
-        "end_pos": 359,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "হতভাগা",
-        "label": "new"
-    },
-    "T25": {
-        "start_pos": 360,
-        "end_pos": 367,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জানোয়ার",
-        "label": "new"
-    },
-    "T21": {
-        "start_pos": 389,
-        "end_pos": 395,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমাদের",
-        "label": "given"
-    },
     "T20": {
         "start_pos": 371,
         "end_pos": 376,
@@ -179,6 +151,34 @@
         "end_pos": 312,
         "nominal_type": "_Unsorted_",
         "annotated_span": "নাম",
+        "label": "new"
+    },
+    "T21": {
+        "start_pos": 389,
+        "end_pos": 398,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমাদের গা",
+        "label": "new"
+    },
+    "T27": {
+        "start_pos": 123,
+        "end_pos": 127,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভায়া",
+        "label": "new"
+    },
+    "T28": {
+        "start_pos": 240,
+        "end_pos": 244,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভায়া",
+        "label": "given"
+    },
+    "T19": {
+        "start_pos": 348,
+        "end_pos": 367,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "পাজি হতভাগা জানোয়ার",
         "label": "new"
     }
 }

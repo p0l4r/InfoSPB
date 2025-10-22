@@ -110,5 +110,19 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "সে",
         "label": "given"
+    },
+    "T18": {
+        "start_pos": 314,
+        "end_pos": 318,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাপু",
+        "label": "new"
+    },
+    "T4": {
+        "start_pos": 59,
+        "end_pos": 63,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মশাই",
+        "label": "given"
     }
 }

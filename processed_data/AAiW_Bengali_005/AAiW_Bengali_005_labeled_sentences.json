@@ -129,7 +129,7 @@
             "O",
             "B-new",
             "O",
-            "O",
+            "B-new",
             "O",
             "O",
             "O"
@@ -150,7 +150,7 @@
             "I-given",
             "O",
             "B-given",
-            "O"
+            "I-given"
         ]
     },
     "7": {
@@ -291,7 +291,7 @@
             "O",
             "O",
             "B-given",
-            "O",
+            "I-given",
             "O",
             "B-given",
             "O",
@@ -340,7 +340,7 @@
             "B-given",
             "O",
             "B-given",
-            "O",
+            "I-given",
             "O",
             "O"
         ]

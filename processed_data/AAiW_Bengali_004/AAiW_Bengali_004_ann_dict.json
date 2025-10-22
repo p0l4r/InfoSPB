@@ -111,27 +111,6 @@
         "annotated_span": "আমাকে",
         "label": "given"
     },
-    "T17": {
-        "start_pos": 437,
-        "end_pos": 442,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "যা-তা",
-        "label": "given"
-    },
-    "T18": {
-        "start_pos": 503,
-        "end_pos": 509,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমাদের",
-        "label": "given"
-    },
-    "T19": {
-        "start_pos": 510,
-        "end_pos": 514,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "অমলা",
-        "label": "given"
-    },
     "T20": {
         "start_pos": 520,
         "end_pos": 531,

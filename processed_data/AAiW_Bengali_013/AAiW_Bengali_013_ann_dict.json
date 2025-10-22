@@ -48,20 +48,6 @@
         "annotated_span": "টিয়াপাখি",
         "label": "new"
     },
-    "T9": {
-        "start_pos": 98,
-        "end_pos": 103,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আপনার",
-        "label": "given"
-    },
-    "T10": {
-        "start_pos": 104,
-        "end_pos": 110,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গল্পটা",
-        "label": "given"
-    },
     "T11": {
         "start_pos": 118,
         "end_pos": 123,
@@ -104,34 +90,6 @@
         "annotated_span": "অমলা",
         "label": "given"
     },
-    "T17": {
-        "start_pos": 197,
-        "end_pos": 202,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নিজের",
-        "label": "given"
-    },
-    "T18": {
-        "start_pos": 203,
-        "end_pos": 211,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মনে মনেই",
-        "label": "given"
-    },
-    "T19": {
-        "start_pos": 228,
-        "end_pos": 232,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমার",
-        "label": "given"
-    },
-    "T20": {
-        "start_pos": 233,
-        "end_pos": 237,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পুষি",
-        "label": "new"
-    },
     "T21": {
         "start_pos": 260,
         "end_pos": 272,
@@ -160,13 +118,6 @@
         "annotated_span": "তার",
         "label": "given"
     },
-    "T25": {
-        "start_pos": 328,
-        "end_pos": 332,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ঠোঁট",
-        "label": "new"
-    },
     "T26": {
         "start_pos": 354,
         "end_pos": 358,
@@ -188,20 +139,6 @@
         "annotated_span": "অমলা",
         "label": "given"
     },
-    "T29": {
-        "start_pos": 381,
-        "end_pos": 385,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমার",
-        "label": "given"
-    },
-    "T30": {
-        "start_pos": 386,
-        "end_pos": 390,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পুষি",
-        "label": "given"
-    },
     "T31": {
         "start_pos": 391,
         "end_pos": 393,
@@ -214,20 +151,6 @@
         "end_pos": 409,
         "nominal_type": "_Unsorted_",
         "annotated_span": "সে",
-        "label": "given"
-    },
-    "T33": {
-        "start_pos": 410,
-        "end_pos": 414,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমার",
-        "label": "given"
-    },
-    "T34": {
-        "start_pos": 420,
-        "end_pos": 425,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বিড়াল",
         "label": "given"
     },
     "T36": {
@@ -335,27 +258,6 @@
         "annotated_span": "পছন্দ",
         "label": "new"
     },
-    "T52": {
-        "start_pos": 707,
-        "end_pos": 711,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "আমার",
-        "label": "given"
-    },
-    "T53": {
-        "start_pos": 712,
-        "end_pos": 717,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পুষির",
-        "label": "given"
-    },
-    "T54": {
-        "start_pos": 725,
-        "end_pos": 730,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বিড়াল",
-        "label": "given"
-    },
     "T55": {
         "start_pos": 753,
         "end_pos": 757,
@@ -419,25 +321,74 @@
         "annotated_span": "মুখ",
         "label": "given"
     },
-    "T8": {
-        "start_pos": 79,
-        "end_pos": 89,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ইঁদুর মশাই",
-        "label": "given"
-    },
-    "T64": {
-        "start_pos": 415,
-        "end_pos": 419,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "পোষা",
-        "label": "given"
-    },
     "T65": {
         "start_pos": 426,
         "end_pos": 431,
         "nominal_type": "_Unsorted_",
         "annotated_span": "ইঁদুর",
         "label": "new"
+    },
+    "T8": {
+        "start_pos": 98,
+        "end_pos": 110,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আপনার গল্পটা",
+        "label": "given"
+    },
+    "T9": {
+        "start_pos": 131,
+        "end_pos": 134,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ধমক",
+        "label": "new"
+    },
+    "T10": {
+        "start_pos": 197,
+        "end_pos": 211,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নিজের মনে মনেই",
+        "label": "given"
+    },
+    "T17": {
+        "start_pos": 228,
+        "end_pos": 237,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার পুষি",
+        "label": "given"
+    },
+    "T18": {
+        "start_pos": 320,
+        "end_pos": 332,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বাঁকানো ঠোঁট",
+        "label": "new"
+    },
+    "T19": {
+        "start_pos": 381,
+        "end_pos": 390,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার পুষি",
+        "label": "given"
+    },
+    "T20": {
+        "start_pos": 410,
+        "end_pos": 425,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার পোষা বিড়াল",
+        "label": "given"
+    },
+    "T25": {
+        "start_pos": 707,
+        "end_pos": 717,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "আমার পুষির",
+        "label": "given"
+    },
+    "T29": {
+        "start_pos": 721,
+        "end_pos": 730,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ভাল বিড়াল",
+        "label": "given"
     }
 }

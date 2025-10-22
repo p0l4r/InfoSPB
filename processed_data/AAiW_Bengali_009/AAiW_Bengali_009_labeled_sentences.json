@@ -131,10 +131,10 @@
             "O",
             "B-given",
             "O",
+            "B-given",
             "O",
-            "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "O",
             "O"
         ]

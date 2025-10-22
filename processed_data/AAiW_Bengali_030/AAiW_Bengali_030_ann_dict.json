@@ -62,20 +62,6 @@
         "annotated_span": "বাড়ির দরজাটা",
         "label": "given"
     },
-    "T11": {
-        "start_pos": 293,
-        "end_pos": 304,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "সানকি গাড়ির",
-        "label": "new"
-    },
-    "T12": {
-        "start_pos": 305,
-        "end_pos": 310,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "চাকার",
-        "label": "new"
-    },
     "T13": {
         "start_pos": 338,
         "end_pos": 352,
@@ -103,20 +89,6 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "তার",
         "label": "given"
-    },
-    "T17": {
-        "start_pos": 413,
-        "end_pos": 418,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নাকের",
-        "label": "new"
-    },
-    "T18": {
-        "start_pos": 419,
-        "end_pos": 423,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ডগার",
-        "label": "new"
     },
     "T19": {
         "start_pos": 506,
@@ -158,13 +130,6 @@
         "end_pos": 697,
         "nominal_type": "_Unsorted_",
         "annotated_span": "মেয়ে",
-        "label": "given"
-    },
-    "T25": {
-        "start_pos": 737,
-        "end_pos": 748,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "নিজের মুখের",
         "label": "given"
     },
     "T26": {
@@ -291,6 +256,62 @@
         "end_pos": 1088,
         "nominal_type": "_Unsorted_",
         "annotated_span": "আমি",
+        "label": "given"
+    },
+    "T11": {
+        "start_pos": 286,
+        "end_pos": 298,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একখানা সানকি",
+        "label": "new"
+    },
+    "T12": {
+        "start_pos": 299,
+        "end_pos": 310,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গাড়ির চাকার",
+        "label": "new"
+    },
+    "T17": {
+        "start_pos": 413,
+        "end_pos": 423,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নাকের ডগার",
+        "label": "new"
+    },
+    "T18": {
+        "start_pos": 643,
+        "end_pos": 652,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "প্রথম কথা",
+        "label": "new"
+    },
+    "T43": {
+        "start_pos": 701,
+        "end_pos": 711,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "প্রথম কথাই",
+        "label": "given"
+    },
+    "T44": {
+        "start_pos": 719,
+        "end_pos": 731,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "দ্বিতীয় কথাই",
+        "label": "new"
+    },
+    "T25": {
+        "start_pos": 737,
+        "end_pos": 752,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "নিজের মুখের উপর",
+        "label": "given"
+    },
+    "T45": {
+        "start_pos": 753,
+        "end_pos": 760,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এমন কথা",
         "label": "given"
     }
 }

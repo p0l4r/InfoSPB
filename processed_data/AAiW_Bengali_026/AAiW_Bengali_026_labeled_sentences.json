@@ -26,11 +26,11 @@
             "জোর"
         ],
         "label": [
-            "O",
+            "B-new",
             "O",
             "O",
             "B-new",
-            "B-given",
+            "I-new",
             "O",
             "O",
             "O",
@@ -45,8 +45,8 @@
             "খুড়ো"
         ],
         "label": [
-            "O",
             "B-given",
+            "I-given",
             "B-given",
             "I-given"
         ]
@@ -66,17 +66,17 @@
             "কানা"
         ],
         "label": [
+            "B-new",
+            "I-new",
+            "O",
+            "O",
+            "O",
             "O",
             "B-given",
             "O",
             "O",
-            "O",
-            "O",
-            "B-given",
-            "O",
-            "O",
-            "O",
-            "B-given"
+            "B-new",
+            "I-new"
         ]
     },
     "5": {
@@ -114,9 +114,9 @@
         "label": [
             "O",
             "O",
-            "O",
-            "O",
-            "B-new"
+            "B-new",
+            "I-new",
+            "I-new"
         ]
     },
     "7": {
@@ -160,8 +160,8 @@
             "O",
             "O",
             "O",
-            "O",
             "B-new",
+            "I-new",
             "O"
         ]
     },
@@ -214,8 +214,8 @@
         ],
         "label": [
             "B-given",
-            "O",
-            "B-new",
+            "B-given",
+            "I-given",
             "O"
         ]
     },
@@ -440,8 +440,8 @@
         ],
         "label": [
             "O",
-            "O",
             "B-new",
+            "I-new",
             "O",
             "O",
             "O",
@@ -468,8 +468,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "B-given",
+            "B-new",
+            "I-new",
             "O",
             "O",
             "O"
@@ -488,8 +488,8 @@
         "label": [
             "O",
             "O",
-            "O",
             "B-given",
+            "I-given",
             "O",
             "O",
             "O"
@@ -504,8 +504,8 @@
         ],
         "label": [
             "B-given",
-            "O",
             "B-new",
+            "I-new",
             "O"
         ]
     },
@@ -524,8 +524,8 @@
         "label": [
             "O",
             "B-new",
-            "O",
             "B-given",
+            "I-given",
             "O",
             "O",
             "O",

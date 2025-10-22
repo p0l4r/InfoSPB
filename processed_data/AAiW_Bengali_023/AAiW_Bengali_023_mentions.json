@@ -162,11 +162,12 @@
             "global_mention_id": "M16"
         },
         {
-            "type": "given",
+            "type": "new",
             "tokens": [
+                "হেঁড়ে",
                 "গলায়"
             ],
-            "start_index": 2,
+            "start_index": 1,
             "end_index": 2,
             "global_mention_id": "M17"
         }
@@ -181,35 +182,18 @@
             "start_index": 0,
             "end_index": 0,
             "global_mention_id": "M18"
-        },
-        {
-            "type": "new",
-            "tokens": [
-                "ধাঁধা"
-            ],
-            "start_index": 2,
-            "end_index": 2,
-            "global_mention_id": "M19"
         }
     ],
     "11": [
         {
-            "type": "given",
-            "tokens": [
-                "শোঁয়াপোকার"
-            ],
-            "start_index": 0,
-            "end_index": 0,
-            "global_mention_id": "M20"
-        },
-        {
             "type": "new",
             "tokens": [
+                "শোঁয়াপোকার",
                 "মেজাজটা"
             ],
-            "start_index": 1,
+            "start_index": 0,
             "end_index": 1,
-            "global_mention_id": "M21"
+            "global_mention_id": "M19"
         }
     ]
 }

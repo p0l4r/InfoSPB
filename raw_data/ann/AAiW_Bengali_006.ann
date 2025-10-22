@@ -46,8 +46,6 @@ T27	_Unsorted_ 587 603	তার এক-একটা চোখই
 A27	InfStat T27 given
 T28	_Unsorted_ 604 615	সেই গর্তটার
 A28	InfStat T28 given
-T29	_Unsorted_ 640 645	মাটির
-A29	InfStat T29 given
 T30	_Unsorted_ 650 652	পা
 A30	InfStat T30 given
 T31	_Unsorted_ 663 667	অমলা
@@ -70,8 +68,6 @@ T39	_Unsorted_ 847 855	ডান হাতে
 A39	InfStat T39 new
 T40	_Unsorted_ 856 859	তার
 A40	InfStat T40 given
-T41	_Unsorted_ 861 888	কজোড়া ডায়মন-কাটা সোনার চুড়ি
-A41	InfStat T41 new
 T42	_Unsorted_ 893 901	বাঁ হাতে
 A42	InfStat T42 new
 T43	_Unsorted_ 908 926	একখানি জাপানি পাখা
@@ -80,11 +76,17 @@ T44	_Unsorted_ 968 970	সে
 A44	InfStat T44 given
 T45	_Unsorted_ 994 1000	রানীজী
 A45	InfStat T45 new
-T1	_Unsorted_ 73 81	দূরবীনের
-A1	InfStat T1 given
-T4	_Unsorted_ 248 257	জুতো-মোজা
-A4	InfStat T4 given
 T10	_Unsorted_ 457 464	বাগানের
 A10	InfStat T10 given
 T22	_Unsorted_ 465 474	ছোট দরজার
 A22	InfStat T22 given
+T1	_Unsorted_ 63 81	সবচেয়ে বড় দূরবীনের
+A1	InfStat T1 given
+T46	_Unsorted_ 673 679	কান্না
+A46	InfStat T46 given
+T4	_Unsorted_ 242 257	এত বড় জুতো-মোজা
+A4	InfStat T4 given
+T29	_Unsorted_ 640 649	মাটির উপর
+A29	InfStat T29 new
+T41	_Unsorted_ 860 888	একজোড়া ডায়মন-কাটা সোনার চুড়ি
+A41	InfStat T41 new

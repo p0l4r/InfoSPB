@@ -211,8 +211,8 @@
         "label": [
             "O",
             "O",
-            "B-given",
-            "I-given",
+            "O",
+            "O",
             "O",
             "O",
             "O",
@@ -237,8 +237,8 @@
         ],
         "label": [
             "O",
-            "B-given",
-            "B-given",
+            "O",
+            "O",
             "O",
             "B-given",
             "I-given",

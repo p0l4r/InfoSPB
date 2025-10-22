@@ -12,10 +12,6 @@ T6	_Unsorted_ 37 41	হাঁস
 A6	InfStat T6 given
 T7	_Unsorted_ 45 53	টিয়াপাখি
 A7	InfStat T7 new
-T9	_Unsorted_ 98 103	আপনার
-A9	InfStat T9 given
-T10	_Unsorted_ 104 110	গল্পটা
-A10	InfStat T10 given
 T11	_Unsorted_ 118 123	ইঁদুর
 A11	InfStat T11 given
 T12	_Unsorted_ 151 156	তোমরা
@@ -28,14 +24,6 @@ T15	_Unsorted_ 185 188	আমি
 A15	InfStat T15 given
 T16	_Unsorted_ 192 196	অমলা
 A16	InfStat T16 given
-T17	_Unsorted_ 197 202	নিজের
-A17	InfStat T17 given
-T18	_Unsorted_ 203 211	মনে মনেই
-A18	InfStat T18 given
-T19	_Unsorted_ 228 232	আমার
-A19	InfStat T19 given
-T20	_Unsorted_ 233 237	পুষি
-A20	InfStat T20 new
 T21	_Unsorted_ 260 272	ইঁদুর-ভায়াকে
 A21	InfStat T21 given
 T22	_Unsorted_ 282 286	মুখে
@@ -44,26 +32,16 @@ T23	_Unsorted_ 307 315	টিয়াপাখি
 A23	InfStat T23 given
 T24	_Unsorted_ 316 319	তার
 A24	InfStat T24 given
-T25	_Unsorted_ 328 332	ঠোঁট
-A25	InfStat T25 new
 T26	_Unsorted_ 354 358	পুষি
 A26	InfStat T26 given
 T27	_Unsorted_ 361 363	কে
 A27	InfStat T27 given
 T28	_Unsorted_ 367 371	অমলা
 A28	InfStat T28 given
-T29	_Unsorted_ 381 385	আমার
-A29	InfStat T29 given
-T30	_Unsorted_ 386 390	পুষি
-A30	InfStat T30 given
 T31	_Unsorted_ 391 393	কে
 A31	InfStat T31 given
 T32	_Unsorted_ 407 409	সে
 A32	InfStat T32 given
-T33	_Unsorted_ 410 414	আমার
-A33	InfStat T33 given
-T34	_Unsorted_ 420 425	বিড়াল
-A34	InfStat T34 given
 T36	_Unsorted_ 456 460	ইদুর
 A36	InfStat T36 given
 T37	_Unsorted_ 474 478	পাখি
@@ -94,12 +72,6 @@ T50	_Unsorted_ 680 684	তাকে
 A50	InfStat T50 given
 T51	_Unsorted_ 685 690	পছন্দ
 A51	InfStat T51 new
-T52	_Unsorted_ 707 711	আমার
-A52	InfStat T52 given
-T53	_Unsorted_ 712 717	পুষির
-A53	InfStat T53 given
-T54	_Unsorted_ 725 730	বিড়াল
-A54	InfStat T54 given
 T55	_Unsorted_ 753 757	পুষি
 A55	InfStat T55 given
 T56	_Unsorted_ 767 771	তোকে
@@ -118,9 +90,23 @@ T62	_Unsorted_ 887 891	অমলা
 A62	InfStat T62 given
 T63	_Unsorted_ 892 895	মুখ
 A63	InfStat T63 given
-T8	_Unsorted_ 79 89	ইঁদুর মশাই
-A8	InfStat T8 given
-T64	_Unsorted_ 415 419	পোষা
-A64	InfStat T64 given
 T65	_Unsorted_ 426 431	ইঁদুর
 A65	InfStat T65 new
+T8	_Unsorted_ 98 110	আপনার গল্পটা
+A8	InfStat T8 given
+T9	_Unsorted_ 131 134	ধমক
+A9	InfStat T9 new
+T10	_Unsorted_ 197 211	নিজের মনে মনেই
+A10	InfStat T10 given
+T17	_Unsorted_ 228 237	আমার পুষি
+A17	InfStat T17 given
+T18	_Unsorted_ 320 332	বাঁকানো ঠোঁট
+A18	InfStat T18 new
+T19	_Unsorted_ 381 390	আমার পুষি
+A19	InfStat T19 given
+T20	_Unsorted_ 410 425	আমার পোষা বিড়াল
+A20	InfStat T20 given
+T25	_Unsorted_ 707 717	আমার পুষির
+A25	InfStat T25 given
+T29	_Unsorted_ 721 730	ভাল বিড়াল
+A29	InfStat T29 given

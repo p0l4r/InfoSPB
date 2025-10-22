@@ -1,5 +1,5 @@
 T1	_Unsorted_ 0 19	এই উল্টো রাজার দেশে
-A1	InfStat T1 given
+A1	InfStat T1 new
 T2	_Unsorted_ 20 26	ইঁদুরও
 A2	InfStat T2 given
 T3	_Unsorted_ 31 38	মানুষের
@@ -38,15 +38,15 @@ T22	_Unsorted_ 89 93	পোষা
 A22	InfStat T22 new
 T23	_Unsorted_ 94 99	ইঁদুর
 A23	InfStat T23 given
-T19	_Unsorted_ 348 352	পাজি
-A19	InfStat T19 new
-T24	_Unsorted_ 353 359	হতভাগা
-A24	InfStat T24 new
-T25	_Unsorted_ 360 367	জানোয়ার
-A25	InfStat T25 new
-T21	_Unsorted_ 389 395	আমাদের
-A21	InfStat T21 given
 T20	_Unsorted_ 371 376	ও নাম
 A20	InfStat T20 given
 T26	_Unsorted_ 309 312	নাম
 A26	InfStat T26 new
+T21	_Unsorted_ 389 398	আমাদের গা
+A21	InfStat T21 new
+T27	_Unsorted_ 123 127	ভায়া
+A27	InfStat T27 new
+T28	_Unsorted_ 240 244	ভায়া
+A28	InfStat T28 given
+T19	_Unsorted_ 348 367	পাজি হতভাগা জানোয়ার
+A19	InfStat T19 new

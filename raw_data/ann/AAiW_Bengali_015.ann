@@ -1,9 +1,3 @@
-T1	_Unsorted_ 18 23	বাড়ির
-A1	InfStat T1 new
-T2	_Unsorted_ 43 48	বাড়ির
-A2	InfStat T2 given
-T3	_Unsorted_ 49 54	দরজায়
-A3	InfStat T3 new
 T4	_Unsorted_ 68 86	খরগোস মশাইয়ের বাড়ি
 A4	InfStat T4 new
 T5	_Unsorted_ 90 99	দরজার কড়া
@@ -22,12 +16,6 @@ T11	_Unsorted_ 220 222	সে
 A11	InfStat T11 given_inact
 T12	_Unsorted_ 223 227	তাকে
 A12	InfStat T12 given
-T13	_Unsorted_ 252 257	বাইরে
-A13	InfStat T13 new
-T14	_Unsorted_ 280 289	একটা ঘরের
-A14	InfStat T14 new
-T15	_Unsorted_ 301 307	জানলার
-A15	InfStat T15 new
 T16	_Unsorted_ 313 323	এক টেবিলের
 A16	InfStat T16 new
 T17	_Unsorted_ 340 343	তার
@@ -44,3 +32,11 @@ T22	_Unsorted_ 432 434	সে
 A22	InfStat T22 given
 T23	_Unsorted_ 453 455	ঘর
 A23	InfStat T23 given
+T1	_Unsorted_ 0 23	ঝকঝকে-তকতকে ছোট্ট বাড়ির
+A1	InfStat T1 new
+T2	_Unsorted_ 43 54	বাড়ির দরজায়
+A2	InfStat T2 new
+T3	_Unsorted_ 273 289	পুঁচকে একটা ঘরের
+A3	InfStat T3 new
+T13	_Unsorted_ 301 312	জানলার ধারে
+A13	InfStat T13 new

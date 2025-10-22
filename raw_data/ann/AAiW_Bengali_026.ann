@@ -1,33 +1,19 @@
 T1	_Unsorted_ 21 25	পাড়া
 A1	InfStat T1 new
-T2	_Unsorted_ 48 54	চোয়ালে
-A2	InfStat T2 new
-T3	_Unsorted_ 55 58	মোর
-A3	InfStat T3 given
-T4	_Unsorted_ 87 91	বুড়ো
-A4	InfStat T4 given
 T5	_Unsorted_ 92 101	তুমি খুড়ো
 A5	InfStat T5 given
-T6	_Unsorted_ 108 113	তোমার
-A6	InfStat T6 given
 T7	_Unsorted_ 129 133	তুমি
 A7	InfStat T7 given
-T8	_Unsorted_ 148 152	কানা
-A8	InfStat T8 given
 T9	_Unsorted_ 164 174	নাকের ডগায়
 A9	InfStat T9 new
 T10	_Unsorted_ 188 197	সিঙি-মাছে
 A10	InfStat T10 new
-T11	_Unsorted_ 219 226	কারখানা
-A11	InfStat T11 new
 T12	_Unsorted_ 230 240	হাঁদু খুড়ো
 A12	InfStat T12 given
 T13	_Unsorted_ 255 260	ভাইপো
 A13	InfStat T13 given
 T14	_Unsorted_ 262 266	তুমি
 A14	InfStat T14 given
-T15	_Unsorted_ 298 302	জবাব
-A15	InfStat T15 new
 T16	_Unsorted_ 346 350	মাথা
 A16	InfStat T16 new
 T17	_Unsorted_ 328 335	চাঁট্টা
@@ -38,8 +24,6 @@ T19	_Unsorted_ 366 378	দুনিয়ার নবাব
 A19	InfStat T19 new
 T20	_Unsorted_ 385 394	শোঁয়াপোকা
 A20	InfStat T20 given
-T21	_Unsorted_ 401 405	গলায়
-A21	InfStat T21 new
 T22	_Unsorted_ 415 419	তুমি
 A22	InfStat T22 given
 T23	_Unsorted_ 427 433	চেহারা
@@ -70,25 +54,41 @@ T35	_Unsorted_ 724 727	আমি
 A35	InfStat T35 given
 T36	_Unsorted_ 736 738	বড়
 A36	InfStat T36 new
-T37	_Unsorted_ 762 766	আঙুল
-A37	InfStat T37 new
 T39	_Unsorted_ 792 796	আমোদ
 A39	InfStat T39 new
 T40	_Unsorted_ 803 812	শোঁয়াপোকা
 A40	InfStat T40 given
-T41	_Unsorted_ 834 838	আঙুল
-A41	InfStat T41 given
-T42	_Unsorted_ 873 877	আঙুল
-A42	InfStat T42 given
 T43	_Unsorted_ 896 900	অমলা
 A43	InfStat T43 given
-T44	_Unsorted_ 906 911	স্বরে
-A44	InfStat T44 new
 T45	_Unsorted_ 928 935	মানুষের
 A45	InfStat T45 new
-T46	_Unsorted_ 939 943	আঙুল
-A46	InfStat T46 given
 T38	_Unsorted_ 780 787	মানুষের
 A38	InfStat T38 new
 T47	_Unsorted_ 788 791	মনে
 A47	InfStat T47 new
+T48	_Unsorted_ 28 37	অষ্টপ্রহর
+A48	InfStat T48 new
+T2	_Unsorted_ 48 58	চোয়ালে মোর
+A2	InfStat T2 new
+T3	_Unsorted_ 83 91	মহা বুড়ো
+A3	InfStat T3 given
+T4	_Unsorted_ 104 113	নজর তোমার
+A4	InfStat T4 new
+T6	_Unsorted_ 142 152	প্রায়-কানা
+A6	InfStat T6 new
+T8	_Unsorted_ 210 226	মস্ত আজব কারখানা
+A8	InfStat T8 new
+T11	_Unsorted_ 292 302	তিনটে জবাব
+A11	InfStat T11 new
+T15	_Unsorted_ 395 405	হেঁড়ে গলায়
+A15	InfStat T15 given
+T21	_Unsorted_ 759 766	এক আঙুল
+A21	InfStat T21 new
+T37	_Unsorted_ 831 838	এক আঙুল
+A37	InfStat T37 new
+T41	_Unsorted_ 870 877	এক আঙুল
+A41	InfStat T41 given
+T42	_Unsorted_ 901 911	কাতর স্বরে
+A42	InfStat T42 new
+T44	_Unsorted_ 936 943	এক আঙুল
+A44	InfStat T44 given

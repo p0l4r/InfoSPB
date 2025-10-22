@@ -21,10 +21,12 @@
         {
             "type": "new",
             "tokens": [
+                "নানান",
+                "রকম",
                 "জীব",
                 "জন্তুর"
             ],
-            "start_index": 15,
+            "start_index": 13,
             "end_index": 16,
             "global_mention_id": "M3"
         }
@@ -102,9 +104,10 @@
         {
             "type": "given",
             "tokens": [
+                "সেই",
                 "বাগানটি"
             ],
-            "start_index": 2,
+            "start_index": 1,
             "end_index": 2,
             "global_mention_id": "M11"
         }
@@ -140,27 +143,19 @@
     ],
     "7": [
         {
-            "type": "given",
+            "type": "new",
             "tokens": [
+                "এমন",
+                "কোন",
+                "খারাপ",
                 "জিনিস"
             ],
-            "start_index": 4,
+            "start_index": 1,
             "end_index": 4,
             "global_mention_id": "M15"
         }
     ],
-    "8": [
-        {
-            "type": "new",
-            "tokens": [
-                "ব্যাঙের",
-                "ছাতা"
-            ],
-            "start_index": 2,
-            "end_index": 3,
-            "global_mention_id": "M16"
-        }
-    ],
+    "8": [],
     "9": [
         {
             "type": "given",
@@ -169,29 +164,10 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M17"
-        },
-        {
-            "type": "given",
-            "tokens": [
-                "ব্যাঙের",
-                "ছাতার"
-            ],
-            "start_index": 7,
-            "end_index": 8,
-            "global_mention_id": "M18"
+            "global_mention_id": "M16"
         }
     ],
     "10": [
-        {
-            "type": "given",
-            "tokens": [
-                "ছাতার"
-            ],
-            "start_index": 0,
-            "end_index": 0,
-            "global_mention_id": "M19"
-        },
         {
             "type": "given",
             "tokens": [
@@ -199,7 +175,7 @@
             ],
             "start_index": 12,
             "end_index": 12,
-            "global_mention_id": "M20"
+            "global_mention_id": "M17"
         }
     ],
     "11": [
@@ -210,7 +186,7 @@
             ],
             "start_index": 4,
             "end_index": 4,
-            "global_mention_id": "M21"
+            "global_mention_id": "M18"
         },
         {
             "type": "given",
@@ -220,16 +196,7 @@
             ],
             "start_index": 8,
             "end_index": 9,
-            "global_mention_id": "M22"
-        },
-        {
-            "type": "new",
-            "tokens": [
-                "শোঁয়াপোকা"
-            ],
-            "start_index": 15,
-            "end_index": 15,
-            "global_mention_id": "M23"
+            "global_mention_id": "M19"
         }
     ],
     "12": [
@@ -240,16 +207,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M24"
-        },
-        {
-            "type": "given",
-            "tokens": [
-                "হাত"
-            ],
-            "start_index": 2,
-            "end_index": 2,
-            "global_mention_id": "M25"
+            "global_mention_id": "M20"
         },
         {
             "type": "given",
@@ -258,16 +216,7 @@
             ],
             "start_index": 4,
             "end_index": 4,
-            "global_mention_id": "M26"
-        },
-        {
-            "type": "new",
-            "tokens": [
-                "নলে"
-            ],
-            "start_index": 14,
-            "end_index": 14,
-            "global_mention_id": "M27"
+            "global_mention_id": "M21"
         }
     ]
 }

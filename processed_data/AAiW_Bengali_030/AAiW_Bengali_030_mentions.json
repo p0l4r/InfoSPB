@@ -106,19 +106,20 @@
         {
             "type": "new",
             "tokens": [
-                "সানকি",
-                "গাড়ির"
+                "একখানা",
+                "সানকি"
             ],
-            "start_index": 11,
-            "end_index": 12,
+            "start_index": 10,
+            "end_index": 11,
             "global_mention_id": "M11"
         },
         {
             "type": "new",
             "tokens": [
+                "গাড়ির",
                 "চাকার"
             ],
-            "start_index": 13,
+            "start_index": 12,
             "end_index": 13,
             "global_mention_id": "M12"
         },
@@ -163,20 +164,12 @@
         {
             "type": "new",
             "tokens": [
-                "নাকের"
-            ],
-            "start_index": 33,
-            "end_index": 33,
-            "global_mention_id": "M17"
-        },
-        {
-            "type": "new",
-            "tokens": [
+                "নাকের",
                 "ডগার"
             ],
-            "start_index": 34,
+            "start_index": 33,
             "end_index": 34,
-            "global_mention_id": "M18"
+            "global_mention_id": "M17"
         }
     ],
     "6": [
@@ -188,7 +181,7 @@
             ],
             "start_index": 8,
             "end_index": 9,
-            "global_mention_id": "M19"
+            "global_mention_id": "M18"
         }
     ],
     "7": [
@@ -199,7 +192,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M20"
+            "global_mention_id": "M19"
         },
         {
             "type": "given",
@@ -208,7 +201,7 @@
             ],
             "start_index": 5,
             "end_index": 5,
-            "global_mention_id": "M21"
+            "global_mention_id": "M20"
         }
     ],
     "8": [
@@ -220,6 +213,16 @@
             ],
             "start_index": 0,
             "end_index": 1,
+            "global_mention_id": "M21"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "প্রথম",
+                "কথা"
+            ],
+            "start_index": 4,
+            "end_index": 5,
             "global_mention_id": "M22"
         },
         {
@@ -247,12 +250,43 @@
         {
             "type": "given",
             "tokens": [
+                "প্রথম",
+                "কথাই"
+            ],
+            "start_index": 0,
+            "end_index": 1,
+            "global_mention_id": "M25"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "দ্বিতীয়",
+                "কথাই"
+            ],
+            "start_index": 4,
+            "end_index": 5,
+            "global_mention_id": "M26"
+        },
+        {
+            "type": "given",
+            "tokens": [
                 "নিজের",
-                "মুখের"
+                "মুখের",
+                "উপর"
             ],
             "start_index": 7,
-            "end_index": 8,
-            "global_mention_id": "M25"
+            "end_index": 9,
+            "global_mention_id": "M27"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "এমন",
+                "কথা"
+            ],
+            "start_index": 10,
+            "end_index": 11,
+            "global_mention_id": "M28"
         },
         {
             "type": "given",
@@ -261,7 +295,7 @@
             ],
             "start_index": 12,
             "end_index": 12,
-            "global_mention_id": "M26"
+            "global_mention_id": "M29"
         }
     ],
     "11": [
@@ -272,7 +306,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M27"
+            "global_mention_id": "M30"
         },
         {
             "type": "given",
@@ -281,7 +315,7 @@
             ],
             "start_index": 3,
             "end_index": 3,
-            "global_mention_id": "M28"
+            "global_mention_id": "M31"
         },
         {
             "type": "given",
@@ -290,7 +324,7 @@
             ],
             "start_index": 7,
             "end_index": 7,
-            "global_mention_id": "M29"
+            "global_mention_id": "M32"
         },
         {
             "type": "given",
@@ -299,7 +333,7 @@
             ],
             "start_index": 12,
             "end_index": 12,
-            "global_mention_id": "M30"
+            "global_mention_id": "M33"
         }
     ],
     "12": [
@@ -311,7 +345,7 @@
             ],
             "start_index": 0,
             "end_index": 1,
-            "global_mention_id": "M31"
+            "global_mention_id": "M34"
         },
         {
             "type": "given",
@@ -320,7 +354,7 @@
             ],
             "start_index": 7,
             "end_index": 7,
-            "global_mention_id": "M32"
+            "global_mention_id": "M35"
         }
     ],
     "13": [
@@ -331,7 +365,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M33"
+            "global_mention_id": "M36"
         },
         {
             "type": "given",
@@ -340,7 +374,7 @@
             ],
             "start_index": 2,
             "end_index": 2,
-            "global_mention_id": "M34"
+            "global_mention_id": "M37"
         },
         {
             "type": "new",
@@ -349,7 +383,7 @@
             ],
             "start_index": 5,
             "end_index": 5,
-            "global_mention_id": "M35"
+            "global_mention_id": "M38"
         },
         {
             "type": "given",
@@ -358,7 +392,7 @@
             ],
             "start_index": 10,
             "end_index": 10,
-            "global_mention_id": "M36"
+            "global_mention_id": "M39"
         }
     ],
     "14": [
@@ -370,7 +404,7 @@
             ],
             "start_index": 0,
             "end_index": 1,
-            "global_mention_id": "M37"
+            "global_mention_id": "M40"
         }
     ],
     "15": [
@@ -381,7 +415,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M38"
+            "global_mention_id": "M41"
         },
         {
             "type": "given",
@@ -390,7 +424,7 @@
             ],
             "start_index": 1,
             "end_index": 1,
-            "global_mention_id": "M39"
+            "global_mention_id": "M42"
         }
     ],
     "16": [
@@ -401,7 +435,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M40"
+            "global_mention_id": "M43"
         }
     ],
     "17": [
@@ -412,7 +446,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M41"
+            "global_mention_id": "M44"
         }
     ],
     "18": [
@@ -423,7 +457,7 @@
             ],
             "start_index": 1,
             "end_index": 1,
-            "global_mention_id": "M42"
+            "global_mention_id": "M45"
         }
     ]
 }

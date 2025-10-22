@@ -1,18 +1,14 @@
-T1	_Unsorted_ 3 11	রসগোল্লা
-A1	InfStat T1 new
-T2	_Unsorted_ 33 45	রসগোল্লাগুলো
-A2	InfStat T2 given
 T3	_Unsorted_ 57 68	আমার চেহারা
 A3	InfStat T3 given
-T4	_Unsorted_ 109 111	এর
-A4	InfStat T4 given
-T5	_Unsorted_ 142 144	এর
-A5	InfStat T5 given
 T6	_Unsorted_ 174 176	সে
 A6	InfStat T6 given
-T7	_Unsorted_ 182 190	রসগোল্লা
-A7	InfStat T7 given
 T8	_Unsorted_ 219 226	তার দেহ
 A8	InfStat T8 given
 T9	_Unsorted_ 260 265	দেহটা
 A9	InfStat T9 given
+T1	_Unsorted_ 0 11	বড় রসগোল্লা
+A1	InfStat T1 new
+T2	_Unsorted_ 30 45	এই রসগোল্লাগুলো
+A2	InfStat T2 given
+T4	_Unsorted_ 177 190	একটা রসগোল্লা
+A4	InfStat T4 given

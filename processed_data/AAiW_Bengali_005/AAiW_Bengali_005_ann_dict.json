@@ -69,13 +69,6 @@
         "annotated_span": "অমলা বেচারি",
         "label": "given"
     },
-    "T13": {
-        "start_pos": 309,
-        "end_pos": 316,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "টেবিলের",
-        "label": "given"
-    },
     "T14": {
         "start_pos": 331,
         "end_pos": 348,
@@ -174,13 +167,6 @@
         "annotated_span": "আমি",
         "label": "given"
     },
-    "T28": {
-        "start_pos": 583,
-        "end_pos": 590,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "টেবিলের",
-        "label": "given"
-    },
     "T29": {
         "start_pos": 600,
         "end_pos": 606,
@@ -207,13 +193,6 @@
         "end_pos": 689,
         "nominal_type": "_Unsorted_",
         "annotated_span": "আমি",
-        "label": "given"
-    },
-    "T33": {
-        "start_pos": 694,
-        "end_pos": 700,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "গর্তের",
         "label": "given"
     },
     "T34": {
@@ -249,6 +228,34 @@
         "end_pos": 825,
         "nominal_type": "_Unsorted_",
         "annotated_span": "মাথা-ব্যথা",
+        "label": "new"
+    },
+    "T13": {
+        "start_pos": 309,
+        "end_pos": 321,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টেবিলের তলায়",
+        "label": "given"
+    },
+    "T28": {
+        "start_pos": 583,
+        "end_pos": 594,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "টেবিলের ওপর",
+        "label": "given"
+    },
+    "T33": {
+        "start_pos": 694,
+        "end_pos": 706,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "গর্তের ভিতরে",
+        "label": "given"
+    },
+    "T37": {
+        "start_pos": 269,
+        "end_pos": 275,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কান্না",
         "label": "new"
     }
 }

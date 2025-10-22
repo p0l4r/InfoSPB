@@ -8,28 +8,14 @@ T4	_Unsorted_ 101 109	একটা ছড়া
 A4	InfStat T4 given
 T5	_Unsorted_ 136 147	ছোট্ট কুমির
 A5	InfStat T5 new
-T6	_Unsorted_ 155 160	ল্যাজ
-A6	InfStat T6 new
-T7	_Unsorted_ 172 181	গঙ্গানদীর
-A7	InfStat T7 new
-T8	_Unsorted_ 182 184	জল
-A8	InfStat T8 new
 T9	_Unsorted_ 190 203	ওই গায়ের ময়লা
 A9	InfStat T9 new
 T10	_Unsorted_ 226 229	মুখ
 A10	InfStat T10 new
 T11	_Unsorted_ 235 237	সে
 A11	InfStat T11 given
-T12	_Unsorted_ 246 254	ইলিস মাছ
-A12	InfStat T12 new
-T13	_Unsorted_ 256 262	ঠোঁটের
-A13	InfStat T13 new
-T14	_Unsorted_ 275 279	হাসি
-A14	InfStat T14 new
 T15	_Unsorted_ 281 289	দুই চোখে
 A15	InfStat T15 new
-T16	_Unsorted_ 300 303	নাচ
-A16	InfStat T16 new
 T17	_Unsorted_ 307 310	ছড়া
 A17	InfStat T17 given
 T18	_Unsorted_ 321 326	হাতের
@@ -72,8 +58,6 @@ T37	_Unsorted_ 816 828	বাগানের দরজা
 A37	InfStat T37 given
 T38	_Unsorted_ 838 845	তার দেহ
 A38	InfStat T38 given
-T39	_Unsorted_ 856 863	টেবিলের
-A39	InfStat T39 given
 T40	_Unsorted_ 869 872	হাত
 A40	InfStat T40 given
 T41	_Unsorted_ 880 884	চাবি
@@ -82,8 +66,6 @@ T42	_Unsorted_ 908 919	তার পা-দুটো
 A42	InfStat T42 given
 T43	_Unsorted_ 932 934	সে
 A43	InfStat T43 given
-T44	_Unsorted_ 958 962	জলের
-A44	InfStat T44 given
 T45	_Unsorted_ 983 985	জল
 A45	InfStat T45 given
 T46	_Unsorted_ 1013 1015	সে
@@ -96,10 +78,6 @@ T49	_Unsorted_ 1079 1085	সমুদ্র
 A49	InfStat T49 given
 T50	_Unsorted_ 1094 1103	অশ্রু-নদী
 A50	InfStat T50 new
-T51	_Unsorted_ 1115 1118	দেহ
-A51	InfStat T51 given
-T52	_Unsorted_ 1131 1134	চোখ
-A52	InfStat T52 given
 T53	_Unsorted_ 1149 1151	সে
 A53	InfStat T53 given
 T54	_Unsorted_ 1170 1174	তারই
@@ -112,3 +90,25 @@ T57	_Unsorted_ 1228 1231	আমি
 A57	InfStat T57 given
 T58	_Unsorted_ 1243 1251	চোখের জল
 A58	InfStat T58 given
+T6	_Unsorted_ 148 160	চক্চকে ল্যাজ
+A6	InfStat T6 new
+T7	_Unsorted_ 172 184	গঙ্গানদীর জল
+A7	InfStat T7 new
+T8	_Unsorted_ 243 254	কত ইলিস মাছ
+A8	InfStat T8 new
+T12	_Unsorted_ 268 279	মিষ্টি হাসি
+A12	InfStat T12 new
+T14	_Unsorted_ 294 303	খুশির নাচ
+A14	InfStat T14 new
+T16	_Unsorted_ 801 812	সেই মুস্কিল
+A16	InfStat T16 given
+T36	_Unsorted_ 856 868	টেবিলের উপরে
+A36	InfStat T36 given
+T39	_Unsorted_ 953 962	লোনা জলের
+A39	InfStat T39 new
+T44	_Unsorted_ 1107 1118	মস্ত-বড় দেহ
+A44	InfStat T44 given
+T51	_Unsorted_ 1123 1134	মস্ত-বড় চোখ
+A51	InfStat T51 given
+T13	_Unsorted_ 256 267	ঠোঁটের কোণে
+A13	InfStat T13 new

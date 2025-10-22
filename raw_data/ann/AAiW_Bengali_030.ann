@@ -16,10 +16,6 @@ T9	_Unsorted_ 187 190	আমি
 A9	InfStat T9 given
 T10	_Unsorted_ 250 262	বাড়ির দরজাটা
 A10	InfStat T10 given
-T11	_Unsorted_ 293 304	সানকি গাড়ির
-A11	InfStat T11 new
-T12	_Unsorted_ 305 310	চাকার
-A12	InfStat T12 new
 T13	_Unsorted_ 338 352	ব্যাঙ দরোয়ানের
 A13	InfStat T13 given
 T14	_Unsorted_ 375 384	সানকিখানা
@@ -28,10 +24,6 @@ T15	_Unsorted_ 385 394	তার মাথায়
 A15	InfStat T15 given
 T16	_Unsorted_ 409 412	তার
 A16	InfStat T16 given
-T17	_Unsorted_ 413 418	নাকের
-A17	InfStat T17 new
-T18	_Unsorted_ 419 423	ডগার
-A18	InfStat T18 new
 T19	_Unsorted_ 506 518	ব্যাঙ-দরোয়ান
 A19	InfStat T19 given
 T20	_Unsorted_ 572 576	অমলা
@@ -44,8 +36,6 @@ T23	_Unsorted_ 666 670	তুমি
 A23	InfStat T23 given
 T24	_Unsorted_ 693 697	মেয়ে
 A24	InfStat T24 given
-T25	_Unsorted_ 737 748	নিজের মুখের
-A25	InfStat T25 given
 T26	_Unsorted_ 761 766	অমলার
 A26	InfStat T26 given
 T27	_Unsorted_ 787 792	নিজের
@@ -82,3 +72,19 @@ T4	_Unsorted_ 88 105	ভ্যাবা-গঙ্গারামের
 A4	InfStat T4 new
 T42	_Unsorted_ 1085 1088	আমি
 A42	InfStat T42 given
+T11	_Unsorted_ 286 298	একখানা সানকি
+A11	InfStat T11 new
+T12	_Unsorted_ 299 310	গাড়ির চাকার
+A12	InfStat T12 new
+T17	_Unsorted_ 413 423	নাকের ডগার
+A17	InfStat T17 new
+T18	_Unsorted_ 643 652	প্রথম কথা
+A18	InfStat T18 new
+T43	_Unsorted_ 701 711	প্রথম কথাই
+A43	InfStat T43 given
+T44	_Unsorted_ 719 731	দ্বিতীয় কথাই
+A44	InfStat T44 new
+T25	_Unsorted_ 737 752	নিজের মুখের উপর
+A25	InfStat T25 given
+T45	_Unsorted_ 753 760	এমন কথা
+A45	InfStat T45 given

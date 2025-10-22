@@ -1,18 +1,4 @@
 {
-    "T1": {
-        "start_pos": 3,
-        "end_pos": 11,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "রসগোল্লা",
-        "label": "new"
-    },
-    "T2": {
-        "start_pos": 33,
-        "end_pos": 45,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "রসগোল্লাগুলো",
-        "label": "given"
-    },
     "T3": {
         "start_pos": 57,
         "end_pos": 68,
@@ -20,32 +6,11 @@
         "annotated_span": "আমার চেহারা",
         "label": "given"
     },
-    "T4": {
-        "start_pos": 109,
-        "end_pos": 111,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "এর",
-        "label": "given"
-    },
-    "T5": {
-        "start_pos": 142,
-        "end_pos": 144,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "এর",
-        "label": "given"
-    },
     "T6": {
         "start_pos": 174,
         "end_pos": 176,
         "nominal_type": "_Unsorted_",
         "annotated_span": "সে",
-        "label": "given"
-    },
-    "T7": {
-        "start_pos": 182,
-        "end_pos": 190,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "রসগোল্লা",
         "label": "given"
     },
     "T8": {
@@ -60,6 +25,27 @@
         "end_pos": 265,
         "nominal_type": "_Unsorted_",
         "annotated_span": "দেহটা",
+        "label": "given"
+    },
+    "T1": {
+        "start_pos": 0,
+        "end_pos": 11,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "বড় রসগোল্লা",
+        "label": "new"
+    },
+    "T2": {
+        "start_pos": 30,
+        "end_pos": 45,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এই রসগোল্লাগুলো",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 177,
+        "end_pos": 190,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একটা রসগোল্লা",
         "label": "given"
     }
 }

@@ -18,8 +18,6 @@ T10	_Unsorted_ 258 264	মাটিতে
 A10	InfStat T10 new
 T9	_Unsorted_ 237 248	অমলা বেচারি
 A9	InfStat T9 given
-T13	_Unsorted_ 309 316	টেবিলের
-A13	InfStat T13 given
 T14	_Unsorted_ 331 348	একটি কাঁচের বাক্স
 A14	InfStat T14 new
 T15	_Unsorted_ 357 359	সে
@@ -48,8 +46,6 @@ T26	_Unsorted_ 547 551	পুলি
 A26	InfStat T26 given
 T27	_Unsorted_ 566 569	আমি
 A27	InfStat T27 given
-T28	_Unsorted_ 583 590	টেবিলের
-A28	InfStat T28 given
 T29	_Unsorted_ 600 606	চাবিটা
 A29	InfStat T29 given
 T30	_Unsorted_ 654 658	চাবি
@@ -58,8 +54,6 @@ T31	_Unsorted_ 668 675	ঐ দরজার
 A31	InfStat T31 given
 T32	_Unsorted_ 686 689	আমি
 A32	InfStat T32 given
-T33	_Unsorted_ 694 700	গর্তের
-A33	InfStat T33 given
 T34	_Unsorted_ 742 750	ঐ বাগানে
 A34	InfStat T34 given
 T35	_Unsorted_ 789 792	তার
@@ -70,3 +64,11 @@ T11	_Unsorted_ 297 304	তার চোখ
 A11	InfStat T11 given
 T12	_Unsorted_ 815 825	মাথা-ব্যথা
 A12	InfStat T12 new
+T13	_Unsorted_ 309 321	টেবিলের তলায়
+A13	InfStat T13 given
+T28	_Unsorted_ 583 594	টেবিলের ওপর
+A28	InfStat T28 given
+T33	_Unsorted_ 694 706	গর্তের ভিতরে
+A33	InfStat T33 given
+T37	_Unsorted_ 269 275	কান্না
+A37	InfStat T37 new

@@ -22,8 +22,6 @@ T12	_Unsorted_ 128 131	গাছ
 A12	InfStat T12 given
 T13	_Unsorted_ 144 148	আমার
 A13	InfStat T13 given
-T14	_Unsorted_ 149 155	পিণ্ডি
-A14	InfStat T14 new
 T15	_Unsorted_ 170 175	দরজার
 A15	InfStat T15 given
 T16	_Unsorted_ 198 201	ওটা
@@ -36,8 +34,6 @@ T7	_Unsorted_ 253 258	খরগোস
 A7	InfStat T7 given
 T20	_Unsorted_ 271 277	হাঁসের
 A20	InfStat T20 given
-T21	_Unsorted_ 298 301	হাত
-A21	InfStat T21 given
 T22	_Unsorted_ 302 304	কে
 A22	InfStat T22 given
 T23	_Unsorted_ 319 322	হাত
@@ -46,3 +42,9 @@ T17	_Unsorted_ 205 209	গেবো
 A17	InfStat T17 given
 T24	_Unsorted_ 210 217	টিকটিকি
 A24	InfStat T24 given
+T14	_Unsorted_ 73 78	হুজুর
+A14	InfStat T14 new
+T25	_Unsorted_ 244 249	হুজুর
+A25	InfStat T25 given
+T21	_Unsorted_ 292 301	অত বড় হাত
+A21	InfStat T21 given

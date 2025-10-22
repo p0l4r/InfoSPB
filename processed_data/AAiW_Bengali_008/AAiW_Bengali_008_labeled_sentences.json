@@ -99,12 +99,12 @@
             "O",
             "B-new",
             "I-new",
+            "B-new",
+            "I-new",
+            "O",
             "O",
             "B-new",
-            "O",
-            "O",
-            "B-new",
-            "B-new",
+            "I-new",
             "O",
             "B-new",
             "I-new",
@@ -141,18 +141,18 @@
             "O",
             "B-given",
             "O",
-            "O",
+            "B-new",
+            "I-new",
+            "I-new",
             "B-new",
             "I-new",
             "B-new",
-            "O",
-            "O",
-            "B-new",
+            "I-new",
             "B-new",
             "I-new",
             "O",
-            "O",
-            "B-new"
+            "B-new",
+            "I-new"
         ]
     },
     "7": {
@@ -389,8 +389,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "O"
+            "B-given",
+            "I-given"
         ]
     },
     "17": {
@@ -424,7 +424,7 @@
             "O",
             "O",
             "B-given",
-            "O",
+            "I-given",
             "B-given",
             "O",
             "B-given",
@@ -464,8 +464,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "B-given",
+            "B-new",
+            "I-new",
             "O"
         ]
     },
@@ -565,13 +565,13 @@
             "হয়েছিল"
         ],
         "label": [
-            "O",
+            "B-given",
+            "I-given",
+            "I-given",
             "O",
             "B-given",
-            "O",
-            "O",
-            "O",
-            "B-given",
+            "I-given",
+            "I-given",
             "O",
             "O",
             "O",

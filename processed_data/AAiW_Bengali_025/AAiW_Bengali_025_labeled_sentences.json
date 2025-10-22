@@ -37,7 +37,7 @@
         ],
         "label": [
             "B-new",
-            "O",
+            "I-new",
             "B-new",
             "O",
             "O"
@@ -75,7 +75,7 @@
             "O",
             "O",
             "O",
-            "O",
+            "B-given",
             "O"
         ]
     },
@@ -123,12 +123,12 @@
             "B-new",
             "B-new",
             "O",
+            "B-new",
+            "I-new",
+            "O",
+            "O",
+            "O",
             "B-given",
-            "B-new",
-            "O",
-            "O",
-            "O",
-            "B-new",
             "O",
             "O",
             "O",
@@ -153,10 +153,10 @@
             "খুড়ো"
         ],
         "label": [
-            "O",
             "B-given",
+            "I-given",
             "B-given",
-            "B-given"
+            "I-given"
         ]
     },
     "7": {
@@ -174,8 +174,8 @@
         "label": [
             "O",
             "O",
-            "O",
             "B-new",
+            "I-new",
             "O",
             "O",
             "O",
@@ -229,8 +229,8 @@
             "যে"
         ],
         "label": [
-            "O",
             "B-given",
+            "I-given",
             "O",
             "O",
             "B-given",
@@ -265,8 +265,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "B-new"
+            "B-new",
+            "I-new"
         ]
     },
     "11": {
@@ -295,10 +295,10 @@
             "খুড়ো"
         ],
         "label": [
-            "O",
             "B-given",
+            "I-given",
             "B-given",
-            "B-given"
+            "I-given"
         ]
     },
     "13": {
@@ -355,8 +355,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "O"
+            "B-new",
+            "I-new"
         ]
     },
     "15": {

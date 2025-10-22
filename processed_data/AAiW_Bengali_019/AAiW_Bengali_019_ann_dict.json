@@ -34,13 +34,6 @@
         "annotated_span": "খরগোস",
         "label": "given"
     },
-    "T7": {
-        "start_pos": 115,
-        "end_pos": 118,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "হাত",
-        "label": "given"
-    },
     "T8": {
         "start_pos": 142,
         "end_pos": 149,
@@ -291,7 +284,7 @@
         "end_pos": 1087,
         "nominal_type": "_Unsorted_",
         "annotated_span": "ঢিলটা",
-        "label": "new"
+        "label": "given"
     },
     "T6": {
         "start_pos": 85,
@@ -312,6 +305,34 @@
         "end_pos": 768,
         "nominal_type": "_Unsorted_",
         "annotated_span": "এক চুপড়ি",
+        "label": "new"
+    },
+    "T46": {
+        "start_pos": 32,
+        "end_pos": 37,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "হুজুর",
+        "label": "given"
+    },
+    "T7": {
+        "start_pos": 102,
+        "end_pos": 118,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "অত বড় একখানা হাত",
+        "label": "given"
+    },
+    "T47": {
+        "start_pos": 799,
+        "end_pos": 807,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এক চুপড়ি",
+        "label": "given"
+    },
+    "T48": {
+        "start_pos": 974,
+        "end_pos": 977,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "ঢিল",
         "label": "new"
     }
 }

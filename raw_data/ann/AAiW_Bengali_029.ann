@@ -1,5 +1,3 @@
-T1	_Unsorted_ 0 8	দরোয়ানের
-A1	InfStat T1 given
 T2	_Unsorted_ 39 41	সে
 A2	InfStat T2 given
 T3	_Unsorted_ 58 66	রানীজীকে
@@ -24,3 +22,7 @@ T12	_Unsorted_ 291 301	মাছ-দরোয়ান
 A12	InfStat T12 given
 T13	_Unsorted_ 48 57	মহারানীজী
 A13	InfStat T13 new
+T1	_Unsorted_ 0 8	দরোয়ানের
+A1	InfStat T1 given
+T14	_Unsorted_ 9 13	হাতে
+A14	InfStat T14 new

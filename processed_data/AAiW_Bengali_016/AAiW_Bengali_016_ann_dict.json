@@ -63,10 +63,10 @@
         "label": "new"
     },
     "T2": {
-        "start_pos": 263,
+        "start_pos": 256,
         "end_pos": 270,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "ব্যাপার",
+        "annotated_span": "দু-রকম ব্যাপার",
         "label": "new"
     }
 }

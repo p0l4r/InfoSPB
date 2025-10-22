@@ -34,8 +34,8 @@
         "label": [
             "O",
             "O",
-            "O",
             "B-given",
+            "I-given",
             "O",
             "B-given",
             "O",
@@ -137,14 +137,14 @@
             "O",
             "O",
             "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "B-given",
             "O",
             "O",
-            "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
+            "I-new",
             "O",
             "O"
         ]
@@ -165,12 +165,12 @@
             "B-given",
             "O",
             "O",
+            "B-given",
+            "I-given",
             "O",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O"
+            "B-given",
+            "I-given",
+            "I-given"
         ]
     },
     "7": {
@@ -228,11 +228,11 @@
             "O",
             "B-given",
             "I-given",
-            "O",
-            "O",
-            "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
+            "B-given",
+            "I-given",
+            "I-given",
             "O",
             "O",
             "O",
@@ -255,8 +255,8 @@
             "B-given",
             "I-given",
             "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "O",
             "O"
         ]
@@ -284,16 +284,16 @@
         "label": [
             "B-given",
             "O",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "B-given",
-            "O",
-            "O",
+            "I-given",
+            "I-given",
             "O",
             "B-given",
             "I-given",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "O",
             "O",
             "O",
@@ -324,11 +324,11 @@
             "O",
             "O",
             "O",
+            "B-given",
+            "I-given",
             "O",
-            "O",
-            "O",
-            "O",
-            "O"
+            "B-given",
+            "I-given"
         ]
     },
     "13": {
@@ -351,8 +351,8 @@
             "O",
             "O",
             "O",
-            "O",
-            "O"
+            "B-new",
+            "I-new"
         ]
     },
     "14": {
@@ -466,9 +466,9 @@
             "O",
             "O",
             "O",
-            "O",
-            "O",
-            "B-new"
+            "B-given",
+            "I-given",
+            "I-given"
         ]
     },
     "18": {
@@ -497,8 +497,8 @@
             "O",
             "B-given",
             "I-given",
-            "O",
             "B-given",
+            "I-given",
             "O",
             "O"
         ]
@@ -537,9 +537,9 @@
             "পড়েছিলুম"
         ],
         "label": [
-            "O",
-            "O",
             "B-given",
+            "I-given",
+            "I-given",
             "O",
             "O",
             "O",
@@ -565,11 +565,11 @@
             "O",
             "O",
             "O",
-            "O",
-            "O",
             "B-given",
-            "O",
-            "O",
+            "I-given",
+            "I-given",
+            "B-given",
+            "I-given",
             "O"
         ]
     },
@@ -591,9 +591,9 @@
             "B-given",
             "B-given",
             "O",
-            "O",
-            "O",
-            "B-given",
+            "B-new",
+            "I-new",
+            "I-new",
             "O",
             "O",
             "O"

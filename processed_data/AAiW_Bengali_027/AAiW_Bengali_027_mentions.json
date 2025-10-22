@@ -23,9 +23,10 @@
         {
             "type": "given",
             "tokens": [
+                "গড়গড়ার",
                 "নল"
             ],
-            "start_index": 3,
+            "start_index": 2,
             "end_index": 3,
             "global_mention_id": "M3"
         },
@@ -111,13 +112,34 @@
             "global_mention_id": "M11"
         },
         {
+            "type": "new",
+            "tokens": [
+                "এক",
+                "দিক"
+            ],
+            "start_index": 16,
+            "end_index": 17,
+            "global_mention_id": "M12"
+        },
+        {
             "type": "given",
             "tokens": [
                 "তোমাকে"
             ],
             "start_index": 18,
             "end_index": 18,
-            "global_mention_id": "M12"
+            "global_mention_id": "M13"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "আর",
+                "এক",
+                "দিক"
+            ],
+            "start_index": 21,
+            "end_index": 23,
+            "global_mention_id": "M14"
         }
     ],
     "6": [
@@ -128,7 +150,28 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M13"
+            "global_mention_id": "M15"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "এক",
+                "দিক"
+            ],
+            "start_index": 3,
+            "end_index": 4,
+            "global_mention_id": "M16"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "আর",
+                "এক",
+                "দিক"
+            ],
+            "start_index": 6,
+            "end_index": 8,
+            "global_mention_id": "M17"
         }
     ],
     "7": [
@@ -139,7 +182,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M14"
+            "global_mention_id": "M18"
         },
         {
             "type": "given",
@@ -149,7 +192,7 @@
             ],
             "start_index": 5,
             "end_index": 6,
-            "global_mention_id": "M15"
+            "global_mention_id": "M19"
         }
     ],
     "8": [
@@ -160,7 +203,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M16"
+            "global_mention_id": "M20"
         }
     ],
     "9": [
@@ -172,7 +215,28 @@
             ],
             "start_index": 2,
             "end_index": 3,
-            "global_mention_id": "M17"
+            "global_mention_id": "M21"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "দুটো",
+                "দিক"
+            ],
+            "start_index": 4,
+            "end_index": 5,
+            "global_mention_id": "M22"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কোন্",
+                "কোন্",
+                "দিকে"
+            ],
+            "start_index": 6,
+            "end_index": 8,
+            "global_mention_id": "M23"
         }
     ],
     "10": [
@@ -184,7 +248,17 @@
             ],
             "start_index": 1,
             "end_index": 2,
-            "global_mention_id": "M18"
+            "global_mention_id": "M24"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "সব",
+                "দিকই"
+            ],
+            "start_index": 4,
+            "end_index": 5,
+            "global_mention_id": "M25"
         }
     ],
     "11": [
@@ -195,16 +269,28 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M20"
+            "global_mention_id": "M27"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "দু",
+                "দিকে"
+            ],
+            "start_index": 2,
+            "end_index": 3,
+            "global_mention_id": "M28"
         },
         {
             "type": "given",
             "tokens": [
-                "নিজের"
+                "নিজের",
+                "দু",
+                "হাত"
             ],
             "start_index": 4,
-            "end_index": 4,
-            "global_mention_id": "M21"
+            "end_index": 6,
+            "global_mention_id": "M29"
         },
         {
             "type": "given",
@@ -214,7 +300,17 @@
             ],
             "start_index": 8,
             "end_index": 9,
-            "global_mention_id": "M22"
+            "global_mention_id": "M30"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "দুই",
+                "ধার"
+            ],
+            "start_index": 10,
+            "end_index": 11,
+            "global_mention_id": "M31"
         }
     ],
     "12": [
@@ -225,7 +321,7 @@
             ],
             "start_index": 1,
             "end_index": 1,
-            "global_mention_id": "M24"
+            "global_mention_id": "M34"
         },
         {
             "type": "given",
@@ -235,7 +331,27 @@
             ],
             "start_index": 2,
             "end_index": 3,
-            "global_mention_id": "M25"
+            "global_mention_id": "M35"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কোন্",
+                "দিক"
+            ],
+            "start_index": 7,
+            "end_index": 8,
+            "global_mention_id": "M36"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কোন্",
+                "দিক"
+            ],
+            "start_index": 10,
+            "end_index": 11,
+            "global_mention_id": "M37"
         }
     ],
     "13": [
@@ -246,7 +362,7 @@
             ],
             "start_index": 1,
             "end_index": 1,
-            "global_mention_id": "M29"
+            "global_mention_id": "M41"
         },
         {
             "type": "new",
@@ -256,7 +372,17 @@
             ],
             "start_index": 2,
             "end_index": 3,
-            "global_mention_id": "M30"
+            "global_mention_id": "M42"
+        },
+        {
+            "type": "new",
+            "tokens": [
+                "এক",
+                "কামড়"
+            ],
+            "start_index": 7,
+            "end_index": 8,
+            "global_mention_id": "M43"
         }
     ],
     "14": [
@@ -268,7 +394,7 @@
             ],
             "start_index": 0,
             "end_index": 1,
-            "global_mention_id": "M31"
+            "global_mention_id": "M44"
         },
         {
             "type": "new",
@@ -277,7 +403,7 @@
             ],
             "start_index": 4,
             "end_index": 4,
-            "global_mention_id": "M32"
+            "global_mention_id": "M45"
         },
         {
             "type": "given",
@@ -286,7 +412,7 @@
             ],
             "start_index": 6,
             "end_index": 6,
-            "global_mention_id": "M33"
+            "global_mention_id": "M46"
         }
     ],
     "15": [
@@ -298,7 +424,7 @@
             ],
             "start_index": 1,
             "end_index": 2,
-            "global_mention_id": "M34"
+            "global_mention_id": "M47"
         },
         {
             "type": "given",
@@ -307,7 +433,7 @@
             ],
             "start_index": 4,
             "end_index": 4,
-            "global_mention_id": "M35"
+            "global_mention_id": "M48"
         }
     ],
     "16": [
@@ -318,7 +444,7 @@
             ],
             "start_index": 2,
             "end_index": 2,
-            "global_mention_id": "M36"
+            "global_mention_id": "M49"
         }
     ],
     "17": [
@@ -330,7 +456,7 @@
             ],
             "start_index": 7,
             "end_index": 8,
-            "global_mention_id": "M37"
+            "global_mention_id": "M50"
         },
         {
             "type": "given",
@@ -340,7 +466,7 @@
             ],
             "start_index": 9,
             "end_index": 10,
-            "global_mention_id": "M38"
+            "global_mention_id": "M51"
         },
         {
             "type": "given",
@@ -350,16 +476,18 @@
             ],
             "start_index": 11,
             "end_index": 12,
-            "global_mention_id": "M39"
+            "global_mention_id": "M52"
         },
         {
-            "type": "new",
+            "type": "given",
             "tokens": [
+                "আবার",
+                "এক",
                 "কামড়"
             ],
-            "start_index": 21,
+            "start_index": 19,
             "end_index": 21,
-            "global_mention_id": "M40"
+            "global_mention_id": "M53"
         }
     ],
     "18": [
@@ -370,7 +498,7 @@
             ],
             "start_index": 0,
             "end_index": 0,
-            "global_mention_id": "M41"
+            "global_mention_id": "M54"
         },
         {
             "type": "given",
@@ -379,7 +507,7 @@
             ],
             "start_index": 5,
             "end_index": 5,
-            "global_mention_id": "M42"
+            "global_mention_id": "M55"
         },
         {
             "type": "given",
@@ -389,16 +517,17 @@
             ],
             "start_index": 7,
             "end_index": 8,
-            "global_mention_id": "M43"
+            "global_mention_id": "M56"
         },
         {
             "type": "given",
             "tokens": [
+                "আসল",
                 "চেহারা"
             ],
-            "start_index": 10,
+            "start_index": 9,
             "end_index": 10,
-            "global_mention_id": "M44"
+            "global_mention_id": "M57"
         }
     ],
     "19": [],
@@ -406,22 +535,36 @@
         {
             "type": "given",
             "tokens": [
+                "নানান",
+                "রকম",
                 "চেহারা"
             ],
-            "start_index": 2,
+            "start_index": 0,
             "end_index": 2,
-            "global_mention_id": "M19"
+            "global_mention_id": "M26"
         }
     ],
     "21": [
         {
             "type": "given",
             "tokens": [
+                "সেই",
+                "চমৎকার",
                 "বাগানটি"
             ],
-            "start_index": 6,
+            "start_index": 4,
             "end_index": 6,
-            "global_mention_id": "M23"
+            "global_mention_id": "M32"
+        },
+        {
+            "type": "given",
+            "tokens": [
+                "কোন্",
+                "দিকে"
+            ],
+            "start_index": 7,
+            "end_index": 8,
+            "global_mention_id": "M33"
         }
     ],
     "22": [
@@ -432,7 +575,7 @@
             ],
             "start_index": 1,
             "end_index": 1,
-            "global_mention_id": "M26"
+            "global_mention_id": "M38"
         },
         {
             "type": "given",
@@ -441,16 +584,18 @@
             ],
             "start_index": 2,
             "end_index": 2,
-            "global_mention_id": "M27"
+            "global_mention_id": "M39"
         },
         {
-            "type": "given",
+            "type": "new",
             "tokens": [
+                "সব",
+                "রকম",
                 "দেহ"
             ],
-            "start_index": 6,
+            "start_index": 4,
             "end_index": 6,
-            "global_mention_id": "M28"
+            "global_mention_id": "M40"
         }
     ]
 }

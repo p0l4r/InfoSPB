@@ -167,13 +167,6 @@
         "annotated_span": "সেই গর্তটার",
         "label": "given"
     },
-    "T29": {
-        "start_pos": 640,
-        "end_pos": 645,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "মাটির",
-        "label": "given"
-    },
     "T30": {
         "start_pos": 650,
         "end_pos": 652,
@@ -251,13 +244,6 @@
         "annotated_span": "তার",
         "label": "given"
     },
-    "T41": {
-        "start_pos": 861,
-        "end_pos": 888,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "কজোড়া ডায়মন-কাটা সোনার চুড়ি",
-        "label": "new"
-    },
     "T42": {
         "start_pos": 893,
         "end_pos": 901,
@@ -286,20 +272,6 @@
         "annotated_span": "রানীজী",
         "label": "new"
     },
-    "T1": {
-        "start_pos": 73,
-        "end_pos": 81,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "দূরবীনের",
-        "label": "given"
-    },
-    "T4": {
-        "start_pos": 248,
-        "end_pos": 257,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জুতো-মোজা",
-        "label": "given"
-    },
     "T10": {
         "start_pos": 457,
         "end_pos": 464,
@@ -313,5 +285,40 @@
         "nominal_type": "_Unsorted_",
         "annotated_span": "ছোট দরজার",
         "label": "given"
+    },
+    "T1": {
+        "start_pos": 63,
+        "end_pos": 81,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সবচেয়ে বড় দূরবীনের",
+        "label": "given"
+    },
+    "T46": {
+        "start_pos": 673,
+        "end_pos": 679,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "কান্না",
+        "label": "given"
+    },
+    "T4": {
+        "start_pos": 242,
+        "end_pos": 257,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এত বড় জুতো-মোজা",
+        "label": "given"
+    },
+    "T29": {
+        "start_pos": 640,
+        "end_pos": 649,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "মাটির উপর",
+        "label": "new"
+    },
+    "T41": {
+        "start_pos": 860,
+        "end_pos": 888,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "একজোড়া ডায়মন-কাটা সোনার চুড়ি",
+        "label": "new"
     }
 }

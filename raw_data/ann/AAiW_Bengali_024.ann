@@ -12,10 +12,6 @@ T7	_Unsorted_ 143 147	অমলা
 A7	InfStat T7 given
 T8	_Unsorted_ 158 167	শোঁয়াপোকা
 A8	InfStat T8 given
-T9	_Unsorted_ 175 180	মেজাজ
-A9	InfStat T9 given
-T10	_Unsorted_ 204 207	রাগ
-A10	InfStat T10 given
 T11	_Unsorted_ 214 218	অমলা
 A11	InfStat T11 given
 T12	_Unsorted_ 226 231	আপনার
@@ -24,10 +20,6 @@ T13	_Unsorted_ 253 261	শোয়াপোকা
 A13	InfStat T13 given
 T14	_Unsorted_ 277 281	অমলা
 A14	InfStat T14 given
-T15	_Unsorted_ 371 373	এর
-A15	InfStat T15 given
-T16	_Unsorted_ 374 378	মুখে
-A16	InfStat T16 new
 T17	_Unsorted_ 379 381	সে
 A17	InfStat T17 given
 T18	_Unsorted_ 412 422	মিনিট-কয়েক
@@ -42,8 +34,6 @@ T23	_Unsorted_ 546 549	হাত
 A23	InfStat T23 given
 T24	_Unsorted_ 561 564	মুখ
 A24	InfStat T24 given
-T25	_Unsorted_ 577 579	নল
-A25	InfStat T25 given
 T26	_Unsorted_ 597 602	তোমার
 A26	InfStat T26 given
 T27	_Unsorted_ 612 624	তোমার চেহারা
@@ -74,31 +64,41 @@ T39	_Unsorted_ 863 866	আমি
 A39	InfStat T39 given
 T40	_Unsorted_ 894 897	তার
 A40	InfStat T40 given
-T41	_Unsorted_ 901 904	কথা
-A41	InfStat T41 given
 T42	_Unsorted_ 905 909	আমার
 A42	InfStat T42 given
 T43	_Unsorted_ 925 934	শোঁয়াপোকা
 A43	InfStat T43 given
-T45	_Unsorted_ 959 963	তুমি
-A45	InfStat T45 given
-T46	_Unsorted_ 964 968	খুড়ো
-A46	InfStat T46 new
 T47	_Unsorted_ 970 977	কবিতাটা
 A47	InfStat T47 given
 T48	_Unsorted_ 978 983	তোমার
 A48	InfStat T48 given
-T49	_Unsorted_ 984 990	মুখস্থ
-A49	InfStat T49 new
 T50	_Unsorted_ 1039 1056	তোমার স্মরণ-শক্তি
 A50	InfStat T50 given
 T51	_Unsorted_ 1074 1078	অমলা
 A51	InfStat T51 given
-T44	_Unsorted_ 954 958	বুড়ো
-A44	InfStat T44 new
 T6	_Unsorted_ 440 444	বুকে
 A6	InfStat T6 given
 T20	_Unsorted_ 445 452	দুই হাত
-A20	InfStat T20 new
+A20	InfStat T20 given
 T52	_Unsorted_ 728 736	দশ মিনিট
 A52	InfStat T52 new
+T9	_Unsorted_ 204 213	রাগ সামলে
+A9	InfStat T9 given
+T10	_Unsorted_ 175 184	মেজাজ গরম
+A10	InfStat T10 new
+T53	_Unsorted_ 232 239	আর কিছু
+A53	InfStat T53 new
+T15	_Unsorted_ 371 378	এর মুখে
+A15	InfStat T15 new
+T16	_Unsorted_ 382 391	নতুন কিছু
+A16	InfStat T16 new
+T25	_Unsorted_ 570 579	গড়গড়ার নল
+A25	InfStat T25 given
+T41	_Unsorted_ 898 904	সব কথা
+A41	InfStat T41 given
+T44	_Unsorted_ 950 958	মহা বুড়ো
+A44	InfStat T44 new
+T45	_Unsorted_ 959 968	তুমি খুড়ো
+A45	InfStat T45 new
+T46	_Unsorted_ 1007 1012	সেইটে
+A46	InfStat T46 given

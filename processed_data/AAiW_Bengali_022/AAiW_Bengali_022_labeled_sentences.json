@@ -58,11 +58,11 @@
         "label": [
             "O",
             "B-given",
-            "B-given",
             "B-new",
-            "O",
+            "I-new",
             "O",
             "B-given",
+            "I-given",
             "O",
             "O",
             "O",
@@ -183,8 +183,8 @@
         ],
         "label": [
             "B-given",
-            "O",
-            "O",
+            "B-new",
+            "I-new",
             "O",
             "B-given",
             "O",
@@ -206,7 +206,7 @@
             "না"
         ],
         "label": [
-            "O",
+            "B-given",
             "O",
             "O",
             "B-given",
@@ -453,8 +453,8 @@
             "O",
             "O",
             "O",
-            "B-given",
-            "I-given"
+            "B-new",
+            "I-new"
         ]
     }
 }

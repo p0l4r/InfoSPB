@@ -13,13 +13,6 @@
         "annotated_span": "ঘর",
         "label": "given"
     },
-    "T3": {
-        "start_pos": 68,
-        "end_pos": 78,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জীব-জন্তুর",
-        "label": "new"
-    },
     "T4": {
         "start_pos": 94,
         "end_pos": 100,
@@ -69,13 +62,6 @@
         "annotated_span": "আমার",
         "label": "given"
     },
-    "T11": {
-        "start_pos": 314,
-        "end_pos": 321,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "বাগানটি",
-        "label": "given"
-    },
     "T12": {
         "start_pos": 339,
         "end_pos": 346,
@@ -97,39 +83,11 @@
         "annotated_span": "চোখ",
         "label": "given"
     },
-    "T15": {
-        "start_pos": 404,
-        "end_pos": 409,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "জিনিস",
-        "label": "given"
-    },
-    "T16": {
-        "start_pos": 461,
-        "end_pos": 473,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ব্যাঙের ছাতা",
-        "label": "new"
-    },
     "T17": {
         "start_pos": 476,
         "end_pos": 480,
         "nominal_type": "_Unsorted_",
         "annotated_span": "অমলা",
-        "label": "given"
-    },
-    "T18": {
-        "start_pos": 508,
-        "end_pos": 521,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ব্যাঙের ছাতার",
-        "label": "given"
-    },
-    "T19": {
-        "start_pos": 548,
-        "end_pos": 553,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "ছাতার",
         "label": "given"
     },
     "T20": {
@@ -153,26 +111,12 @@
         "annotated_span": "ব্যাঙের ছাতার",
         "label": "given"
     },
-    "T23": {
-        "start_pos": 705,
-        "end_pos": 714,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "শোঁয়াপোকা",
-        "label": "new"
-    },
     "T24": {
         "start_pos": 717,
         "end_pos": 721,
         "nominal_type": "_Unsorted_",
         "annotated_span": "বুকে",
         "label": "new"
-    },
-    "T25": {
-        "start_pos": 726,
-        "end_pos": 729,
-        "nominal_type": "_Unsorted_",
-        "annotated_span": "হাত",
-        "label": "given"
     },
     "T26": {
         "start_pos": 735,
@@ -181,11 +125,25 @@
         "annotated_span": "শোঁয়াপোকাটা",
         "label": "given"
     },
-    "T27": {
-        "start_pos": 797,
-        "end_pos": 800,
+    "T3": {
+        "start_pos": 58,
+        "end_pos": 78,
         "nominal_type": "_Unsorted_",
-        "annotated_span": "নলে",
+        "annotated_span": "নানান রকম জীব-জন্তুর",
+        "label": "new"
+    },
+    "T11": {
+        "start_pos": 310,
+        "end_pos": 321,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "সেই বাগানটি",
+        "label": "given"
+    },
+    "T15": {
+        "start_pos": 390,
+        "end_pos": 409,
+        "nominal_type": "_Unsorted_",
+        "annotated_span": "এমন কোন খারাপ জিনিস",
         "label": "new"
     }
 }

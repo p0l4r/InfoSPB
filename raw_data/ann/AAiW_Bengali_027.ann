@@ -2,8 +2,6 @@ T1	_Unsorted_ 0 9	শোঁয়াপোকা
 A1	InfStat T1 given
 T2	_Unsorted_ 17 23	অভ্যেস
 A2	InfStat T2 given
-T3	_Unsorted_ 61 63	নল
-A3	InfStat T3 given
 T4	_Unsorted_ 69 74	তামাক
 A4	InfStat T4 given
 T5	_Unsorted_ 93 97	অমলা
@@ -34,8 +32,6 @@ T19	_Unsorted_ 507 519	ব্যাঙের ছাতা
 A19	InfStat T19 given
 T20	_Unsorted_ 541 543	সে
 A20	InfStat T20 given
-T21	_Unsorted_ 556 561	নিজের
-A21	InfStat T21 given
 T22	_Unsorted_ 575 588	ব্যাঙের ছাতার
 A22	InfStat T22 given
 T24	_Unsorted_ 694 696	সে
@@ -60,29 +56,59 @@ T33	_Unsorted_ 906 914	বাঁ-হাতে
 A33	InfStat T33 given
 T34	_Unsorted_ 915 928	ব্যাঙের ছাতার
 A34	InfStat T34 given
-T35	_Unsorted_ 965 969	কামড়
-A35	InfStat T35 new
 T36	_Unsorted_ 972 976	অমলা
 A36	InfStat T36 given
 T37	_Unsorted_ 1000 1002	সে
 A37	InfStat T37 given
 T38	_Unsorted_ 1008 1017	তার নিজের
 A38	InfStat T38 given
-T39	_Unsorted_ 1022 1028	চেহারা
-A39	InfStat T39 given
-T40	_Unsorted_ 1098 1104	চেহারা
-A40	InfStat T40 given
-T41	_Unsorted_ 1169 1176	বাগানটি
-A41	InfStat T41 given
 T42	_Unsorted_ 1198 1201	আমি
 A42	InfStat T42 given
 T43	_Unsorted_ 1202 1208	নিজেরই
 A43	InfStat T43 given
-T44	_Unsorted_ 1224 1227	দেহ
-A44	InfStat T44 given
 T6	_Unsorted_ 120 131	মিনিট-দুয়েক
 A6	InfStat T6 given
 T11	_Unsorted_ 632 637	নিজের
 A11	InfStat T11 given
 T23	_Unsorted_ 638 646	মনে মনেই
 A23	InfStat T23 given
+T3	_Unsorted_ 54 63	গড়গড়ার নল
+A3	InfStat T3 given
+T45	_Unsorted_ 268 274	এক দিক
+A45	InfStat T45 new
+T46	_Unsorted_ 295 304	আর-এক দিক
+A46	InfStat T46 new
+T47	_Unsorted_ 337 343	এক দিক
+A47	InfStat T47 given
+T48	_Unsorted_ 351 360	আর-এক দিক
+A48	InfStat T48 given
+T49	_Unsorted_ 460 468	দুটো দিক
+A49	InfStat T49 new
+T50	_Unsorted_ 469 483	কোন্ কোন্ দিকে
+A50	InfStat T50 given
+T51	_Unsorted_ 523 530	সব দিকই
+A51	InfStat T51 new
+T52	_Unsorted_ 548 555	দু-দিকে
+A52	InfStat T52 new
+T21	_Unsorted_ 556 568	নিজের দু-হাত
+A21	InfStat T21 given
+T53	_Unsorted_ 589 596	দুই ধার
+A53	InfStat T53 new
+T54	_Unsorted_ 723 730	এক কামড়
+A54	InfStat T54 new
+T35	_Unsorted_ 957 969	আবার এক কামড়
+A35	InfStat T35 given
+T39	_Unsorted_ 1018 1028	আসল চেহারা
+A39	InfStat T39 given
+T40	_Unsorted_ 1088 1104	নানান রকম চেহারা
+A40	InfStat T40 given
+T41	_Unsorted_ 1158 1176	সেই চমৎকার বাগানটি
+A41	InfStat T41 given
+T55	_Unsorted_ 1177 1186	কোন্ দিকে
+A55	InfStat T55 given
+T56	_Unsorted_ 661 669	কোন্ দিক
+A56	InfStat T56 given
+T57	_Unsorted_ 676 684	কোন্ দিক
+A57	InfStat T57 given
+T44	_Unsorted_ 1217 1227	সব রকম দেহ
+A44	InfStat T44 new
